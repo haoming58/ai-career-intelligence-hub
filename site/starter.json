@@ -1,0 +1,70 @@
+{
+  "questions": [
+    {
+      "id": "q-timeseries",
+      "topic": "timeseries",
+      "title": "如何设计多步预测的滚动回测，避免泄漏？",
+      "answer": "先固定预测时点与可见特征，再使用 rolling-origin 切分。缩放器与特征选择仅用训练窗拟合。按预测跨度与序列分组报告误差，并对比季节性朴素基线。"
+    },
+    {
+      "id": "q-applied",
+      "topic": "applied",
+      "title": "需求预测误差下降，为什么库存成本可能上升？",
+      "answer": "点误差与缺货、积压成本不对称。用真实成本与补货策略做反事实仿真，评估分位数校准、成本、服务水平和数据漂移。"
+    },
+    {
+      "id": "q-research",
+      "topic": "research",
+      "title": "如何验证预训练收益来自迁移而非数据重叠？",
+      "answer": "记录预训练语料来源和时间跨度，做跨域或按时间隔离的评测。加入相同架构随机初始化与参数预算匹配对照，分多次随机种子报告不确定性。"
+    },
+    {
+      "id": "q-mle",
+      "topic": "mle",
+      "title": "如何发现训练与线上特征不一致？",
+      "answer": "记录特征版本、事件时间和读取时点。用固定样本做离线与在线一致性测试，并监控缺失率、分布及延迟。演练回滚。"
+    },
+    {
+      "id": "q-inference",
+      "topic": "inference",
+      "title": "如何区分推理服务的首 token 延迟与解码瓶颈？",
+      "answer": "分别测量 TTFT、token 间延迟和吞吐，固定输入输出长度与请求到达率。逐步改变并发并观察排队、显存及 KV 缓存，报告 p50/p95。"
+    },
+    {
+      "id": "q-telecom",
+      "topic": "telecom",
+      "title": "如何验证神经接收机在未见信道上的泛化？",
+      "answer": "训练与测试分离信道种子和模型参数。跨 SNR、速度、频偏等条件报告 BLER 曲线及置信区间，并用一致的编码和资源预算比较传统接收机。"
+    }
+  ],
+  "templates": [
+    {
+      "type": "skill",
+      "title": "滚动回测与概率校准",
+      "notes": "为多步时序任务实现按预测时点切分和区间覆盖率评估。",
+      "status": "planned",
+      "topic": "timeseries"
+    },
+    {
+      "type": "research",
+      "title": "时序基础模型迁移检验",
+      "notes": "比较 Chronos 与季节性朴素基线。记录评测范围、切分、指标和可复现实验。",
+      "status": "planned",
+      "topic": "research"
+    },
+    {
+      "type": "engineering",
+      "title": "vLLM 服务压测",
+      "notes": "固定请求分布，记录 TTFT、token 间延迟、吞吐与显存。",
+      "status": "planned",
+      "topic": "inference"
+    },
+    {
+      "type": "learning",
+      "title": "四周完成预测项目案例",
+      "notes": "第 1 周数据与基线，第 2 周滚动回测，第 3 周实验对照，第 4 周撰写复盘。",
+      "status": "planned",
+      "topic": "applied"
+    }
+  ]
+}

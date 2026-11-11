@@ -1,0 +1,72 @@
+{
+  "github": [
+    {
+      "repo": "amazon-science/chronos-forecasting",
+      "topics": [
+        "timeseries",
+        "research"
+      ],
+      "region": "Global",
+      "summary": "Amazon Science 的预训练时序预测模型与推理接口。可用于概率预测和零样本基准。"
+    },
+    {
+      "repo": "vllm-project/vllm",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "region": "Global",
+      "summary": "大模型推理与服务引擎，可用于测试吞吐、排队延迟与 KV 缓存行为。"
+    },
+    {
+      "repo": "NVlabs/sionna",
+      "topics": [
+        "telecom",
+        "research"
+      ],
+      "region": "Global",
+      "summary": "通信系统仿真库，可构建链路级基准和学习型接收机实验。"
+    },
+    {
+      "repo": "QwenLM/Qwen3",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "region": "CN",
+      "summary": "Qwen3 开源模型项目，提供部署与推理使用说明。"
+    }
+  ],
+  "arxiv": [
+    {
+      "phrase": "time series forecasting",
+      "topics": [
+        "timeseries",
+        "research"
+      ]
+    },
+    {
+      "phrase": "LLM inference",
+      "topics": [
+        "inference",
+        "research"
+      ]
+    },
+    {
+      "phrase": "neural receiver",
+      "topics": [
+        "telecom",
+        "research"
+      ]
+    }
+  ],
+  "greenhouse": {
+    "anthropic": "Anthropic"
+  },
+  "govuk": [
+    {
+      "path": "/government/publications/artificial-intelligence-sector-study-2025",
+      "summary": "英国政府对 AI 企业规模与经济活动的研究，关注就业、营收、增加值与投资等指标。"
+    }
+  ]
+}

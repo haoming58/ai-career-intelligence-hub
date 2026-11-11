@@ -1,0 +1,964 @@
+{
+  "additions": [
+    {
+      "evidence": "A",
+      "id": "amazon:10526455",
+      "kind": "job",
+      "location": "伦敦",
+      "organization": "Amazon",
+      "published_at": null,
+      "region": "UK",
+      "source": "manual:amazon",
+      "status": "observed",
+      "summary": "伦敦 Prime Video 商业分析团队的应用科学岗位。",
+      "title": "Applied Scientist, Prime Video Commerce Insights",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": null,
+      "url": "https://www.amazon.jobs/en/jobs/10526455/applied-scientist-prime-video-commerce-insights"
+    },
+    {
+      "evidence": "A",
+      "id": "amazon:10556295",
+      "kind": "job",
+      "location": "巴塞罗那 / 卢森堡 / 伦敦",
+      "organization": "Amazon",
+      "published_at": null,
+      "region": "UK",
+      "source": "manual:amazon",
+      "status": "observed",
+      "summary": "供应链需求预测与优化。岗位主地点为巴塞罗那，官方描述列出伦敦为可选地点。",
+      "title": "Applied Scientist, SCOT FO - SnT",
+      "topics": [
+        "applied",
+        "timeseries"
+      ],
+      "updated_at": null,
+      "url": "https://www.amazon.jobs/en/jobs/10556295/applied-scientist-scot-fo-snt"
+    },
+    {
+      "evidence": "A",
+      "id": "apple:200691161-0351",
+      "kind": "job",
+      "location": "北京",
+      "organization": "Apple",
+      "published_at": "2026-10-23",
+      "region": "CN",
+      "source": "manual:apple",
+      "status": "observed",
+      "summary": "北京基础模型团队的机器学习工程岗位。",
+      "title": "Machine Learning Engineer — Foundation Models",
+      "topics": [
+        "mle",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://jobs.apple.com/zh-cn/details/200691161-0351/machine-learning-engineer-foundation-models?team=MLAI"
+    },
+    {
+      "evidence": "A",
+      "id": "apple:200693809-0351",
+      "kind": "job",
+      "location": "北京",
+      "organization": "Apple",
+      "published_at": "2026-11-09",
+      "region": "CN",
+      "source": "manual:apple",
+      "status": "observed",
+      "summary": "北京搜索与知识平台团队的机器学习工程岗位，涉及查询理解与排序。",
+      "title": "Machine Learning Engineer - AI, Search & Knowledge Platform",
+      "topics": [
+        "mle",
+        "applied"
+      ],
+      "updated_at": null,
+      "url": "https://jobs.apple.com/zh-cn/details/200693809-0351/machine-learning-engineer-ai-search-knowledge-platform?team=MLAI"
+    },
+    {
+      "evidence": "A",
+      "id": "arm:2026-19008",
+      "kind": "job",
+      "location": "Cambridge, United Kingdom",
+      "organization": "Arm",
+      "published_at": "2026-11-10",
+      "region": "UK",
+      "source": "manual:arm",
+      "status": "observed",
+      "summary": "剑桥的资深运行时岗位，涉及推理引擎、加速器集成、算子划分和性能评测。",
+      "title": "Staff Machine Learning Framework/Runtime Software Engineer",
+      "topics": [
+        "mle",
+        "inference"
+      ],
+      "updated_at": null,
+      "url": "https://careers.arm.com/job/cambridge/staff-machine-learning-framework-runtime-software-engineer/33099/103112026752"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2203.11854",
+      "kind": "paper",
+      "location": "",
+      "organization": "Jakob Hoydis 等",
+      "published_at": "2022-03-22",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "描述面向物理层研究的链路仿真框架及神经网络集成。",
+      "title": "Sionna: An Open-Source Library for Next-Generation Physical Layer Research",
+      "topics": [
+        "telecom",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://arxiv.org/abs/2203.11854"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2309.06180",
+      "kind": "paper",
+      "location": "",
+      "organization": "Woosuk Kwon 等",
+      "published_at": "2023-09-12",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "提出以分页方式管理 KV 缓存，并在 vLLM 中评估推理吞吐。",
+      "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://arxiv.org/abs/2309.06180"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2402.02368",
+      "kind": "paper",
+      "location": "",
+      "organization": "Yong Liu, Haoran Zhang, Chenyu Li",
+      "published_at": "2024-02-04",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "研究大规模自回归预训练能否迁移到不同下游时序任务。",
+      "title": "Timer: Generative Pre-trained Transformers Are Large Time Series Models",
+      "topics": [
+        "timeseries",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://arxiv.org/abs/2402.02368"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2403.07815",
+      "kind": "paper",
+      "location": "",
+      "organization": "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen",
+      "published_at": "2024-03-12",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "通过缩放与离散化把时序转换为 token，使用语言模型生成概率预测。",
+      "title": "Chronos: Learning the Language of Time Series",
+      "topics": [
+        "timeseries",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://arxiv.org/abs/2403.07815"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.06064",
+      "kind": "paper",
+      "location": "",
+      "organization": "Viktor Walter, Andreas Wagner, Fabian Stricker",
+      "published_at": "2026-11-04T07:08:24Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Learning From Static Context in Federated Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-04T07:08:24Z",
+      "url": "https://arxiv.org/abs/2611.06064"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.06513",
+      "kind": "paper",
+      "location": "",
+      "organization": "Victoria Clerico, William Simon, Corey Liam Lammie",
+      "published_at": "2026-11-04T13:40:34Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "HELIX: HEterogeneous LLM Inference with FleXible and Fine-Grained Partitioning",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-04T13:40:34Z",
+      "url": "https://arxiv.org/abs/2611.06513"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.06977",
+      "kind": "paper",
+      "location": "",
+      "organization": "Xiuyuan Qi, Pedro Reviriego, Javier Conde",
+      "published_at": "2026-11-04T13:40:05Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-04T13:40:05Z",
+      "url": "https://arxiv.org/abs/2611.06977"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.07256",
+      "kind": "paper",
+      "location": "",
+      "organization": "Hanzhi Zhang, Qiao Zhang, Qinglei Cao",
+      "published_at": "2026-11-05T00:14:13Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "TriAttention: Unified Sparse Mixed-Precision Attention for Long-Context LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-05T00:14:13Z",
+      "url": "https://arxiv.org/abs/2611.07256"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.07570",
+      "kind": "paper",
+      "location": "",
+      "organization": "Bokun Wang, Hung-Yueh Chiang, Diana Marculescu",
+      "published_at": "2026-11-05T07:19:53Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "ACSeL: Adaptive Configuration Search for Hardware-Constrained LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-05T07:19:53Z",
+      "url": "https://arxiv.org/abs/2611.07570"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.08252",
+      "kind": "paper",
+      "location": "",
+      "organization": "Vitor Cerqueira, Mariana Oliveira, Luis Roque",
+      "published_at": "2026-11-05T16:28:08Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Series-wise Cross-validation for Global Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-05T16:28:08Z",
+      "url": "https://arxiv.org/abs/2611.08252"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.08363",
+      "kind": "paper",
+      "location": "",
+      "organization": "Jake Hyun, Ziyu Zhao, Jae-sun Seo",
+      "published_at": "2026-11-05T17:42:06Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-05T17:42:06Z",
+      "url": "https://arxiv.org/abs/2611.08363"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.08713",
+      "kind": "paper",
+      "location": "",
+      "organization": "Shuo Rong, Ruibo Fan, Jiawen Wen",
+      "published_at": "2026-11-05T21:09:26Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "ResServe: Accurate and Efficient FP4 LLM Inference with Residue Compensation",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-05T21:09:26Z",
+      "url": "https://arxiv.org/abs/2611.08713"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.08950",
+      "kind": "paper",
+      "location": "",
+      "organization": "Wei Fan, JinYi Yoon, Bo Ji",
+      "published_at": "2026-11-06T03:58:34Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "AIM: Adaptive Interaction in Multi-Agent Debate for Multimodal LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-09T04:35:07Z",
+      "url": "https://arxiv.org/abs/2611.08950"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.10165",
+      "kind": "paper",
+      "location": "",
+      "organization": "Akshat Ramachandran, Reena Elangovan, Rangharajan Venkatesan",
+      "published_at": "2026-11-06T19:40:19Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "AutoEMatic: Runtime-Adaptive Mixed-Precision LLM Inference via Automatic Exponent-Mantissa Refinement",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-06T19:40:19Z",
+      "url": "https://arxiv.org/abs/2611.10165"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.10193",
+      "kind": "paper",
+      "location": "",
+      "organization": "Saul Urso, Emanuele Carlini, Patrizio Dazzi",
+      "published_at": "2026-11-06T20:12:09Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Ensemble Routing for Prompt-Adaptive Cost-Aware LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-06T20:12:09Z",
+      "url": "https://arxiv.org/abs/2611.10193"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.11036",
+      "kind": "paper",
+      "location": "",
+      "organization": "Zhiyu An, Yiping Li, Wan Du",
+      "published_at": "2026-11-08T00:37:16Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "When Is High-Bandwidth Flash Cost-Effective for LLM Inference?",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-08T00:37:16Z",
+      "url": "https://arxiv.org/abs/2611.11036"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.11319",
+      "kind": "paper",
+      "location": "",
+      "organization": "Devanshu Jha, Gaurav Kumar, Agniva Chowdhury",
+      "published_at": "2026-11-08T11:43:34Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Verify Before You Fetch: Reliable KV Cache Compression for LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-08T11:43:34Z",
+      "url": "https://arxiv.org/abs/2611.11319"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.11761",
+      "kind": "paper",
+      "location": "",
+      "organization": "Payman Behnam, Debopam Sanyal, Pranav Ponnusamy",
+      "published_at": "2026-11-09T02:03:03Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "BridgeKV: Large-Model Prefill and Small-Model Decoding for LLM Inference via KV Cache Translation",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-09T02:03:03Z",
+      "url": "https://arxiv.org/abs/2611.11761"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.12285",
+      "kind": "paper",
+      "location": "",
+      "organization": "Xingpeng Gao, Mingyue Cheng, Daoyu Wang",
+      "published_at": "2026-11-09T12:12:18Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Learning Evidence-Grounded Reasoning for Context-Aware Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-09T12:12:18Z",
+      "url": "https://arxiv.org/abs/2611.12285"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.13490",
+      "kind": "paper",
+      "location": "",
+      "organization": "Qiuyuan Chen, Chengyang Yao, Liuchang Zhuo",
+      "published_at": "2026-11-10T03:03:44Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Design and Over-the-Air Evaluation of a Digital Twin-Driven Site-Specific Neural Receiver for 5G NR on NVIDIA DGX Spark",
+      "topics": [
+        "research",
+        "telecom"
+      ],
+      "updated_at": "2026-11-10T03:03:44Z",
+      "url": "https://arxiv.org/abs/2611.13490"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.13644",
+      "kind": "paper",
+      "location": "",
+      "organization": "Shuao Jia, Zichao Ling, Chen Bai",
+      "published_at": "2026-11-10T06:40:42Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Tri-Stack-PIM: A Heterogeneous Multi-Die 3D-Integrated Processing-in-Memory Architecture for Efficient LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-10T06:40:42Z",
+      "url": "https://arxiv.org/abs/2611.13644"
+    },
+    {
+      "evidence": "B",
+      "id": "arxiv:2611.14356",
+      "kind": "paper",
+      "location": "",
+      "organization": "Zhengxiang Huang, Yujie Sun, Shengheng Chen",
+      "published_at": "2026-11-10T17:16:47Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "EngineAgent: Agentizing On-Device LLM Inference Engines with Inference Stack Hierarchy Awareness and Hardware Abilities",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-10T17:16:47Z",
+      "url": "https://arxiv.org/abs/2611.14356"
+    },
+    {
+      "evidence": "A",
+      "id": "caict:edge-ai-2026",
+      "kind": "report",
+      "location": "",
+      "organization": "中国信息通信研究院",
+      "published_at": "2026-10-14",
+      "region": "CN",
+      "source": "manual:caict",
+      "status": "reference",
+      "summary": "研究端侧智能的产业链、轻量化、异构硬件及端云协同。日期取自发布活动。",
+      "title": "端侧智能产业发展报告（2026年）",
+      "topics": [
+        "telecom",
+        "inference"
+      ],
+      "updated_at": null,
+      "url": "https://aihub.caict.ac.cn/docs/WqwJiNKhyQtg"
+    },
+    {
+      "evidence": "A",
+      "id": "company:amazon",
+      "kind": "company",
+      "location": "",
+      "organization": "Amazon",
+      "published_at": null,
+      "region": "UK",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "英国企业信息入口。供应链预测和商业决策方向见关联职位。",
+      "title": "Amazon UK",
+      "topics": [
+        "timeseries",
+        "applied",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://www.aboutamazon.co.uk/"
+    },
+    {
+      "evidence": "A",
+      "id": "company:anthropic",
+      "kind": "company",
+      "location": "",
+      "organization": "Anthropic",
+      "published_at": null,
+      "region": "UK",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "基础模型开发商。伦敦布局可与英国官方招聘记录交叉核对。",
+      "title": "Anthropic",
+      "topics": [
+        "research",
+        "inference",
+        "applied"
+      ],
+      "updated_at": null,
+      "url": "https://www.anthropic.com/company"
+    },
+    {
+      "evidence": "A",
+      "id": "company:qwen",
+      "kind": "company",
+      "location": "",
+      "organization": "阿里云",
+      "published_at": "2025-04-29",
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "通过团队官方发布了解 Qwen3 模型、开源权重及推理生态。日期为该文章的发布日期。",
+      "title": "阿里云通义千问团队",
+      "topics": [
+        "inference",
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    {
+      "evidence": "A",
+      "id": "github:amazon-science/chronos-forecasting",
+      "kind": "project",
+      "location": "",
+      "organization": "amazon-science",
+      "published_at": null,
+      "region": "Global",
+      "source": "github",
+      "status": "reference",
+      "summary": "Amazon Science 的预训练时序预测模型与推理接口。可用于概率预测和零样本基准。",
+      "title": "amazon-science/chronos-forecasting",
+      "topics": [
+        "timeseries",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://github.com/amazon-science/chronos-forecasting"
+    },
+    {
+      "evidence": "A",
+      "id": "github:nvlabs/sionna",
+      "kind": "project",
+      "location": "",
+      "organization": "NVlabs",
+      "published_at": null,
+      "region": "Global",
+      "source": "github",
+      "status": "reference",
+      "summary": "通信系统仿真库，可构建链路级基准和学习型接收机实验。",
+      "title": "NVlabs/sionna",
+      "topics": [
+        "telecom",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://github.com/NVlabs/sionna"
+    },
+    {
+      "evidence": "A",
+      "id": "github:qwenlm/qwen3",
+      "kind": "project",
+      "location": "",
+      "organization": "QwenLM",
+      "published_at": "2024-02-05T05:45:08Z",
+      "region": "CN",
+      "source": "github",
+      "status": "reference",
+      "summary": "Qwen3 开源模型项目，提供部署与推理使用说明。",
+      "title": "QwenLM/Qwen3",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://github.com/QwenLM/Qwen3"
+    },
+    {
+      "evidence": "A",
+      "id": "github:vllm-project/vllm",
+      "kind": "project",
+      "location": "",
+      "organization": "vllm-project",
+      "published_at": null,
+      "region": "Global",
+      "source": "github",
+      "status": "reference",
+      "summary": "大模型推理与服务引擎，可用于测试吞吐、排队延迟与 KV 缓存行为。",
+      "title": "vllm-project/vllm",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "evidence": "A",
+      "id": "govcn:ai-plus-2025",
+      "kind": "report",
+      "location": "",
+      "organization": "国务院",
+      "published_at": "2025-08-27",
+      "region": "CN",
+      "source": "manual:govcn",
+      "status": "reference",
+      "summary": "政府公开文件，涉及科学技术、产业发展等领域的 AI 融合应用。日期取自公开发布页。",
+      "title": "国务院关于深入实施“人工智能+”行动的意见",
+      "topics": [
+        "applied",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202508/t20250827_1126207.shtml"
+    },
+    {
+      "evidence": "A",
+      "id": "govuk:artificial-intelligence-sector-study-2025",
+      "kind": "report",
+      "location": "",
+      "organization": "GOV.UK",
+      "published_at": "2026-10-29",
+      "region": "UK",
+      "source": "govuk",
+      "status": "reference",
+      "summary": "英国政府对 AI 企业规模与经济活动的研究，关注就业、营收、增加值与投资等指标。",
+      "title": "英国人工智能产业调查 2025",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": null,
+      "url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:4938436008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": null,
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "observed",
+      "summary": "负责规模化预训练的性能、可靠性、硬件诊断和实验。",
+      "title": "Research Engineer, Pretraining Scaling - London",
+      "topics": [
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5097742008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": null,
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "observed",
+      "summary": "推理服务方向的资深岗位样本，覆盖请求路由、扩缩容与加速器调度。",
+      "title": "Staff Software Engineer, Inference",
+      "topics": [
+        "inference"
+      ],
+      "updated_at": null,
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5115935008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-02-11T12:34:39-05:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Research Engineer, Machine Learning (Reinforcement Learning)",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": "2026-08-28T14:43:58-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5119713008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-02-16T19:22:51-05:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Research Engineer, Pretraining",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-08-28T14:43:58-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5198074008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-04-23T10:43:13-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Research Engineer, Machine Learning (RL Velocity)",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": "2026-08-28T14:43:58-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5264619008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-06-22T07:06:02-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Research Engineer, RL Scaling Science",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-08-28T14:43:59-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5385634008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-08-13T11:33:27-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Manager, Forward Deployed Engineering",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": "2026-08-28T14:44:00-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385634008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5423029008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-09-14T05:07:58-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Forward Deployed Engineer",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": "2026-09-14T05:27:39-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5432575008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-09-23T05:01:26-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Applied AI Engineer, Startups",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": "2026-09-23T05:01:26-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432575008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5439169008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-10-28T15:09:02-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Anthropic Research Resident",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-11-04T02:14:30-05:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5440821008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-10-13T07:46:09-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Applied AI Engineer, Beneficial Deployments (Lab Automation)",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": "2026-10-14T06:49:28-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008"
+    },
+    {
+      "evidence": "A",
+      "id": "greenhouse:anthropic:5445760008",
+      "kind": "job",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-10-06T16:06:00-04:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Applied AI Engineer, Beneficial Deployments (Clinical Development, Rare and Neglected Diseases)",
+      "topics": [
+        "applied"
+      ],
+      "updated_at": "2026-10-16T06:18:15-04:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
+    }
+  ],
+  "by_kind": {
+    "company": 3,
+    "job": 17,
+    "paper": 22,
+    "project": 4,
+    "report": 3
+  },
+  "by_region": {
+    "CN": 6,
+    "Global": 25,
+    "UK": 18
+  },
+  "by_topic": {
+    "applied": 12,
+    "inference": 22,
+    "mle": 10,
+    "research": 33,
+    "telecom": 4,
+    "timeseries": 8
+  },
+  "changes": [
+    {
+      "at": "2026-11-11T19:02:32Z",
+      "id": "greenhouse:anthropic:4938436008",
+      "new": "listed",
+      "old": "observed",
+      "title": "Research Engineer, Pretraining Scaling - London"
+    },
+    {
+      "at": "2026-11-11T19:02:32Z",
+      "id": "greenhouse:anthropic:5097742008",
+      "new": "unlisted",
+      "old": "observed",
+      "title": "Staff Software Engineer, Inference"
+    }
+  ],
+  "month": "2026-11",
+  "partial": true
+}

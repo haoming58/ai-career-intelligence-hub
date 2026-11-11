@@ -1,0 +1,421 @@
+[
+  {
+    "id": "apple:200691161-0351",
+    "kind": "job",
+    "title": "Machine Learning Engineer — Foundation Models",
+    "organization": "Apple",
+    "url": "https://jobs.apple.com/zh-cn/details/200691161-0351/machine-learning-engineer-foundation-models?team=MLAI",
+    "region": "CN",
+    "topics": [
+      "mle",
+      "research"
+    ],
+    "evidence": "A",
+    "source": "manual:apple",
+    "published_at": "2026-10-23",
+    "summary": "北京基础模型团队的机器学习工程岗位。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "amazon:10556295",
+    "kind": "job",
+    "title": "Applied Scientist, SCOT FO - SnT",
+    "organization": "Amazon",
+    "url": "https://www.amazon.jobs/en/jobs/10556295/applied-scientist-scot-fo-snt",
+    "region": "UK",
+    "topics": [
+      "applied",
+      "timeseries"
+    ],
+    "evidence": "A",
+    "source": "manual:amazon",
+    "published_at": null,
+    "summary": "供应链需求预测与优化。岗位主地点为巴塞罗那，官方描述列出伦敦为可选地点。",
+    "status": "observed",
+    "location": "巴塞罗那 / 卢森堡 / 伦敦",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "amazon:10526455",
+    "kind": "job",
+    "title": "Applied Scientist, Prime Video Commerce Insights",
+    "organization": "Amazon",
+    "url": "https://www.amazon.jobs/en/jobs/10526455/applied-scientist-prime-video-commerce-insights",
+    "region": "UK",
+    "topics": [
+      "applied"
+    ],
+    "evidence": "A",
+    "source": "manual:amazon",
+    "published_at": null,
+    "summary": "伦敦 Prime Video 商业分析团队的应用科学岗位。",
+    "status": "observed",
+    "location": "伦敦",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "greenhouse:anthropic:4938436008",
+    "kind": "job",
+    "title": "Research Engineer, Pretraining Scaling - London",
+    "organization": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008",
+    "region": "UK",
+    "topics": [
+      "research"
+    ],
+    "evidence": "A",
+    "source": "greenhouse:anthropic",
+    "published_at": null,
+    "summary": "负责规模化预训练的性能、可靠性、硬件诊断和实验。",
+    "status": "observed",
+    "location": "London, UK",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "greenhouse:anthropic:5097742008",
+    "kind": "job",
+    "title": "Staff Software Engineer, Inference",
+    "organization": "Anthropic",
+    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008",
+    "region": "UK",
+    "topics": [
+      "inference"
+    ],
+    "evidence": "A",
+    "source": "greenhouse:anthropic",
+    "published_at": null,
+    "summary": "推理服务方向的资深岗位样本，覆盖请求路由、扩缩容与加速器调度。",
+    "status": "observed",
+    "location": "London, UK",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "arxiv:2403.07815",
+    "kind": "paper",
+    "title": "Chronos: Learning the Language of Time Series",
+    "organization": "Abdul Fatir Ansari, Lorenzo Stella, Caner Turkmen",
+    "url": "https://arxiv.org/abs/2403.07815",
+    "region": "Global",
+    "topics": [
+      "timeseries",
+      "research"
+    ],
+    "evidence": "B",
+    "source": "arxiv",
+    "published_at": "2024-03-12",
+    "summary": "通过缩放与离散化把时序转换为 token，使用语言模型生成概率预测。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "arxiv:2402.02368",
+    "kind": "paper",
+    "title": "Timer: Generative Pre-trained Transformers Are Large Time Series Models",
+    "organization": "Yong Liu, Haoran Zhang, Chenyu Li",
+    "url": "https://arxiv.org/abs/2402.02368",
+    "region": "Global",
+    "topics": [
+      "timeseries",
+      "research"
+    ],
+    "evidence": "B",
+    "source": "arxiv",
+    "published_at": "2024-02-04",
+    "summary": "研究大规模自回归预训练能否迁移到不同下游时序任务。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "arxiv:2309.06180",
+    "kind": "paper",
+    "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "organization": "Woosuk Kwon 等",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "region": "Global",
+    "topics": [
+      "inference",
+      "research"
+    ],
+    "evidence": "B",
+    "source": "arxiv",
+    "published_at": "2023-09-12",
+    "summary": "提出以分页方式管理 KV 缓存，并在 vLLM 中评估推理吞吐。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "arxiv:2203.11854",
+    "kind": "paper",
+    "title": "Sionna: An Open-Source Library for Next-Generation Physical Layer Research",
+    "organization": "Jakob Hoydis 等",
+    "url": "https://arxiv.org/abs/2203.11854",
+    "region": "Global",
+    "topics": [
+      "telecom",
+      "research"
+    ],
+    "evidence": "B",
+    "source": "arxiv",
+    "published_at": "2022-03-22",
+    "summary": "描述面向物理层研究的链路仿真框架及神经网络集成。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "github:amazon-science/chronos-forecasting",
+    "kind": "project",
+    "title": "amazon-science/chronos-forecasting",
+    "organization": "amazon-science",
+    "url": "https://github.com/amazon-science/chronos-forecasting",
+    "region": "Global",
+    "topics": [
+      "timeseries",
+      "research"
+    ],
+    "evidence": "A",
+    "source": "github",
+    "published_at": null,
+    "summary": "Amazon Science 的预训练时序预测模型与推理接口。可用于概率预测和零样本基准。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "github:vllm-project/vllm",
+    "kind": "project",
+    "title": "vllm-project/vllm",
+    "organization": "vllm-project",
+    "url": "https://github.com/vllm-project/vllm",
+    "region": "Global",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "github",
+    "published_at": null,
+    "summary": "大模型推理与服务引擎，可用于测试吞吐、排队延迟与 KV 缓存行为。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "github:nvlabs/sionna",
+    "kind": "project",
+    "title": "NVlabs/sionna",
+    "organization": "NVlabs",
+    "url": "https://github.com/NVlabs/sionna",
+    "region": "Global",
+    "topics": [
+      "telecom",
+      "research"
+    ],
+    "evidence": "A",
+    "source": "github",
+    "published_at": null,
+    "summary": "通信系统仿真库，可构建链路级基准和学习型接收机实验。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "github:qwenlm/qwen3",
+    "kind": "project",
+    "title": "QwenLM/Qwen3",
+    "organization": "QwenLM",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "github",
+    "published_at": "2024-02-05T05:45:08Z",
+    "summary": "Qwen3 开源模型项目，提供部署与推理使用说明。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "govuk:artificial-intelligence-sector-study-2025",
+    "kind": "report",
+    "title": "英国人工智能产业调查 2025",
+    "organization": "GOV.UK",
+    "url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025",
+    "region": "UK",
+    "topics": [
+      "applied"
+    ],
+    "evidence": "A",
+    "source": "govuk",
+    "published_at": "2026-10-29",
+    "summary": "英国政府对 AI 企业规模与经济活动的研究，关注就业、营收、增加值与投资等指标。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "caict:edge-ai-2026",
+    "kind": "report",
+    "title": "端侧智能产业发展报告（2026年）",
+    "organization": "中国信息通信研究院",
+    "url": "https://aihub.caict.ac.cn/docs/WqwJiNKhyQtg",
+    "region": "CN",
+    "topics": [
+      "telecom",
+      "inference"
+    ],
+    "evidence": "A",
+    "source": "manual:caict",
+    "published_at": "2026-10-14",
+    "summary": "研究端侧智能的产业链、轻量化、异构硬件及端云协同。日期取自发布活动。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "govcn:ai-plus-2025",
+    "kind": "report",
+    "title": "国务院关于深入实施“人工智能+”行动的意见",
+    "organization": "国务院",
+    "url": "https://www.mee.gov.cn/zcwj/gwywj/202508/t20250827_1126207.shtml",
+    "region": "CN",
+    "topics": [
+      "applied",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:govcn",
+    "published_at": "2025-08-27",
+    "summary": "政府公开文件，涉及科学技术、产业发展等领域的 AI 融合应用。日期取自公开发布页。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "company:anthropic",
+    "kind": "company",
+    "title": "Anthropic",
+    "organization": "Anthropic",
+    "url": "https://www.anthropic.com/company",
+    "region": "UK",
+    "topics": [
+      "research",
+      "inference",
+      "applied"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "基础模型开发商。伦敦布局可与英国官方招聘记录交叉核对。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "company:amazon",
+    "kind": "company",
+    "title": "Amazon UK",
+    "organization": "Amazon",
+    "url": "https://www.aboutamazon.co.uk/",
+    "region": "UK",
+    "topics": [
+      "timeseries",
+      "applied",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "英国企业信息入口。供应链预测和商业决策方向见关联职位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "company:qwen",
+    "kind": "company",
+    "title": "阿里云通义千问团队",
+    "organization": "阿里云",
+    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": "2025-04-29",
+    "summary": "通过团队官方发布了解 Qwen3 模型、开源权重及推理生态。日期为该文章的发布日期。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "apple:200693809-0351",
+    "kind": "job",
+    "title": "Machine Learning Engineer - AI, Search & Knowledge Platform",
+    "organization": "Apple",
+    "url": "https://jobs.apple.com/zh-cn/details/200693809-0351/machine-learning-engineer-ai-search-knowledge-platform?team=MLAI",
+    "region": "CN",
+    "topics": [
+      "mle",
+      "applied"
+    ],
+    "evidence": "A",
+    "source": "manual:apple",
+    "published_at": "2026-11-09",
+    "summary": "北京搜索与知识平台团队的机器学习工程岗位，涉及查询理解与排序。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "arm:2026-19008",
+    "kind": "job",
+    "title": "Staff Machine Learning Framework/Runtime Software Engineer",
+    "organization": "Arm",
+    "url": "https://careers.arm.com/job/cambridge/staff-machine-learning-framework-runtime-software-engineer/33099/103112026752",
+    "region": "UK",
+    "topics": [
+      "mle",
+      "inference"
+    ],
+    "evidence": "A",
+    "source": "manual:arm",
+    "published_at": "2026-11-10",
+    "summary": "剑桥的资深运行时岗位，涉及推理引擎、加速器集成、算子划分和性能评测。",
+    "status": "observed",
+    "location": "Cambridge, United Kingdom",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:01:03Z"
+  }
+]
