@@ -183,6 +183,7 @@ function readWorkspace() {
 
 function renderWorkspace(app, starter, workspace) {
   let editId = null;
+  let confirmDeleteId = null;
   let typeFilter = "";
   app.innerHTML = intro("个人工作台", "记录个人能力、科研与工程项目，跟踪学习计划与面试练习。数据保存在当前浏览器。") +
     '<p class="notice" role="status" id="storage-note" hidden></p>' +
@@ -229,8 +230,12 @@ function renderWorkspace(app, starter, workspace) {
       chip(workStates[item.status], item.status === "done" ? "green" : "") + '</div><h3>' + html(item.title) +
       '</h3>' + (item.due ? '<p class="meta">目标日期 ' + html(item.due) + '</p>' : "") +
       (item.notes ? '<p class="summary">' + html(item.notes) + '</p>' : "") +
-      '<div class="action-row"><button type="button" class="button secondary" data-edit="' + html(item.id) +
-      '">编辑</button><button type="button" class="button danger" data-delete="' + html(item.id) + '">删除</button></div></article>'
+      '<div class="action-row">' + (confirmDeleteId === item.id ?
+        '<span class="meta">删除这条记录？</span><button type="button" class="button danger" data-confirm-delete="' +
+        html(item.id) + '">确认删除</button><button type="button" class="button secondary" data-cancel-delete>取消</button>' :
+        '<button type="button" class="button secondary" data-edit="' + html(item.id) +
+        '">编辑</button><button type="button" class="button danger" data-delete="' + html(item.id) + '">删除</button>') +
+      '</div></article>'
     ).join("") : '<p class="meta">当前类别暂无记录。</p>';
     app.querySelector("#load-templates").disabled = workspace.items.some(item => item.template);
   }
@@ -270,7 +275,7 @@ function renderWorkspace(app, starter, workspace) {
   });
 
   list.addEventListener("click", event => {
-    const {edit, delete: remove} = event.target.dataset;
+    const {edit, delete: remove, confirmDelete, cancelDelete} = event.target.dataset;
     if (edit) {
       const item = workspace.items.find(row => row.id === edit);
       editId = edit;
@@ -281,9 +286,21 @@ function renderWorkspace(app, starter, workspace) {
       app.querySelector("#cancel-edit").hidden = false;
       form.elements.title.focus();
     }
-    if (remove && window.confirm("删除这条个人记录？")) {
-      workspace.items = workspace.items.filter(row => row.id !== remove);
-      if (editId === remove) reset();
+    if (remove) {
+      confirmDeleteId = remove;
+      renderItems();
+      list.querySelector("[data-cancel-delete]").focus();
+    }
+    if (cancelDelete !== undefined) {
+      const cancelledId = confirmDeleteId;
+      confirmDeleteId = null;
+      renderItems();
+      list.querySelector("[data-delete=" + CSS.escape(cancelledId) + "]").focus();
+    }
+    if (confirmDelete && confirmDeleteId === confirmDelete) {
+      workspace.items = workspace.items.filter(row => row.id !== confirmDelete);
+      if (editId === confirmDelete) reset();
+      confirmDeleteId = null;
       persist();
       renderItems();
       app.querySelector("#work-filter").focus();

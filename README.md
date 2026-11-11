@@ -2,6 +2,8 @@
 
 面向时间序列建模博士的中文优先职业情报站，追踪中国大陆与英国的 AI 产业、企业、招聘和技术项目。
 
+[打开在线站点](https://haoming58.github.io/ai-career-intelligence-hub/) · [查看更新和发布记录](https://github.com/haoming58/ai-career-intelligence-hub/actions/workflows/pages.yml)
+
 - **情报库**支持关键词、地区、记录类型、方向和岗位状态组合筛选。覆盖时序算法、Applied Scientist、Research Engineer、MLE、LLM 推理与通信 AI。
 - **个人工作台**支持添加、编辑和删除能力、科研项目、工程项目和学习计划，记录状态、目标日期和成果。内置六道可按方向筛选的面试练习题。
 - **月度报告**统计上月首次收录、岗位状态变化和样本分布。首版附当月采集快照。
