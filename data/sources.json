@@ -61,7 +61,43 @@
     }
   ],
   "greenhouse": {
-    "anthropic": "Anthropic"
+    "anthropic": {
+      "organization": "Anthropic",
+      "region": "UK"
+    },
+    "axq": {
+      "organization": "安贤投资（AXQ Capital）",
+      "region": "CN",
+      "topic_overrides": {
+        "5635911004": ["timeseries"]
+      }
+    },
+    "sesai": {
+      "organization": "SES AI",
+      "region": "CN",
+      "topic_overrides": {
+        "4495364005": ["timeseries"]
+      }
+    },
+    "xpengmotors": {
+      "organization": "小鹏汽车",
+      "region": "CN"
+    },
+    "rzr": {
+      "organization": "RZR Global",
+      "region": "CN"
+    },
+    "alphagrepsecurities": {
+      "organization": "AlphaGrep",
+      "region": "CN",
+      "topic_overrides": {
+        "5335169002": ["timeseries"]
+      }
+    },
+    "rockbund": {
+      "organization": "Rock Bund Capital",
+      "region": "CN"
+    }
   },
   "govuk": [
     {

@@ -25,7 +25,35 @@ KINDS = {"job", "paper", "project", "report", "company"}
 REGIONS = {"CN", "UK", "Global"}
 TOPICS = {"timeseries", "applied", "research", "mle", "inference", "telecom"}
 STATES = {"listed", "observed", "unlisted", "out_of_scope", "reference"}
-LONDON = re.compile(r"\b(?:london|united kingdom|uk)\b", re.I)
+GREENHOUSE_LOCATIONS = {
+    "UK": re.compile(r"\b(?:london|united kingdom|uk)\b", re.I),
+    "CN": re.compile(
+        r"\b(?:mainland china|beijing|shanghai|shenzhen|guangzhou|hangzhou|chengdu|"
+        r"nanjing|suzhou|wuhan|xi['’ -]?an|hefei|dongguan|qingdao|tianjin|xiamen|"
+        r"chongqing|wuxi|ningbo|changsha|dalian|zhuhai|foshan)\b|"
+        r"中国大陆|中国内地|北京|上海|深圳|广州|杭州|成都|南京|苏州|武汉|西安|"
+        r"合肥|东莞|青岛|天津|厦门|重庆|无锡|宁波|长沙|大连|珠海|佛山",
+        re.I,
+    ),
+}
+GREENHOUSE_TOPIC_PATTERNS = {
+    "research": r"research (engineer|scientist)|research resident",
+    "applied": r"applied (scientist|ai engineer)|forward deployed engineer",
+    "mle": r"machine learning engineer|engineer, machine learning|\bmle\b",
+    "inference": r"\binference\b|\bserving\b",
+}
+GREENHOUSE_CN_TOPIC_PATTERNS = {
+    "research": r"\bquantitative research(?:er)?\b|量化研究|研究科学家|研究工程师",
+    "applied": r"应用科学家",
+    "mle": r"\bai/ml\b|\bmlops\b|machine learning infrastructure|机器学习|算法工程师",
+    "inference": r"大模型推理|模型推理",
+    "timeseries": r"\btime[ -]series\b|\bforecasting\b|时序|时间序列",
+    "telecom": r"\b(?:telecom|ran|wireless)\b.*\b(?:ai|ml)\b|通信.*(?:人工智能|算法)|无线.*算法",
+}
+GREENHOUSE_BOARD_HOSTS = {"boards.greenhouse.io", "job-boards.greenhouse.io",
+                          "boards.eu.greenhouse.io", "job-boards.eu.greenhouse.io"}
+GREENHOUSE_BOARD_TOKEN = re.compile(r"[a-z0-9-]+")
+MOKA_JOB_ROUTE = re.compile(r"/job/[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}", re.I)
 ALLOWED_HOSTS = {"export.arxiv.org", "rss.arxiv.org", "api.github.com",
                  "boards-api.greenhouse.io", "www.gov.uk"}
 
@@ -73,7 +101,10 @@ def canonical_url(url):
     tracking = {"gh_src", "team", "ref", "source"}
     query = urlencode(sorted((key, value) for key, value in parse_qsl(parsed.query)
                               if not key.lower().startswith("utm_") and key.lower() not in tracking))
-    return f"https://{parsed.netloc.lower()}{path}" + (f"?{query}" if query else "")
+    route = ""
+    if parsed.hostname == "app.mokahr.com" and MOKA_JOB_ROUTE.fullmatch(parsed.fragment):
+        route = "#" + parsed.fragment.lower()
+    return f"https://{parsed.netloc.lower()}{path}" + (f"?{query}" if query else "") + route
 
 
 def validate_record(row):
@@ -86,6 +117,13 @@ def validate_record(row):
     if not all(isinstance(row[key], str) and row[key].strip()
                for key in ("id", "title", "organization", "source")):
         raise ValueError("Missing required record metadata")
+    if "department" in row and (not isinstance(row["department"], str)
+                                or not row["department"].strip()):
+        raise ValueError(f"Invalid department: {row['id']}")
+    if "requirements" in row and (not isinstance(row["requirements"], list) or
+                                  not all(isinstance(item, str) and item.strip()
+                                          for item in row["requirements"])):
+        raise ValueError(f"Invalid requirements: {row['id']}")
     canonical_url(row["url"])
     for key in ("published_at", "updated_at"):
         if row.get(key):
@@ -152,39 +190,88 @@ def project_record(repo, topics, region, summary):
                   repo["created_at"], summary=summary, updated_at=repo["pushed_at"])
 
 
-def greenhouse_records(board, company, payload):
+def greenhouse_job_url(board, job):
+    path = f"/{board}/jobs/{job['id']}"
+    url = urlsplit(job.get("absolute_url") or "")
+    if (url.scheme == "https" and url.netloc in GREENHOUSE_BOARD_HOSTS
+            and url.path.rstrip("/") == path):
+        return f"https://{url.netloc}{path}"
+    return f"https://job-boards.greenhouse.io{path}"
+
+
+def greenhouse_records(board, settings, payload):
+    if not GREENHOUSE_BOARD_TOKEN.fullmatch(board):
+        raise ValueError("Invalid Greenhouse board token")
+    if isinstance(settings, str):
+        settings = {"organization": settings, "region": "UK"}
+    region = settings["region"]
+    company = settings["organization"]
+    topic_overrides = settings.get("topic_overrides", {})
     jobs = payload["jobs"]
     if not isinstance(jobs, list) or not jobs:
         raise ValueError("Empty or malformed board; preserve previous vacancy statuses")
+    if any(type(job["id"]) is not int or job["id"] <= 0 for job in jobs):
+        raise ValueError("Invalid Greenhouse posting ID; preserve previous vacancy statuses")
     if payload["meta"]["total"] != len(jobs) or len({job["id"] for job in jobs}) != len(jobs):
         raise ValueError("Incomplete board or duplicate IDs; preserve previous vacancy statuses")
     present = {f"greenhouse:{board}:{job['id']}" for job in jobs}
     records = []
+    seen_requisitions = set()
+    if region == "CN":
+        # Some employers publish multiple posts for one requisition.
+        jobs = sorted(jobs, key=lambda job: job["id"], reverse=True)
     for job in jobs:
-        location = job["location"]["name"]
-        if not LONDON.search(location) or job.get("internal_job_id", True) is None:
+        location = text(job["location"]["name"])
+        requisition = job.get("internal_job_id")
+        if (not GREENHOUSE_LOCATIONS[region].search(location)
+                or ("internal_job_id" in job and requisition is None)):
             continue
-        title = job["title"]
+        title = text(job["title"])
         title_lower = title.casefold()
         if "expression of interest" in title_lower:
             continue
-        topics = []
-        for topic, pattern in {
-            "research": r"research (engineer|scientist)|research resident",
-            "applied": r"applied (scientist|ai engineer)|forward deployed engineer",
-            "mle": r"machine learning engineer|engineer, machine learning|\bmle\b",
-            "inference": r"\binference\b|\bserving\b",
-        }.items():
-            if re.search(pattern, title_lower):
-                topics.append(topic)
-        if topics:
-            records.append(record(
-                f"greenhouse:{board}:{job['id']}", "job", title, company,
-                f"https://job-boards.greenhouse.io/{board}/jobs/{job['id']}", "UK",
-                topics, "A", f"greenhouse:{board}", job.get("first_published"),
-                "listed", location=location, updated_at=job.get("updated_at")
-            ))
+        topics = {topic for topic, pattern in GREENHOUSE_TOPIC_PATTERNS.items()
+                  if re.search(pattern, title_lower)}
+        if region == "CN":
+            topics.update(topic for topic, pattern in GREENHOUSE_CN_TOPIC_PATTERNS.items()
+                          if re.search(pattern, title_lower))
+        topics.update(topic_overrides.get(str(job["id"]), []))
+        if not topics:
+            continue
+        if region == "CN" and requisition is not None:
+            if requisition in seen_requisitions:
+                continue
+            seen_requisitions.add(requisition)
+        records.append(record(
+            f"greenhouse:{board}:{job['id']}", "job", title, company,
+            greenhouse_job_url(board, job), region,
+            sorted(topics), "A", f"greenhouse:{board}", job.get("first_published"),
+            "listed", location=location, updated_at=job.get("updated_at")
+        ))
     return records, present
+
+
+def fetch_greenhouse(board, settings):
+    if not GREENHOUSE_BOARD_TOKEN.fullmatch(board):
+        raise ValueError("Invalid Greenhouse board token")
+    base_url = f"https://boards-api.greenhouse.io/v1/boards/{board}"
+    rows, present = greenhouse_records(board, settings, read_api(f"{base_url}/jobs"))
+    if not rows:
+        return rows, present
+
+    # Join the public department list by posting ID without requesting full job descriptions.
+    departments_by_job = {}
+    for department in read_api(f"{base_url}/departments")["departments"]:
+        name = text(department["name"])
+        if name:
+            for job in department["jobs"]:
+                job_id = f"greenhouse:{board}:{job['id']}"
+                departments_by_job.setdefault(job_id, set()).add(name)
+    for row in rows:
+        departments = departments_by_job.get(row["id"])
+        if departments:
+            row["department"] = " / ".join(sorted(departments))
+    return rows, present
 
 
 def govuk_record(path, payload, summary):
@@ -204,10 +291,10 @@ def merge(records, incoming, observed_at):
         previous = records.get(original_id)
         if previous and previous["id"] != row["id"]:
             row = {**row, "id": original_id}
-        if previous and not row["summary"] and previous["summary"]:
-            row = {**row, "summary": previous["summary"]}
-        if previous and not row["published_at"] and previous["published_at"]:
-            row = {**row, "published_at": previous["published_at"]}
+        if previous:
+            for field in ("summary", "published_at", "department"):
+                if not row.get(field) and previous.get(field):
+                    row = {**row, field: previous[field]}
         if previous and previous["url"] != row["url"]:
             urls.pop(canonical_url(previous["url"]), None)
         urls[url] = original_id
@@ -309,10 +396,9 @@ def update(state, sources):
         state["sources"].setdefault("arxiv", {})["mode"] = mode
 
     run("arxiv", new_papers, apply_papers)
-    for board, company in sources["greenhouse"].items():
-        run(f"greenhouse:{board}", lambda: greenhouse_records(
-            board, company, read_api(f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs")
-        ), lambda result: apply_board(state, board, *result, observed))
+    for board, settings in sources["greenhouse"].items():
+        run(f"greenhouse:{board}", lambda: fetch_greenhouse(board, settings),
+            lambda result: apply_board(state, board, *result, observed))
     for item in sources["govuk"]:
         path = item["path"]
         run(f"govuk:{path}", lambda: [govuk_record(

@@ -4,6 +4,7 @@
 
 [打开在线站点](https://haoming58.github.io/ai-career-intelligence-hub/) · [查看更新和发布记录](https://github.com/haoming58/ai-career-intelligence-hub/actions/workflows/pages.yml)
 
+- **公司与岗位**按地区浏览雇主、部门或招聘分组和具体岗位。岗位页汇总可核验的职责、要求、官方投递入口、招聘流程和对应的面试练习。
 - **情报库**支持关键词、地区、记录类型、方向和岗位状态组合筛选。覆盖时序算法、Applied Scientist、Research Engineer、MLE、LLM 推理与通信 AI。
 - **个人工作台**支持添加、编辑和删除能力、科研项目、工程项目和学习计划，记录状态、目标日期和成果。内置六道可按方向筛选的面试练习题。
 - **月度报告**统计上月首次收录、岗位状态变化和样本分布。首版附当月采集快照。
@@ -37,8 +38,9 @@ python hub.py build
 | --- | --- | --- |
 | 时序、推理与通信 AI 论文 | arXiv Atom API，一次请求最多收录 24 篇 | 首次提交日期取 Atom 元数据。Atom 限流或服务端暂不可用时，读取官方 RSS 的最近一期新论文公告。RSS 日期为公告日期，标题短语在 `data/sources.json` 中配置。 |
 | 开源项目 | GitHub REST API | 定点跟踪 Chronos、vLLM、Sionna、Qwen3。发布日期字段记录仓库创建时间。 |
-| 英国岗位 | Anthropic 的官方 Greenhouse Job Board API | 采集职位板元数据，筛选英国地点和相关标题。列表缺少首次发布日期时保留空值。 |
-| 中国大陆与英国其他岗位 | 雇主官方招聘页，人工核验 | 初始示例来自 Apple、Amazon 和 Arm。定期人工更新 `data/seed.json`，页面链接用于复核当前状态。 |
+| 英国岗位 | Anthropic 的官方 Greenhouse Job Board API | 采集职位和部门元数据，筛选英国地点和相关标题。列表缺少首次发布日期时保留空值。 |
+| 中国大陆岗位 | 六家雇主的公开 Greenhouse 职位板 | 定期采集安贤投资、SES AI、小鹏汽车、RZR Global、AlphaGrep、Rock Bund Capital 的中国大陆相关岗位及公开部门。 |
+| 中国大陆与英国其他岗位 | 雇主官方招聘页或官网链接的招聘系统，人工核验 | 包括百度、DeepSeek、美团、博世、腾讯、Apple、Amazon、Arm 等。人工核验记录与自动职位板状态分开展示。 |
 | 产业报告与企业 | GOV.UK Content API 及官方资料人工核验 | 英国 AI 产业调查自动更新元数据，中国大陆报告及企业资料人工维护。 |
 
 接口说明见 [arXiv API 条款](https://info.arxiv.org/help/api/tou.html)、[arXiv RSS](https://info.arxiv.org/help/rss.html)、[GitHub 仓库 API](https://docs.github.com/en/rest/repos/repos#get-a-repository)、[Greenhouse Job Board API](https://docs.greenhouse.io/job-board.html) 和 [GOV.UK Content API](https://www.gov.uk/api/content/government/publications/artificial-intelligence-sector-study-2025)。
@@ -50,6 +52,7 @@ python hub.py build
 - **官方职位板在列**表示最近一次成功请求时在匹配范围内。**已从职位板移除**表示完整职位板中已无该 ID。**已超出监测范围**表示职位板仍有此 ID，但地点或标题条件已变化。**人工核验样本**表示曾在雇主官方页面核验，申请前请打开原始页面确认。
 - 用稳定 ID 和归一化来源链接去重。接口失败保留最近记录与最后成功时间。Greenhouse 仅在收到非空、数量一致且 ID 唯一的完整结果时更新岗位状态。
 - 仓库仅发布必要的公开元数据和摘要。采集使用明确配置的公开 API，人工记录保留链接，便于按来源规则核对。
+- 招聘流程来自雇主公开指南，标明核验日期与适用范围。仅对匹配地区、岗位或类别展示对应指南。按岗位方向匹配的练习题用于自测。
 
 ## GitHub Pages 部署
 
@@ -75,5 +78,6 @@ python hub.py build
 | `data/catalog.json` | 最近采集结果与记录历史 |
 | `data/reports/` | 月度报告 JSON |
 | `site/` | 响应式前端与面试、学习计划模板 |
+| `site/hiring.json` | 官方申请与面试指南及适用范围 |
 | `tests/` | 采集、历史、月报与前端回归测试 |
 | `.github/workflows/` | 拉取请求测试及自动采集、月报与 Pages 发布 |

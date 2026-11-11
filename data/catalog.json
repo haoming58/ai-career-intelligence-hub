@@ -1,5 +1,66 @@
 {
   "records": {
+    "amazon:10504493": {
+      "department": "International Technology 搜索团队",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "International Technology 搜索团队",
+            "evidence": "A",
+            "id": "amazon:10504493",
+            "kind": "job",
+            "location": "上海",
+            "organization": "Amazon",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "2026 年 10 月至 2027 年 9 月毕业，相关专业硕士或博士",
+              "具备机器学习、实验设计、统计分析和模型评估基础",
+              "熟练使用 Python、Java 或 C++，了解 NLP、检索、推荐或生成式 AI",
+              "官网基础资格列明中国国籍"
+            ],
+            "source": "manual:amazon",
+            "status": "observed",
+            "summary": "应届校招。为亚马逊商品搜索和推荐研发 NLP、信息检索与生成式 AI 模型，验证线上与离线效果。",
+            "title": "Applied Scientist (2026-27 Campus, International Technology Team), Shanghai",
+            "topics": [
+              "applied",
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://amazon.jobs/en-gb/jobs/10504493/applied-scientist-2026-27-campus-international-technology-team-shanghai"
+          }
+        }
+      ],
+      "id": "amazon:10504493",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "上海",
+      "organization": "Amazon",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "2026 年 10 月至 2027 年 9 月毕业，相关专业硕士或博士",
+        "具备机器学习、实验设计、统计分析和模型评估基础",
+        "熟练使用 Python、Java 或 C++，了解 NLP、检索、推荐或生成式 AI",
+        "官网基础资格列明中国国籍"
+      ],
+      "source": "manual:amazon",
+      "status": "observed",
+      "summary": "应届校招。为亚马逊商品搜索和推荐研发 NLP、信息检索与生成式 AI 模型，验证线上与离线效果。",
+      "title": "Applied Scientist (2026-27 Campus, International Technology Team), Shanghai",
+      "topics": [
+        "applied",
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://amazon.jobs/en-gb/jobs/10504493/applied-scientist-2026-27-campus-international-technology-team-shanghai"
+    },
     "amazon:10526455": {
       "evidence": "A",
       "first_seen": "2026-11-11T19:01:03Z",
@@ -432,7 +493,7 @@
       ],
       "id": "arxiv:2611.06064",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Viktor Walter, Andreas Wagner, Fabian Stricker",
       "published_at": "2026-11-04T07:08:24Z",
@@ -477,7 +538,7 @@
       ],
       "id": "arxiv:2611.06513",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Victoria Clerico, William Simon, Corey Liam Lammie",
       "published_at": "2026-11-04T13:40:34Z",
@@ -522,7 +583,7 @@
       ],
       "id": "arxiv:2611.06977",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Xiuyuan Qi, Pedro Reviriego, Javier Conde",
       "published_at": "2026-11-04T13:40:05Z",
@@ -567,7 +628,7 @@
       ],
       "id": "arxiv:2611.07256",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Hanzhi Zhang, Qiao Zhang, Qinglei Cao",
       "published_at": "2026-11-05T00:14:13Z",
@@ -612,7 +673,7 @@
       ],
       "id": "arxiv:2611.07570",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Bokun Wang, Hung-Yueh Chiang, Diana Marculescu",
       "published_at": "2026-11-05T07:19:53Z",
@@ -657,7 +718,7 @@
       ],
       "id": "arxiv:2611.08252",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Vitor Cerqueira, Mariana Oliveira, Luis Roque",
       "published_at": "2026-11-05T16:28:08Z",
@@ -702,7 +763,7 @@
       ],
       "id": "arxiv:2611.08363",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Jake Hyun, Ziyu Zhao, Jae-sun Seo",
       "published_at": "2026-11-05T17:42:06Z",
@@ -747,7 +808,7 @@
       ],
       "id": "arxiv:2611.08713",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Shuo Rong, Ruibo Fan, Jiawen Wen",
       "published_at": "2026-11-05T21:09:26Z",
@@ -792,7 +853,7 @@
       ],
       "id": "arxiv:2611.08950",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Wei Fan, JinYi Yoon, Bo Ji",
       "published_at": "2026-11-06T03:58:34Z",
@@ -837,7 +898,7 @@
       ],
       "id": "arxiv:2611.10165",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Akshat Ramachandran, Reena Elangovan, Rangharajan Venkatesan",
       "published_at": "2026-11-06T19:40:19Z",
@@ -882,7 +943,7 @@
       ],
       "id": "arxiv:2611.10193",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Saul Urso, Emanuele Carlini, Patrizio Dazzi",
       "published_at": "2026-11-06T20:12:09Z",
@@ -927,7 +988,7 @@
       ],
       "id": "arxiv:2611.11036",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Zhiyu An, Yiping Li, Wan Du",
       "published_at": "2026-11-08T00:37:16Z",
@@ -972,7 +1033,7 @@
       ],
       "id": "arxiv:2611.11319",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Devanshu Jha, Gaurav Kumar, Agniva Chowdhury",
       "published_at": "2026-11-08T11:43:34Z",
@@ -1017,7 +1078,7 @@
       ],
       "id": "arxiv:2611.11761",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Payman Behnam, Debopam Sanyal, Pranav Ponnusamy",
       "published_at": "2026-11-09T02:03:03Z",
@@ -1062,7 +1123,7 @@
       ],
       "id": "arxiv:2611.12285",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Xingpeng Gao, Mingyue Cheng, Daoyu Wang",
       "published_at": "2026-11-09T12:12:18Z",
@@ -1107,7 +1168,7 @@
       ],
       "id": "arxiv:2611.13490",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Qiuyuan Chen, Chengyang Yao, Liuchang Zhuo",
       "published_at": "2026-11-10T03:03:44Z",
@@ -1152,7 +1213,7 @@
       ],
       "id": "arxiv:2611.13644",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Shuao Jia, Zichao Ling, Chen Bai",
       "published_at": "2026-11-10T06:40:42Z",
@@ -1197,7 +1258,7 @@
       ],
       "id": "arxiv:2611.14356",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "Zhengxiang Huang, Yujie Sun, Shengheng Chen",
       "published_at": "2026-11-10T17:16:47Z",
@@ -1212,6 +1273,627 @@
       ],
       "updated_at": "2026-11-10T17:16:47Z",
       "url": "https://arxiv.org/abs/2611.14356"
+    },
+    "baidu:J100728": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "baidu:J100728",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-07-21",
+            "region": "CN",
+            "requirements": [
+              "本科及以上，计算机、人工智能、数学或统计学等相关专业优先",
+              "掌握 Transformer、机器学习与深度学习基础",
+              "熟悉 Python，并使用过 PyTorch 或 PaddlePaddle"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "校招岗位。研究大模型预训练、后训练以及数据和评估方法。",
+            "title": "北京-大模型算法工程师(J100728)",
+            "topics": [
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/GRADUATE/ccfdea4e-4ae4-4954-9062-fd94960a2861"
+          }
+        }
+      ],
+      "id": "baidu:J100728",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-07-21",
+      "region": "CN",
+      "requirements": [
+        "本科及以上，计算机、人工智能、数学或统计学等相关专业优先",
+        "掌握 Transformer、机器学习与深度学习基础",
+        "熟悉 Python，并使用过 PyTorch 或 PaddlePaddle"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "校招岗位。研究大模型预训练、后训练以及数据和评估方法。",
+      "title": "北京-大模型算法工程师(J100728)",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/ccfdea4e-4ae4-4954-9062-fd94960a2861"
+    },
+    "baidu:J101235": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "baidu:J101235",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-07-21",
+            "region": "CN",
+            "requirements": [
+              "本科及以上学历",
+              "掌握 C++、Python 及 GPU 编程工具链",
+              "熟悉批调度、分离部署、缓存或相关推理优化技术"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "校招岗位。搭建文心推理基础设施，优化 GPU 算子、推理引擎和通信库。",
+            "title": "北京-AI infra 推理工程师（基座研发方向）(J101235)",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/GRADUATE/7753cdb4-70b0-462b-a634-ee53818c7c9a"
+          }
+        }
+      ],
+      "id": "baidu:J101235",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-07-21",
+      "region": "CN",
+      "requirements": [
+        "本科及以上学历",
+        "掌握 C++、Python 及 GPU 编程工具链",
+        "熟悉批调度、分离部署、缓存或相关推理优化技术"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "校招岗位。搭建文心推理基础设施，优化 GPU 算子、推理引擎和通信库。",
+      "title": "北京-AI infra 推理工程师（基座研发方向）(J101235)",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/7753cdb4-70b0-462b-a634-ee53818c7c9a"
+    },
+    "baidu:J101236": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "baidu:J101236",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-07-21",
+            "region": "CN",
+            "requirements": [
+              "本科及以上，计算机或电子工程等相关专业优先",
+              "熟练使用 C、C++ 或 Python 中至少一种",
+              "有 GPU 集群调优、CUDA 和主流推理框架经验"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "校招岗位。优化分布式训练、推理引擎以及强化学习工具链。",
+            "title": "北京-AI异构计算工程师(J101236)",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/GRADUATE/f0c02346-05c2-4742-aa52-2a8d50cf0792"
+          }
+        }
+      ],
+      "id": "baidu:J101236",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-07-21",
+      "region": "CN",
+      "requirements": [
+        "本科及以上，计算机或电子工程等相关专业优先",
+        "熟练使用 C、C++ 或 Python 中至少一种",
+        "有 GPU 集群调优、CUDA 和主流推理框架经验"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "校招岗位。优化分布式训练、推理引擎以及强化学习工具链。",
+      "title": "北京-AI异构计算工程师(J101236)",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/GRADUATE/f0c02346-05c2-4742-aa52-2a8d50cf0792"
+    },
+    "baidu:J106727": {
+      "department": "IDG",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "IDG",
+            "evidence": "A",
+            "id": "baidu:J106727",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-10-20",
+            "region": "CN",
+            "requirements": [
+              "相关专业本科及以上学历",
+              "两年以上数据挖掘实践经验",
+              "熟悉 Hadoop、Hive、Spark 和常见机器学习算法"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "建模百度地图轨迹、路网等时空数据，涉及轨迹预测、城市计算和时空表征学习。",
+            "title": "大数据研发工程师（J106727）",
+            "topics": [
+              "timeseries",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/SOCIAL/44e9ab67-86e7-45f2-80ee-e47d4d1b36b7"
+          }
+        }
+      ],
+      "id": "baidu:J106727",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-10-20",
+      "region": "CN",
+      "requirements": [
+        "相关专业本科及以上学历",
+        "两年以上数据挖掘实践经验",
+        "熟悉 Hadoop、Hive、Spark 和常见机器学习算法"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "建模百度地图轨迹、路网等时空数据，涉及轨迹预测、城市计算和时空表征学习。",
+      "title": "大数据研发工程师（J106727）",
+      "topics": [
+        "timeseries",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/44e9ab67-86e7-45f2-80ee-e47d4d1b36b7"
+    },
+    "baidu:J107272": {
+      "department": "IDG",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "IDG",
+            "evidence": "A",
+            "id": "baidu:J107272",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-11-11",
+            "region": "CN",
+            "requirements": [
+              "相关专业本科及以上学历",
+              "熟练使用 C++ 或 Python，掌握一种深度学习框架",
+              "有搜索、推荐、NLP 或数据挖掘相关经验"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "负责地图搜索召回、排序及生成式搜索，并建设离线评估体系。",
+            "title": "搜索算法工程师（J107272）",
+            "topics": [
+              "applied",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/SOCIAL/33c51c78-2ed2-47e3-8ec7-e88194eec839"
+          }
+        }
+      ],
+      "id": "baidu:J107272",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-11-11",
+      "region": "CN",
+      "requirements": [
+        "相关专业本科及以上学历",
+        "熟练使用 C++ 或 Python，掌握一种深度学习框架",
+        "有搜索、推荐、NLP 或数据挖掘相关经验"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "负责地图搜索召回、排序及生成式搜索，并建设离线评估体系。",
+      "title": "搜索算法工程师（J107272）",
+      "topics": [
+        "applied",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/33c51c78-2ed2-47e3-8ec7-e88194eec839"
+    },
+    "baidu:J95970": {
+      "department": "基础模型研发部",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "基础模型研发部",
+            "evidence": "A",
+            "id": "baidu:J95970",
+            "kind": "job",
+            "location": "北京、上海、深圳",
+            "organization": "百度",
+            "published_at": "2026-07-21",
+            "region": "CN",
+            "requirements": [
+              "掌握 C++、Python 和 CUDA",
+              "了解 PagedAttention、MoE、量化与通信算子",
+              "有预填充与解码分离部署经验"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "优化文心模型与飞桨推理框架性能，开发异构计算库和通信库。",
+            "title": "大模型推理架构研发工程师（J95970）",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/SOCIAL/495f5822-a881-4285-bf30-3bc5b1e376b1"
+          }
+        }
+      ],
+      "id": "baidu:J95970",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、上海、深圳",
+      "organization": "百度",
+      "published_at": "2026-07-21",
+      "region": "CN",
+      "requirements": [
+        "掌握 C++、Python 和 CUDA",
+        "了解 PagedAttention、MoE、量化与通信算子",
+        "有预填充与解码分离部署经验"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "优化文心模型与飞桨推理框架性能，开发异构计算库和通信库。",
+      "title": "大模型推理架构研发工程师（J95970）",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/495f5822-a881-4285-bf30-3bc5b1e376b1"
+    },
+    "baidu:J96030": {
+      "department": "应用模型研发部",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "应用模型研发部",
+            "evidence": "A",
+            "id": "baidu:J96030",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-07-21",
+            "region": "CN",
+            "requirements": [
+              "计算机、人工智能或机器学习相关专业本科及以上",
+              "熟悉大模型和 NLP 或深度学习优化",
+              "掌握 Python、C++ 与 PyTorch"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "面向搜索与其他百度业务优化基础模型，覆盖训练策略、MoE 路由和稀疏注意力。",
+            "title": "大模型算法工程师（J96030）",
+            "topics": [
+              "inference",
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/SOCIAL/c634781c-f4bb-45d0-a08c-a8234455de1a"
+          }
+        }
+      ],
+      "id": "baidu:J96030",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-07-21",
+      "region": "CN",
+      "requirements": [
+        "计算机、人工智能或机器学习相关专业本科及以上",
+        "熟悉大模型和 NLP 或深度学习优化",
+        "掌握 Python、C++ 与 PyTorch"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "面向搜索与其他百度业务优化基础模型，覆盖训练策略、MoE 路由和稀疏注意力。",
+      "title": "大模型算法工程师（J96030）",
+      "topics": [
+        "inference",
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/c634781c-f4bb-45d0-a08c-a8234455de1a"
+    },
+    "baidu:J99564": {
+      "department": "ACG",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "ACG",
+            "evidence": "A",
+            "id": "baidu:J99564",
+            "kind": "job",
+            "location": "北京",
+            "organization": "百度",
+            "published_at": "2026-07-21",
+            "region": "CN",
+            "requirements": [
+              "相关专业硕士及以上学历",
+              "有运筹优化项目和算法实现经验",
+              "LLM4OR、Agent 或产业级运筹项目经验优先"
+            ],
+            "source": "manual:baidu",
+            "status": "observed",
+            "summary": "面向调度、库存补货等场景，优化求解器、启发式策略和时序预测模块。",
+            "title": "伐谋-运筹优化算法工程师（J99564）",
+            "topics": [
+              "timeseries",
+              "applied",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/detail/SOCIAL/cdf06554-e5f3-4552-9bd1-d395ec88609e"
+          }
+        }
+      ],
+      "id": "baidu:J99564",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "百度",
+      "published_at": "2026-07-21",
+      "region": "CN",
+      "requirements": [
+        "相关专业硕士及以上学历",
+        "有运筹优化项目和算法实现经验",
+        "LLM4OR、Agent 或产业级运筹项目经验优先"
+      ],
+      "source": "manual:baidu",
+      "status": "observed",
+      "summary": "面向调度、库存补货等场景，优化求解器、启发式策略和时序预测模块。",
+      "title": "伐谋-运筹优化算法工程师（J99564）",
+      "topics": [
+        "timeseries",
+        "applied",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/detail/SOCIAL/cdf06554-e5f3-4552-9bd1-d395ec88609e"
+    },
+    "bosch:744000033774495": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "bosch:744000033774495",
+            "kind": "job",
+            "location": "上海",
+            "organization": "博世",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "计算机、电子工程、自动化等相关专业硕士及以上，博士优先",
+              "三年以上计算机视觉算法开发经验",
+              "熟悉多任务学习和 Transformer、BEV 等感知算法"
+            ],
+            "source": "manual:bosch",
+            "status": "observed",
+            "summary": "研发行车与泊车感知任务联合训练框架，优化任务冲突、模型泛化和部署。",
+            "title": "多任务学习算法工程师-XC",
+            "topics": [
+              "mle",
+              "research"
+            ],
+            "updated_at": null,
+            "url": "https://jobs.smartrecruiters.com/BoschGroup/744000033774495--xc"
+          }
+        }
+      ],
+      "id": "bosch:744000033774495",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "上海",
+      "organization": "博世",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "计算机、电子工程、自动化等相关专业硕士及以上，博士优先",
+        "三年以上计算机视觉算法开发经验",
+        "熟悉多任务学习和 Transformer、BEV 等感知算法"
+      ],
+      "source": "manual:bosch",
+      "status": "observed",
+      "summary": "研发行车与泊车感知任务联合训练框架，优化任务冲突、模型泛化和部署。",
+      "title": "多任务学习算法工程师-XC",
+      "topics": [
+        "mle",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000033774495--xc"
+    },
+    "bosch:744000046275615": {
+      "department": "博世人工智能研究中心",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "博世人工智能研究中心",
+            "evidence": "A",
+            "id": "bosch:744000046275615",
+            "kind": "job",
+            "location": "上海",
+            "organization": "博世",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "计算机、自动化、人工智能、应用数学等相关理工科博士",
+              "熟练使用 PyTorch 等深度学习框架",
+              "英语流利，顶刊或顶会论文优先"
+            ],
+            "source": "manual:bosch",
+            "status": "observed",
+            "summary": "研发用于工业预测、异常检测和流程优化的时序模型，并与高校合作验证原型。",
+            "title": "Research Scientist - Time Series （上海）_CR",
+            "topics": [
+              "timeseries",
+              "applied",
+              "research"
+            ],
+            "updated_at": null,
+            "url": "https://jobs.smartrecruiters.com/BoschGroup/744000046275615-research-scientist-time-series-cr"
+          }
+        }
+      ],
+      "id": "bosch:744000046275615",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "上海",
+      "organization": "博世",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "计算机、自动化、人工智能、应用数学等相关理工科博士",
+        "熟练使用 PyTorch 等深度学习框架",
+        "英语流利，顶刊或顶会论文优先"
+      ],
+      "source": "manual:bosch",
+      "status": "observed",
+      "summary": "研发用于工业预测、异常检测和流程优化的时序模型，并与高校合作验证原型。",
+      "title": "Research Scientist - Time Series （上海）_CR",
+      "topics": [
+        "timeseries",
+        "applied",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000046275615-research-scientist-time-series-cr"
+    },
+    "bosch:744000108077492": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "bosch:744000108077492",
+            "kind": "job",
+            "location": "上海",
+            "organization": "博世",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "硕士及以上学历，有自动驾驶行业背景",
+              "有城区静态感知项目量产经验者优先"
+            ],
+            "source": "manual:bosch",
+            "status": "observed",
+            "summary": "研发城区道路结构感知和长时空时序模型，支持端到端行车引导。",
+            "title": "静态感知算法工程师/专家 _XC",
+            "topics": [
+              "timeseries",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://jobs.smartrecruiters.com/BoschGroup/744000108077492--xc"
+          }
+        }
+      ],
+      "id": "bosch:744000108077492",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "上海",
+      "organization": "博世",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "硕士及以上学历，有自动驾驶行业背景",
+        "有城区静态感知项目量产经验者优先"
+      ],
+      "source": "manual:bosch",
+      "status": "observed",
+      "summary": "研发城区道路结构感知和长时空时序模型，支持端到端行车引导。",
+      "title": "静态感知算法工程师/专家 _XC",
+      "topics": [
+        "timeseries",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://jobs.smartrecruiters.com/BoschGroup/744000108077492--xc"
     },
     "caict:edge-ai-2026": {
       "evidence": "A",
@@ -1352,6 +2034,266 @@
       "updated_at": null,
       "url": "https://www.anthropic.com/company"
     },
+    "company:axq": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:axq",
+            "kind": "company",
+            "location": "",
+            "organization": "安贤投资",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "安贤投资在北京和上海开展量化研究与技术招聘。本站收录其公开职位板上的量化研究及机器学习系统岗位。",
+            "title": "安贤投资",
+            "topics": [
+              "timeseries",
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://www.axqcap.com/careers/"
+          }
+        },
+        {
+          "at": "2026-11-11T19:35:35Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:axq",
+            "kind": "company",
+            "location": "",
+            "organization": "安贤投资（AXQ Capital）",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "安贤投资在北京和上海开展量化研究与技术招聘。本站收录其公开职位板上的量化研究及机器学习系统岗位。",
+            "title": "安贤投资（AXQ Capital）",
+            "topics": [
+              "timeseries",
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://www.axqcap.com/careers/"
+          }
+        }
+      ],
+      "id": "company:axq",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:35:35Z",
+      "location": "",
+      "organization": "安贤投资（AXQ Capital）",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "安贤投资在北京和上海开展量化研究与技术招聘。本站收录其公开职位板上的量化研究及机器学习系统岗位。",
+      "title": "安贤投资（AXQ Capital）",
+      "topics": [
+        "timeseries",
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://www.axqcap.com/careers/"
+    },
+    "company:baidu": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:baidu",
+            "kind": "company",
+            "location": "",
+            "organization": "百度",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "百度在中国大陆的岗位覆盖智能云、智能驾驶和基础模型研发，可按团队查看预测、运筹和推理岗位。",
+            "title": "百度",
+            "topics": [
+              "timeseries",
+              "mle",
+              "inference",
+              "applied"
+            ],
+            "updated_at": null,
+            "url": "https://talent.baidu.com/jobs/social"
+          }
+        }
+      ],
+      "id": "company:baidu",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:34:06Z",
+      "location": "",
+      "organization": "百度",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "百度在中国大陆的岗位覆盖智能云、智能驾驶和基础模型研发，可按团队查看预测、运筹和推理岗位。",
+      "title": "百度",
+      "topics": [
+        "timeseries",
+        "mle",
+        "inference",
+        "applied"
+      ],
+      "updated_at": null,
+      "url": "https://talent.baidu.com/jobs/social"
+    },
+    "company:bosch": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:bosch",
+            "kind": "company",
+            "location": "",
+            "organization": "博世",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "博世在华经营智能出行和工业技术业务。本站收录其上海研发团队发布的时序建模与机器学习岗位。",
+            "title": "博世",
+            "topics": [
+              "timeseries",
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://www.bosch.com.cn/"
+          }
+        }
+      ],
+      "id": "company:bosch",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:34:06Z",
+      "location": "",
+      "organization": "博世",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "博世在华经营智能出行和工业技术业务。本站收录其上海研发团队发布的时序建模与机器学习岗位。",
+      "title": "博世",
+      "topics": [
+        "timeseries",
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://www.bosch.com.cn/"
+    },
+    "company:deepseek": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:deepseek",
+            "kind": "company",
+            "location": "",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "深度求索在官方招聘站按深度学习、AI 核心系统研发和全栈开发／算法等方向发布职位。",
+            "title": "DeepSeek",
+            "topics": [
+              "research",
+              "mle",
+              "inference"
+            ],
+            "updated_at": null,
+            "url": "https://talent.deepseek.com/"
+          }
+        }
+      ],
+      "id": "company:deepseek",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:34:06Z",
+      "location": "",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "深度求索在官方招聘站按深度学习、AI 核心系统研发和全栈开发／算法等方向发布职位。",
+      "title": "DeepSeek",
+      "topics": [
+        "research",
+        "mle",
+        "inference"
+      ],
+      "updated_at": null,
+      "url": "https://talent.deepseek.com/"
+    },
+    "company:meituan": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:meituan",
+            "kind": "company",
+            "location": "",
+            "organization": "美团",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "美团经营本地生活服务。本站收录其预测、策略优化与 AI 系统方向的公开岗位。",
+            "title": "美团",
+            "topics": [
+              "timeseries",
+              "applied",
+              "inference"
+            ],
+            "updated_at": null,
+            "url": "https://www.meituan.com/"
+          }
+        }
+      ],
+      "id": "company:meituan",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:34:06Z",
+      "location": "",
+      "organization": "美团",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "美团经营本地生活服务。本站收录其预测、策略优化与 AI 系统方向的公开岗位。",
+      "title": "美团",
+      "topics": [
+        "timeseries",
+        "applied",
+        "inference"
+      ],
+      "updated_at": null,
+      "url": "https://www.meituan.com/"
+    },
     "company:qwen": {
       "evidence": "A",
       "first_seen": "2026-11-11T19:01:03Z",
@@ -1398,6 +2340,470 @@
       ],
       "updated_at": null,
       "url": "https://qwenlm.github.io/blog/qwen3/"
+    },
+    "company:tencent": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:tencent",
+            "kind": "company",
+            "location": "",
+            "organization": "腾讯",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "腾讯经营互联网产品与数字服务。本站收录其官方职位页发布的 AI 岗位。",
+            "title": "腾讯",
+            "topics": [
+              "mle",
+              "inference"
+            ],
+            "updated_at": null,
+            "url": "https://www.tencent.com/zh-cn/who-we-are/"
+          }
+        }
+      ],
+      "id": "company:tencent",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:34:06Z",
+      "location": "",
+      "organization": "腾讯",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "腾讯经营互联网产品与数字服务。本站收录其官方职位页发布的 AI 岗位。",
+      "title": "腾讯",
+      "topics": [
+        "mle",
+        "inference"
+      ],
+      "updated_at": null,
+      "url": "https://www.tencent.com/zh-cn/who-we-are/"
+    },
+    "company:xpeng": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:34:06Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:34:06Z",
+          "value": {
+            "evidence": "A",
+            "id": "company:xpeng",
+            "kind": "company",
+            "location": "",
+            "organization": "小鹏汽车",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:company",
+            "status": "reference",
+            "summary": "小鹏汽车招聘官网连接社会招聘和校园招聘。本站收录其机器人研发中心公开发布的岗位。",
+            "title": "小鹏汽车",
+            "topics": [
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://www.xiaopeng.com/join.html"
+          }
+        }
+      ],
+      "id": "company:xpeng",
+      "kind": "company",
+      "last_seen": "2026-11-11T19:34:06Z",
+      "location": "",
+      "organization": "小鹏汽车",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:company",
+      "status": "reference",
+      "summary": "小鹏汽车招聘官网连接社会招聘和校园招聘。本站收录其机器人研发中心公开发布的岗位。",
+      "title": "小鹏汽车",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://www.xiaopeng.com/join.html"
+    },
+    "deepseek:01416da2-3c8a-4a20-bbb3-1c925d0facf1": {
+      "department": "深度学习",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "深度学习",
+            "evidence": "A",
+            "id": "deepseek:01416da2-3c8a-4a20-bbb3-1c925d0facf1",
+            "kind": "job",
+            "location": "北京",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在深度学习类别，岗位为深度学习研发工程师。",
+            "title": "深度学习研发工程师",
+            "topics": [
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/01416da2-3c8a-4a20-bbb3-1c925d0facf1"
+          }
+        }
+      ],
+      "id": "deepseek:01416da2-3c8a-4a20-bbb3-1c925d0facf1",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在深度学习类别，岗位为深度学习研发工程师。",
+      "title": "深度学习研发工程师",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/01416da2-3c8a-4a20-bbb3-1c925d0facf1"
+    },
+    "deepseek:1df4597d-6039-4392-9954-0df72510f415": {
+      "department": "全栈开发/算法",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "全栈开发/算法",
+            "evidence": "A",
+            "id": "deepseek:1df4597d-6039-4392-9954-0df72510f415",
+            "kind": "job",
+            "location": "北京",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在全栈开发/算法类别，职位方向为 AI 搜索算法与架构。",
+            "title": "AI 搜索算法 / 架构工程师",
+            "topics": [
+              "applied",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/1df4597d-6039-4392-9954-0df72510f415"
+          }
+        }
+      ],
+      "id": "deepseek:1df4597d-6039-4392-9954-0df72510f415",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在全栈开发/算法类别，职位方向为 AI 搜索算法与架构。",
+      "title": "AI 搜索算法 / 架构工程师",
+      "topics": [
+        "applied",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/1df4597d-6039-4392-9954-0df72510f415"
+    },
+    "deepseek:25dcb4d9-d250-43ce-8f56-159ddba47c10": {
+      "department": "深度学习",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "深度学习",
+            "evidence": "A",
+            "id": "deepseek:25dcb4d9-d250-43ce-8f56-159ddba47c10",
+            "kind": "job",
+            "location": "北京",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在深度学习类别，职位方向为预训练数据和算法研究。",
+            "title": "预训练（数据/算法）研究员",
+            "topics": [
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/25dcb4d9-d250-43ce-8f56-159ddba47c10"
+          }
+        }
+      ],
+      "id": "deepseek:25dcb4d9-d250-43ce-8f56-159ddba47c10",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在深度学习类别，职位方向为预训练数据和算法研究。",
+      "title": "预训练（数据/算法）研究员",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/25dcb4d9-d250-43ce-8f56-159ddba47c10"
+    },
+    "deepseek:43f8551a-4235-4d5e-a9a7-44386cd79795": {
+      "department": "深度学习",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "深度学习",
+            "evidence": "A",
+            "id": "deepseek:43f8551a-4235-4d5e-a9a7-44386cd79795",
+            "kind": "job",
+            "location": "北京、杭州",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在深度学习类别，职位方向为大模型训练和推理框架。",
+            "title": "大模型训练/推理框架工程师",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/43f8551a-4235-4d5e-a9a7-44386cd79795"
+          }
+        }
+      ],
+      "id": "deepseek:43f8551a-4235-4d5e-a9a7-44386cd79795",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、杭州",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在深度学习类别，职位方向为大模型训练和推理框架。",
+      "title": "大模型训练/推理框架工程师",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/43f8551a-4235-4d5e-a9a7-44386cd79795"
+    },
+    "deepseek:5d75f4cd-f626-4f73-80c1-e53b2073de76": {
+      "department": "深度学习",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "深度学习",
+            "evidence": "A",
+            "id": "deepseek:5d75f4cd-f626-4f73-80c1-e53b2073de76",
+            "kind": "job",
+            "location": "北京、杭州",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在深度学习类别，职位方向为后训练数据和算法研究。",
+            "title": "后训练（数据/算法）研究员",
+            "topics": [
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/5d75f4cd-f626-4f73-80c1-e53b2073de76"
+          }
+        }
+      ],
+      "id": "deepseek:5d75f4cd-f626-4f73-80c1-e53b2073de76",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、杭州",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在深度学习类别，职位方向为后训练数据和算法研究。",
+      "title": "后训练（数据/算法）研究员",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/5d75f4cd-f626-4f73-80c1-e53b2073de76"
+    },
+    "deepseek:7dcd6fde-84f1-4deb-890c-f1f275df0efc": {
+      "department": "深度学习",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "深度学习",
+            "evidence": "A",
+            "id": "deepseek:7dcd6fde-84f1-4deb-890c-f1f275df0efc",
+            "kind": "job",
+            "location": "北京、杭州",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在深度学习类别，职位方向为多模态理解的数据和算法研究。",
+            "title": "多模态理解（数据/算法）研究员",
+            "topics": [
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/7dcd6fde-84f1-4deb-890c-f1f275df0efc"
+          }
+        }
+      ],
+      "id": "deepseek:7dcd6fde-84f1-4deb-890c-f1f275df0efc",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、杭州",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在深度学习类别，职位方向为多模态理解的数据和算法研究。",
+      "title": "多模态理解（数据/算法）研究员",
+      "topics": [
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/7dcd6fde-84f1-4deb-890c-f1f275df0efc"
+    },
+    "deepseek:aed2a32c-189f-4338-b901-9b45d2b7edfd": {
+      "department": "AI 核心系统研发",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "AI 核心系统研发",
+            "evidence": "A",
+            "id": "deepseek:aed2a32c-189f-4338-b901-9b45d2b7edfd",
+            "kind": "job",
+            "location": "北京、杭州",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在 AI 核心系统研发类别，职位涉及高性能算子、通信和编译器。",
+            "title": "高性能算子/通信/编译器工程师",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/aed2a32c-189f-4338-b901-9b45d2b7edfd"
+          }
+        }
+      ],
+      "id": "deepseek:aed2a32c-189f-4338-b901-9b45d2b7edfd",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、杭州",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在 AI 核心系统研发类别，职位涉及高性能算子、通信和编译器。",
+      "title": "高性能算子/通信/编译器工程师",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/aed2a32c-189f-4338-b901-9b45d2b7edfd"
+    },
+    "deepseek:c7076ca9-558c-4ec3-804b-f21bdfc6135c": {
+      "department": "深度学习",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "深度学习",
+            "evidence": "A",
+            "id": "deepseek:c7076ca9-558c-4ec3-804b-f21bdfc6135c",
+            "kind": "job",
+            "location": "北京",
+            "organization": "DeepSeek",
+            "published_at": null,
+            "region": "CN",
+            "source": "manual:deepseek",
+            "status": "observed",
+            "summary": "官方招聘页列在深度学习类别，职位方向包括持续学习、自进化和新范式。",
+            "title": "Frontier（持续学习/自进化/新范式）研究员",
+            "topics": [
+              "research"
+            ],
+            "updated_at": null,
+            "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/c7076ca9-558c-4ec3-804b-f21bdfc6135c"
+          }
+        }
+      ],
+      "id": "deepseek:c7076ca9-558c-4ec3-804b-f21bdfc6135c",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "DeepSeek",
+      "published_at": null,
+      "region": "CN",
+      "source": "manual:deepseek",
+      "status": "observed",
+      "summary": "官方招聘页列在深度学习类别，职位方向包括持续学习、自进化和新范式。",
+      "title": "Frontier（持续学习/自进化/新范式）研究员",
+      "topics": [
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/c7076ca9-558c-4ec3-804b-f21bdfc6135c"
     },
     "github:amazon-science/chronos-forecasting": {
       "evidence": "A",
@@ -1450,7 +2856,7 @@
       ],
       "id": "github:amazon-science/chronos-forecasting",
       "kind": "project",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "amazon-science",
       "published_at": "2024-02-23T10:35:42Z",
@@ -1517,7 +2923,7 @@
       ],
       "id": "github:nvlabs/sionna",
       "kind": "project",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "NVlabs",
       "published_at": "2022-02-15T19:55:30Z",
@@ -1584,7 +2990,7 @@
       ],
       "id": "github:qwenlm/qwen3",
       "kind": "project",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "QwenLM",
       "published_at": "2024-02-05T05:45:08Z",
@@ -1669,11 +3075,33 @@
             "updated_at": "2026-11-11T19:06:32Z",
             "url": "https://github.com/vllm-project/vllm"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "evidence": "A",
+            "id": "github:vllm-project/vllm",
+            "kind": "project",
+            "location": "",
+            "organization": "vllm-project",
+            "published_at": "2023-02-09T11:23:20Z",
+            "region": "Global",
+            "source": "github",
+            "status": "reference",
+            "summary": "大模型推理与服务引擎，可用于测试吞吐、排队延迟与 KV 缓存行为。",
+            "title": "vllm-project/vllm",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": "2026-11-11T19:34:35Z",
+            "url": "https://github.com/vllm-project/vllm"
+          }
         }
       ],
       "id": "github:vllm-project/vllm",
       "kind": "project",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "vllm-project",
       "published_at": "2023-02-09T11:23:20Z",
@@ -1686,7 +3114,7 @@
         "inference",
         "mle"
       ],
-      "updated_at": "2026-11-11T19:06:32Z",
+      "updated_at": "2026-11-11T19:34:35Z",
       "url": "https://github.com/vllm-project/vllm"
     },
     "govcn:ai-plus-2025": {
@@ -1783,7 +3211,7 @@
       ],
       "id": "govuk:artificial-intelligence-sector-study-2025",
       "kind": "report",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "",
       "organization": "GOV.UK",
       "published_at": "2026-10-29T16:41:56+00:00",
@@ -1798,7 +3226,55 @@
       "updated_at": "2026-10-29T16:41:56+00:00",
       "url": "https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025"
     },
+    "greenhouse:alphagrepsecurities:5335169002": {
+      "department": "Quantitative Research & Trading",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Quantitative Research & Trading",
+            "evidence": "A",
+            "id": "greenhouse:alphagrepsecurities:5335169002",
+            "kind": "job",
+            "location": "Shanghai",
+            "organization": "AlphaGrep",
+            "published_at": "2021-07-14T04:17:58-04:00",
+            "region": "CN",
+            "source": "greenhouse:alphagrepsecurities",
+            "status": "listed",
+            "summary": "",
+            "title": "Quantitative Researcher",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-07-27T00:14:47-04:00",
+            "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/5335169002"
+          }
+        }
+      ],
+      "id": "greenhouse:alphagrepsecurities:5335169002",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai",
+      "organization": "AlphaGrep",
+      "published_at": "2021-07-14T04:17:58-04:00",
+      "region": "CN",
+      "source": "greenhouse:alphagrepsecurities",
+      "status": "listed",
+      "summary": "",
+      "title": "Quantitative Researcher",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-07-27T00:14:47-04:00",
+      "url": "https://job-boards.greenhouse.io/alphagrepsecurities/jobs/5335169002"
+    },
     "greenhouse:anthropic:4938436008": {
+      "department": "AI Research & Engineering",
       "evidence": "A",
       "first_seen": "2026-11-11T19:01:03Z",
       "history": [
@@ -1843,11 +3319,33 @@
             "updated_at": "2026-08-28T14:43:57-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:4938436008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2025-09-30T16:38:17-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "负责规模化预训练的性能、可靠性、硬件诊断和实验。",
+            "title": "Research Engineer, Pretraining Scaling - London",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-08-28T14:43:57-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/4938436008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:4938436008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2025-09-30T16:38:17-04:00",
@@ -1927,6 +3425,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5097742008"
     },
     "greenhouse:anthropic:5115935008": {
+      "department": "AI Research & Engineering",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -1951,11 +3450,34 @@
             "updated_at": "2026-08-28T14:43:58-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5115935008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-02-11T12:34:39-05:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Research Engineer, Machine Learning (Reinforcement Learning)",
+            "topics": [
+              "mle",
+              "research"
+            ],
+            "updated_at": "2026-08-28T14:43:58-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5115935008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-02-11T12:34:39-05:00",
@@ -1965,13 +3487,14 @@
       "summary": "",
       "title": "Research Engineer, Machine Learning (Reinforcement Learning)",
       "topics": [
-        "research",
-        "mle"
+        "mle",
+        "research"
       ],
       "updated_at": "2026-08-28T14:43:58-04:00",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5115935008"
     },
     "greenhouse:anthropic:5119713008": {
+      "department": "AI Research & Engineering",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -1995,11 +3518,33 @@
             "updated_at": "2026-08-28T14:43:58-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5119713008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-02-16T19:22:51-05:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Research Engineer, Pretraining",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-08-28T14:43:58-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5119713008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-02-16T19:22:51-05:00",
@@ -2015,6 +3560,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5119713008"
     },
     "greenhouse:anthropic:5198074008": {
+      "department": "AI Research & Engineering",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2039,11 +3585,34 @@
             "updated_at": "2026-08-28T14:43:58-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5198074008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-04-23T10:43:13-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Research Engineer, Machine Learning (RL Velocity)",
+            "topics": [
+              "mle",
+              "research"
+            ],
+            "updated_at": "2026-08-28T14:43:58-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5198074008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-04-23T10:43:13-04:00",
@@ -2053,13 +3622,14 @@
       "summary": "",
       "title": "Research Engineer, Machine Learning (RL Velocity)",
       "topics": [
-        "research",
-        "mle"
+        "mle",
+        "research"
       ],
       "updated_at": "2026-08-28T14:43:58-04:00",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5198074008"
     },
     "greenhouse:anthropic:5264619008": {
+      "department": "AI Research & Engineering",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2083,11 +3653,33 @@
             "updated_at": "2026-08-28T14:43:59-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5264619008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-06-22T07:06:02-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Research Engineer, RL Scaling Science",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-08-28T14:43:59-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5264619008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-06-22T07:06:02-04:00",
@@ -2103,6 +3695,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008"
     },
     "greenhouse:anthropic:5385634008": {
+      "department": "Applied AI",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2126,11 +3719,33 @@
             "updated_at": "2026-08-28T14:44:00-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385634008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Applied AI",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5385634008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-08-13T11:33:27-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Manager, Forward Deployed Engineering",
+            "topics": [
+              "applied"
+            ],
+            "updated_at": "2026-08-28T14:44:00-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385634008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5385634008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-08-13T11:33:27-04:00",
@@ -2146,6 +3761,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5385634008"
     },
     "greenhouse:anthropic:5423029008": {
+      "department": "Applied AI",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2169,11 +3785,33 @@
             "updated_at": "2026-09-14T05:27:39-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Applied AI",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5423029008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-09-14T05:07:58-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Forward Deployed Engineer",
+            "topics": [
+              "applied"
+            ],
+            "updated_at": "2026-09-14T05:27:39-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5423029008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-09-14T05:07:58-04:00",
@@ -2189,6 +3827,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5423029008"
     },
     "greenhouse:anthropic:5432575008": {
+      "department": "Applied AI",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2212,11 +3851,33 @@
             "updated_at": "2026-09-23T05:01:26-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432575008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Applied AI",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5432575008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-09-23T05:01:26-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Applied AI Engineer, Startups",
+            "topics": [
+              "applied"
+            ],
+            "updated_at": "2026-09-23T05:01:26-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432575008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5432575008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-09-23T05:01:26-04:00",
@@ -2232,6 +3893,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5432575008"
     },
     "greenhouse:anthropic:5439169008": {
+      "department": "AI Research & Engineering",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2255,11 +3917,33 @@
             "updated_at": "2026-11-04T02:14:30-05:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5439169008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-10-28T15:09:02-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Anthropic Research Resident",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-11-04T02:14:30-05:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5439169008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-28T15:09:02-04:00",
@@ -2275,6 +3959,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008"
     },
     "greenhouse:anthropic:5440821008": {
+      "department": "Applied AI",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2298,11 +3983,33 @@
             "updated_at": "2026-10-14T06:49:28-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Applied AI",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5440821008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-10-13T07:46:09-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Applied AI Engineer, Beneficial Deployments (Lab Automation)",
+            "topics": [
+              "applied"
+            ],
+            "updated_at": "2026-10-14T06:49:28-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5440821008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-13T07:46:09-04:00",
@@ -2318,6 +4025,7 @@
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008"
     },
     "greenhouse:anthropic:5445760008": {
+      "department": "Applied AI",
       "evidence": "A",
       "first_seen": "2026-11-11T19:02:32Z",
       "history": [
@@ -2341,11 +4049,33 @@
             "updated_at": "2026-10-16T06:18:15-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
           }
+        },
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Applied AI",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5445760008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-10-06T16:06:00-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Applied AI Engineer, Beneficial Deployments (Clinical Development, Rare and Neglected Diseases)",
+            "topics": [
+              "applied"
+            ],
+            "updated_at": "2026-10-16T06:18:15-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5445760008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:06:33Z",
+      "last_seen": "2026-11-11T19:35:13Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-06T16:06:00-04:00",
@@ -2359,44 +4089,899 @@
       ],
       "updated_at": "2026-10-16T06:18:15-04:00",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
+    },
+    "greenhouse:axq:5215193004": {
+      "department": "Quantitative Research",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Quantitative Research",
+            "evidence": "A",
+            "id": "greenhouse:axq:5215193004",
+            "kind": "job",
+            "location": "Beijing; Shanghai",
+            "organization": "安贤投资（AXQ Capital）",
+            "published_at": "2024-06-25T05:09:41-04:00",
+            "region": "CN",
+            "source": "greenhouse:axq",
+            "status": "listed",
+            "summary": "",
+            "title": "Senior Quantitative Researcher",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-10-27T06:40:02-04:00",
+            "url": "https://job-boards.greenhouse.io/axq/jobs/5215193004"
+          }
+        }
+      ],
+      "id": "greenhouse:axq:5215193004",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Beijing; Shanghai",
+      "organization": "安贤投资（AXQ Capital）",
+      "published_at": "2024-06-25T05:09:41-04:00",
+      "region": "CN",
+      "source": "greenhouse:axq",
+      "status": "listed",
+      "summary": "",
+      "title": "Senior Quantitative Researcher",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-10-27T06:40:02-04:00",
+      "url": "https://job-boards.greenhouse.io/axq/jobs/5215193004"
+    },
+    "greenhouse:axq:5635911004": {
+      "department": "Quantitative Research",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Quantitative Research",
+            "evidence": "A",
+            "id": "greenhouse:axq:5635911004",
+            "kind": "job",
+            "location": "Shanghai",
+            "organization": "安贤投资（AXQ Capital）",
+            "published_at": "2025-08-31T08:52:54-04:00",
+            "region": "CN",
+            "source": "greenhouse:axq",
+            "status": "listed",
+            "summary": "",
+            "title": "Quantitative Researcher",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-10-27T06:39:46-04:00",
+            "url": "https://job-boards.greenhouse.io/axq/jobs/5635911004"
+          }
+        }
+      ],
+      "id": "greenhouse:axq:5635911004",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai",
+      "organization": "安贤投资（AXQ Capital）",
+      "published_at": "2025-08-31T08:52:54-04:00",
+      "region": "CN",
+      "source": "greenhouse:axq",
+      "status": "listed",
+      "summary": "",
+      "title": "Quantitative Researcher",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-10-27T06:39:46-04:00",
+      "url": "https://job-boards.greenhouse.io/axq/jobs/5635911004"
+    },
+    "greenhouse:axq:5636192004": {
+      "department": "AXQ 安贤投资 2027 校园招聘",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AXQ 安贤投资 2027 校园招聘",
+            "evidence": "A",
+            "id": "greenhouse:axq:5636192004",
+            "kind": "job",
+            "location": "Shanghai",
+            "organization": "安贤投资（AXQ Capital）",
+            "published_at": "2025-08-31T08:28:33-04:00",
+            "region": "CN",
+            "source": "greenhouse:axq",
+            "status": "listed",
+            "summary": "",
+            "title": "「启元计划」2027 暑期实习｜量化研究实习生",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-10-29T18:23:15-04:00",
+            "url": "https://job-boards.greenhouse.io/axq/jobs/5636192004"
+          }
+        }
+      ],
+      "id": "greenhouse:axq:5636192004",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai",
+      "organization": "安贤投资（AXQ Capital）",
+      "published_at": "2025-08-31T08:28:33-04:00",
+      "region": "CN",
+      "source": "greenhouse:axq",
+      "status": "listed",
+      "summary": "",
+      "title": "「启元计划」2027 暑期实习｜量化研究实习生",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-10-29T18:23:15-04:00",
+      "url": "https://job-boards.greenhouse.io/axq/jobs/5636192004"
+    },
+    "greenhouse:axq:6147008004": {
+      "department": "AXQ 安贤投资 2027 校园招聘",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "AXQ 安贤投资 2027 校园招聘",
+            "evidence": "A",
+            "id": "greenhouse:axq:6147008004",
+            "kind": "job",
+            "location": "Shanghai",
+            "organization": "安贤投资（AXQ Capital）",
+            "published_at": "2026-08-19T06:04:59-04:00",
+            "region": "CN",
+            "source": "greenhouse:axq",
+            "status": "listed",
+            "summary": "",
+            "title": "2027 校园招聘｜量化研究员",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-10-27T06:37:55-04:00",
+            "url": "https://job-boards.greenhouse.io/axq/jobs/6147008004"
+          }
+        }
+      ],
+      "id": "greenhouse:axq:6147008004",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai",
+      "organization": "安贤投资（AXQ Capital）",
+      "published_at": "2026-08-19T06:04:59-04:00",
+      "region": "CN",
+      "source": "greenhouse:axq",
+      "status": "listed",
+      "summary": "",
+      "title": "2027 校园招聘｜量化研究员",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-10-27T06:37:55-04:00",
+      "url": "https://job-boards.greenhouse.io/axq/jobs/6147008004"
+    },
+    "greenhouse:axq:6225198004": {
+      "department": "Technology",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Technology",
+            "evidence": "A",
+            "id": "greenhouse:axq:6225198004",
+            "kind": "job",
+            "location": "Beijing",
+            "organization": "安贤投资（AXQ Capital）",
+            "published_at": "2026-10-15T06:05:46-04:00",
+            "region": "CN",
+            "source": "greenhouse:axq",
+            "status": "listed",
+            "summary": "",
+            "title": "Machine Learning Infrastructure Engineer",
+            "topics": [
+              "mle"
+            ],
+            "updated_at": "2026-10-27T06:39:14-04:00",
+            "url": "https://job-boards.greenhouse.io/axq/jobs/6225198004"
+          }
+        }
+      ],
+      "id": "greenhouse:axq:6225198004",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Beijing",
+      "organization": "安贤投资（AXQ Capital）",
+      "published_at": "2026-10-15T06:05:46-04:00",
+      "region": "CN",
+      "source": "greenhouse:axq",
+      "status": "listed",
+      "summary": "",
+      "title": "Machine Learning Infrastructure Engineer",
+      "topics": [
+        "mle"
+      ],
+      "updated_at": "2026-10-27T06:39:14-04:00",
+      "url": "https://job-boards.greenhouse.io/axq/jobs/6225198004"
+    },
+    "greenhouse:rockbund:4752134101": {
+      "department": "Trading",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Trading",
+            "evidence": "A",
+            "id": "greenhouse:rockbund:4752134101",
+            "kind": "job",
+            "location": "Shanghai",
+            "organization": "Rock Bund Capital",
+            "published_at": "2026-01-13T00:43:38-05:00",
+            "region": "CN",
+            "source": "greenhouse:rockbund",
+            "status": "listed",
+            "summary": "",
+            "title": "Quantitative Researcher (AI Direction)",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-07-30T03:13:47-04:00",
+            "url": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4752134101"
+          }
+        }
+      ],
+      "id": "greenhouse:rockbund:4752134101",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai",
+      "organization": "Rock Bund Capital",
+      "published_at": "2026-01-13T00:43:38-05:00",
+      "region": "CN",
+      "source": "greenhouse:rockbund",
+      "status": "listed",
+      "summary": "",
+      "title": "Quantitative Researcher (AI Direction)",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-07-30T03:13:47-04:00",
+      "url": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4752134101"
+    },
+    "greenhouse:rzr:4146505009": {
+      "department": "Machine Learning",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Machine Learning",
+            "evidence": "A",
+            "id": "greenhouse:rzr:4146505009",
+            "kind": "job",
+            "location": "Beijing, China",
+            "organization": "RZR Global",
+            "published_at": "2026-02-23T23:54:41-05:00",
+            "region": "CN",
+            "source": "greenhouse:rzr",
+            "status": "listed",
+            "summary": "",
+            "title": "Machine Learning Engineer",
+            "topics": [
+              "mle"
+            ],
+            "updated_at": "2026-06-01T19:54:09-04:00",
+            "url": "https://job-boards.greenhouse.io/rzr/jobs/4146505009"
+          }
+        }
+      ],
+      "id": "greenhouse:rzr:4146505009",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Beijing, China",
+      "organization": "RZR Global",
+      "published_at": "2026-02-23T23:54:41-05:00",
+      "region": "CN",
+      "source": "greenhouse:rzr",
+      "status": "listed",
+      "summary": "",
+      "title": "Machine Learning Engineer",
+      "topics": [
+        "mle"
+      ],
+      "updated_at": "2026-06-01T19:54:09-04:00",
+      "url": "https://job-boards.greenhouse.io/rzr/jobs/4146505009"
+    },
+    "greenhouse:rzr:4390098009": {
+      "department": "Machine Learning",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Machine Learning",
+            "evidence": "A",
+            "id": "greenhouse:rzr:4390098009",
+            "kind": "job",
+            "location": "Beijing, China [Hybrid]",
+            "organization": "RZR Global",
+            "published_at": "2026-08-31T23:03:20-04:00",
+            "region": "CN",
+            "source": "greenhouse:rzr",
+            "status": "listed",
+            "summary": "",
+            "title": "Machine Learning Engineer, Infra (MLOps)",
+            "topics": [
+              "mle"
+            ],
+            "updated_at": "2026-08-31T23:03:20-04:00",
+            "url": "https://job-boards.greenhouse.io/rzr/jobs/4390098009"
+          }
+        }
+      ],
+      "id": "greenhouse:rzr:4390098009",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Beijing, China [Hybrid]",
+      "organization": "RZR Global",
+      "published_at": "2026-08-31T23:03:20-04:00",
+      "region": "CN",
+      "source": "greenhouse:rzr",
+      "status": "listed",
+      "summary": "",
+      "title": "Machine Learning Engineer, Infra (MLOps)",
+      "topics": [
+        "mle"
+      ],
+      "updated_at": "2026-08-31T23:03:20-04:00",
+      "url": "https://job-boards.greenhouse.io/rzr/jobs/4390098009"
+    },
+    "greenhouse:sesai:4186609005": {
+      "department": "1. Avatar: System Development",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "1. Avatar: System Development",
+            "evidence": "A",
+            "id": "greenhouse:sesai:4186609005",
+            "kind": "job",
+            "location": "Shanghai, China",
+            "organization": "SES AI",
+            "published_at": "2023-01-16T14:12:40-05:00",
+            "region": "CN",
+            "source": "greenhouse:sesai",
+            "status": "listed",
+            "summary": "",
+            "title": "Senior Battery AI/ML Engineer",
+            "topics": [
+              "mle"
+            ],
+            "updated_at": "2026-06-22T13:14:30-04:00",
+            "url": "https://boards.greenhouse.io/sesai/jobs/4186609005"
+          }
+        }
+      ],
+      "id": "greenhouse:sesai:4186609005",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai, China",
+      "organization": "SES AI",
+      "published_at": "2023-01-16T14:12:40-05:00",
+      "region": "CN",
+      "source": "greenhouse:sesai",
+      "status": "listed",
+      "summary": "",
+      "title": "Senior Battery AI/ML Engineer",
+      "topics": [
+        "mle"
+      ],
+      "updated_at": "2026-06-22T13:14:30-04:00",
+      "url": "https://boards.greenhouse.io/sesai/jobs/4186609005"
+    },
+    "greenhouse:sesai:4186612005": {
+      "department": "1. Avatar: System Development",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "1. Avatar: System Development",
+            "evidence": "A",
+            "id": "greenhouse:sesai:4186612005",
+            "kind": "job",
+            "location": "Shanghai, China",
+            "organization": "SES AI",
+            "published_at": "2023-01-16T13:44:12-05:00",
+            "region": "CN",
+            "source": "greenhouse:sesai",
+            "status": "listed",
+            "summary": "",
+            "title": "Battery AI/ML Engineer",
+            "topics": [
+              "mle"
+            ],
+            "updated_at": "2026-06-22T13:14:30-04:00",
+            "url": "https://boards.greenhouse.io/sesai/jobs/4186612005"
+          }
+        }
+      ],
+      "id": "greenhouse:sesai:4186612005",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai, China",
+      "organization": "SES AI",
+      "published_at": "2023-01-16T13:44:12-05:00",
+      "region": "CN",
+      "source": "greenhouse:sesai",
+      "status": "listed",
+      "summary": "",
+      "title": "Battery AI/ML Engineer",
+      "topics": [
+        "mle"
+      ],
+      "updated_at": "2026-06-22T13:14:30-04:00",
+      "url": "https://boards.greenhouse.io/sesai/jobs/4186612005"
+    },
+    "greenhouse:sesai:4495364005": {
+      "department": "1. Avatar: System Development",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "1. Avatar: System Development",
+            "evidence": "A",
+            "id": "greenhouse:sesai:4495364005",
+            "kind": "job",
+            "location": "Shanghai, China",
+            "organization": "SES AI",
+            "published_at": "2024-11-08T10:23:35-05:00",
+            "region": "CN",
+            "source": "greenhouse:sesai",
+            "status": "listed",
+            "summary": "",
+            "title": "AI/ML Engineer for Manufacturing Large Model (Downstream)",
+            "topics": [
+              "mle",
+              "timeseries"
+            ],
+            "updated_at": "2026-06-22T13:14:30-04:00",
+            "url": "https://boards.greenhouse.io/sesai/jobs/4495364005"
+          }
+        }
+      ],
+      "id": "greenhouse:sesai:4495364005",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shanghai, China",
+      "organization": "SES AI",
+      "published_at": "2024-11-08T10:23:35-05:00",
+      "region": "CN",
+      "source": "greenhouse:sesai",
+      "status": "listed",
+      "summary": "",
+      "title": "AI/ML Engineer for Manufacturing Large Model (Downstream)",
+      "topics": [
+        "mle",
+        "timeseries"
+      ],
+      "updated_at": "2026-06-22T13:14:30-04:00",
+      "url": "https://boards.greenhouse.io/sesai/jobs/4495364005"
+    },
+    "greenhouse:xpengmotors:8520153002": {
+      "department": "Robotics Center",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:35:13Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:35:13Z",
+          "value": {
+            "department": "Robotics Center",
+            "evidence": "A",
+            "id": "greenhouse:xpengmotors:8520153002",
+            "kind": "job",
+            "location": "Shenzhen, China",
+            "organization": "小鹏汽车",
+            "published_at": "2026-04-22T21:41:41-04:00",
+            "region": "CN",
+            "source": "greenhouse:xpengmotors",
+            "status": "listed",
+            "summary": "",
+            "title": "Senior Staff/ Principal Research Scientist – Dexterous Manipulation",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-06-01T14:29:52-04:00",
+            "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8520153002"
+          }
+        }
+      ],
+      "id": "greenhouse:xpengmotors:8520153002",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:35:13Z",
+      "location": "Shenzhen, China",
+      "organization": "小鹏汽车",
+      "published_at": "2026-04-22T21:41:41-04:00",
+      "region": "CN",
+      "source": "greenhouse:xpengmotors",
+      "status": "listed",
+      "summary": "",
+      "title": "Senior Staff/ Principal Research Scientist – Dexterous Manipulation",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-06-01T14:29:52-04:00",
+      "url": "https://job-boards.greenhouse.io/xpengmotors/jobs/8520153002"
+    },
+    "meituan:4177318569": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "meituan:4177318569",
+            "kind": "job",
+            "location": "北京",
+            "organization": "美团",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "面向本科大三及以上、硕士和博士在校生",
+              "成绩、论文、竞赛、实验室实习或开源贡献至少满足官方列出的一项条件"
+            ],
+            "source": "manual:meituan",
+            "status": "observed",
+            "summary": "北斗实习课题。研究配送时间预测、时空基础模型和序贯决策。",
+            "title": "【北斗实习】智能决策算法研究员-配送时间方向",
+            "topics": [
+              "timeseries",
+              "applied",
+              "research"
+            ],
+            "updated_at": null,
+            "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4177318569"
+          }
+        }
+      ],
+      "id": "meituan:4177318569",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "美团",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "面向本科大三及以上、硕士和博士在校生",
+        "成绩、论文、竞赛、实验室实习或开源贡献至少满足官方列出的一项条件"
+      ],
+      "source": "manual:meituan",
+      "status": "observed",
+      "summary": "北斗实习课题。研究配送时间预测、时空基础模型和序贯决策。",
+      "title": "【北斗实习】智能决策算法研究员-配送时间方向",
+      "topics": [
+        "timeseries",
+        "applied",
+        "research"
+      ],
+      "updated_at": null,
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4177318569"
+    },
+    "meituan:4683995941": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "meituan:4683995941",
+            "kind": "job",
+            "location": "北京",
+            "organization": "美团",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "2027 届相关专业本科及以上学历",
+              "扎实的机器学习与深度学习基础",
+              "因果推断、Agent 系统或自动化研究实践为加分项"
+            ],
+            "source": "manual:meituan",
+            "status": "observed",
+            "summary": "北斗应届岗。将大模型后训练、强化学习和因果推断用于受预算约束的序贯资源分配。",
+            "title": "【北斗】大模型算法工程师 SFT/RL/Agent方向",
+            "topics": [
+              "applied",
+              "research",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobShareType=1&jobUnionId=4683995941"
+          }
+        }
+      ],
+      "id": "meituan:4683995941",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京",
+      "organization": "美团",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "2027 届相关专业本科及以上学历",
+        "扎实的机器学习与深度学习基础",
+        "因果推断、Agent 系统或自动化研究实践为加分项"
+      ],
+      "source": "manual:meituan",
+      "status": "observed",
+      "summary": "北斗应届岗。将大模型后训练、强化学习和因果推断用于受预算约束的序贯资源分配。",
+      "title": "【北斗】大模型算法工程师 SFT/RL/Agent方向",
+      "topics": [
+        "applied",
+        "research",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobShareType=1&jobUnionId=4683995941"
+    },
+    "meituan:4697320030": {
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "evidence": "A",
+            "id": "meituan:4697320030",
+            "kind": "job",
+            "location": "北京、上海",
+            "organization": "美团",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "相关专业本科及以上学历",
+              "至少熟悉 C++、Python、Go、Rust、Java 中一门",
+              "具备操作系统、网络和分布式系统基础"
+            ],
+            "source": "manual:meituan",
+            "status": "observed",
+            "summary": "应届校招。参与训练、推理、部署和调度基础设施，优化缓存、并发与资源利用率。",
+            "title": "AI Infra / 推理系统工程师",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": null,
+            "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697320030&source=interviewEmail"
+          }
+        }
+      ],
+      "id": "meituan:4697320030",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、上海",
+      "organization": "美团",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "相关专业本科及以上学历",
+        "至少熟悉 C++、Python、Go、Rust、Java 中一门",
+        "具备操作系统、网络和分布式系统基础"
+      ],
+      "source": "manual:meituan",
+      "status": "observed",
+      "summary": "应届校招。参与训练、推理、部署和调度基础设施，优化缓存、并发与资源利用率。",
+      "title": "AI Infra / 推理系统工程师",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": null,
+      "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697320030&source=interviewEmail"
+    },
+    "meituan:4761247735": {
+      "department": "核心本地商业-业务研发平台",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "核心本地商业-业务研发平台",
+            "evidence": "A",
+            "id": "meituan:4761247735",
+            "kind": "job",
+            "location": "北京、上海",
+            "organization": "美团",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "相关专业硕士及以上学历",
+              "三年以上搜索、推荐或 NLP 研发经验",
+              "熟悉 Transformer 和在线系统，掌握 Python、C++ 或 Java"
+            ],
+            "source": "manual:meituan",
+            "status": "observed",
+            "summary": "社招正式岗，优化本地生活搜索、检索增强生成和智能体评估。",
+            "title": "点评技术-AI搜索算法工程师",
+            "topics": [
+              "applied",
+              "mle"
+            ],
+            "updated_at": "2026-11-04",
+            "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4761247735"
+          }
+        }
+      ],
+      "id": "meituan:4761247735",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、上海",
+      "organization": "美团",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "相关专业硕士及以上学历",
+        "三年以上搜索、推荐或 NLP 研发经验",
+        "熟悉 Transformer 和在线系统，掌握 Python、C++ 或 Java"
+      ],
+      "source": "manual:meituan",
+      "status": "observed",
+      "summary": "社招正式岗，优化本地生活搜索、检索增强生成和智能体评估。",
+      "title": "点评技术-AI搜索算法工程师",
+      "topics": [
+        "applied",
+        "mle"
+      ],
+      "updated_at": "2026-11-04",
+      "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4761247735"
+    },
+    "tencent:2100835478730358784": {
+      "department": "TEG",
+      "evidence": "A",
+      "first_seen": "2026-11-11T19:30:02Z",
+      "history": [
+        {
+          "at": "2026-11-11T19:30:02Z",
+          "value": {
+            "department": "TEG",
+            "evidence": "A",
+            "id": "tencent:2100835478730358784",
+            "kind": "job",
+            "location": "北京、深圳",
+            "organization": "腾讯",
+            "published_at": null,
+            "region": "CN",
+            "requirements": [
+              "三年以上工作经验，熟悉 Linux、Python 和 C++",
+              "熟悉 GPU 或 SIMD 编程及性能分析工具",
+              "熟悉 PyTorch、Megatron、DeepSpeed、vLLM 或 SGLang 等框架"
+            ],
+            "source": "manual:tencent",
+            "status": "observed",
+            "summary": "为自研芯片构建高性能训练与推理框架，分析模型全链路性能瓶颈。",
+            "title": "AI infra研发工程师(北京/深圳)",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": "2026-10-09",
+            "url": "https://careers.tencent.com/jobdesc.html?postId=2100835478730358784"
+          }
+        }
+      ],
+      "id": "tencent:2100835478730358784",
+      "kind": "job",
+      "last_seen": "2026-11-11T19:30:02Z",
+      "location": "北京、深圳",
+      "organization": "腾讯",
+      "published_at": null,
+      "region": "CN",
+      "requirements": [
+        "三年以上工作经验，熟悉 Linux、Python 和 C++",
+        "熟悉 GPU 或 SIMD 编程及性能分析工具",
+        "熟悉 PyTorch、Megatron、DeepSpeed、vLLM 或 SGLang 等框架"
+      ],
+      "source": "manual:tencent",
+      "status": "observed",
+      "summary": "为自研芯片构建高性能训练与推理框架，分析模型全链路性能瓶颈。",
+      "title": "AI infra研发工程师(北京/深圳)",
+      "topics": [
+        "inference",
+        "mle"
+      ],
+      "updated_at": "2026-10-09",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2100835478730358784"
     }
   },
   "sources": {
     "arxiv": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
       "mode": "atom",
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
     },
     "github:NVlabs/sionna": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
     },
     "github:QwenLM/Qwen3": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
     },
     "github:amazon-science/chronos-forecasting": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
     },
     "github:vllm-project/vllm": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
     },
     "govuk:/government/publications/artificial-intelligence-sector-study-2025": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
+    },
+    "greenhouse:alphagrepsecurities": {
+      "checked_at": "2026-11-11T19:35:13Z",
+      "error": null,
+      "success_at": "2026-11-11T19:35:13Z"
     },
     "greenhouse:anthropic": {
-      "checked_at": "2026-11-11T19:06:33Z",
+      "checked_at": "2026-11-11T19:35:13Z",
       "error": null,
-      "success_at": "2026-11-11T19:06:33Z"
+      "success_at": "2026-11-11T19:35:13Z"
+    },
+    "greenhouse:axq": {
+      "checked_at": "2026-11-11T19:35:13Z",
+      "error": null,
+      "success_at": "2026-11-11T19:35:13Z"
+    },
+    "greenhouse:rockbund": {
+      "checked_at": "2026-11-11T19:35:13Z",
+      "error": null,
+      "success_at": "2026-11-11T19:35:13Z"
+    },
+    "greenhouse:rzr": {
+      "checked_at": "2026-11-11T19:35:13Z",
+      "error": null,
+      "success_at": "2026-11-11T19:35:13Z"
+    },
+    "greenhouse:sesai": {
+      "checked_at": "2026-11-11T19:35:13Z",
+      "error": null,
+      "success_at": "2026-11-11T19:35:13Z"
+    },
+    "greenhouse:xpengmotors": {
+      "checked_at": "2026-11-11T19:35:13Z",
+      "error": null,
+      "success_at": "2026-11-11T19:35:13Z"
     }
   }
 }

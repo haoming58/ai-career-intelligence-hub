@@ -53,6 +53,21 @@ class HubTests(unittest.TestCase):
         self.assertEqual(list(records), ["paper"])
         self.assertEqual([e["value"]["title"] for e in records["paper"]["history"]], ["A title", "Revised"])
 
+    def test_distinct_moka_jobs_keep_distinct_catalog_ids(self):
+        base = "https://app.mokahr.com/social-recruitment/example/123"
+        first = "/job/43f8551a-4235-4d5e-a9a7-44386cd79795"
+        second = "/job/165b9911-a764-4c01-a348-87a0113cdef4"
+        records = {}
+        for id, route in [("moka:1", first), ("moka:2", second)]:
+            row = hub.record(id, "job", "算法工程师", "Example", f"{base}#{route}", "CN",
+                             ["mle"], "A", "manual", status="observed")
+            hub.merge(records, [row], FIRST)
+        self.assertEqual(set(records), {"moka:1", "moka:2"})
+        self.assertEqual(hub.canonical_url(f"{base}?utm_source=test#{first}"), f"{base}#{first}")
+        self.assertEqual(hub.canonical_url(f"{base}#details"), base)
+        self.assertEqual(hub.canonical_url(f"https://example.org/careers#{first}"),
+                         "https://example.org/careers")
+
     def test_arxiv_parses_versionless_ids(self):
         feed = b"""<feed xmlns="http://www.w3.org/2005/Atom">
         <entry><id>http://arxiv.org/abs/2403.07815v3</id><title>Chronos:  Learning</title>
@@ -88,6 +103,39 @@ class HubTests(unittest.TestCase):
         self.assertEqual([row["id"] for row in rows], [JOB_ID])
         self.assertEqual(len(present), 5)
         self.assertEqual(rows[0]["published_at"], "2026-10-01")
+
+    def test_cn_board_keeps_official_department_and_dedupes_requisition(self):
+        old = {**job(10, "Beijing", "Machine Learning Engineer"), "internal_job_id": 900}
+        current = {**job(20, "Beijing, China", "Machine Learning Engineer, Infra (MLOps)"),
+                   "internal_job_id": 900,
+                   "absolute_url": "https://job-boards.eu.greenhouse.io/example/jobs/20?gh_src=ref"}
+        shanghai = {**job(30, "上海", "量化研究员"),
+                    "absolute_url": "https://job-boards.greenhouse.io/other/jobs/30"}
+        hong_kong = job(40, "Hong Kong, Greater China", "Research Scientist")
+        settings = {"organization": "Example", "region": "CN", "topic_overrides": {"30": ["timeseries"]}}
+        departments = {"departments": [{"name": " ML  Systems ", "jobs": [{"id": 20}]}]}
+        with patch.object(hub, "read_api", side_effect=[board(old, current, shanghai, hong_kong), departments]):
+            rows, present = hub.fetch_greenhouse("example", settings)
+        jobs_by_id = {row["id"]: row for row in rows}
+        self.assertEqual(set(jobs_by_id), {"greenhouse:example:20", "greenhouse:example:30"})
+        self.assertEqual(len(present), 4)
+        self.assertEqual(jobs_by_id["greenhouse:example:20"]["region"], "CN")
+        self.assertEqual(jobs_by_id["greenhouse:example:20"]["department"], "ML Systems")
+        self.assertEqual(jobs_by_id["greenhouse:example:20"]["url"],
+                         "https://job-boards.eu.greenhouse.io/example/jobs/20")
+        self.assertEqual(jobs_by_id["greenhouse:example:30"]["url"],
+                         "https://job-boards.greenhouse.io/example/jobs/30")
+        self.assertIn("timeseries", jobs_by_id["greenhouse:example:30"]["topics"])
+
+    def test_board_refresh_preserves_missing_curated_department(self):
+        records = {}
+        rows, _ = hub.greenhouse_records(BOARD, "Anthropic", board(job()))
+        row, = rows
+        hub.merge(records, [{**row, "department": "Pretraining", "summary": "Curated"}], FIRST)
+        hub.merge(records, rows, LATER)
+        self.assertEqual(records[JOB_ID]["department"], "Pretraining")
+        self.assertEqual(records[JOB_ID]["summary"], "Curated")
+        self.assertEqual(len(records[JOB_ID]["history"]), 1)
 
     def test_closed_and_reopened_job_keeps_observations(self):
         catalog = state()

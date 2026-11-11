@@ -417,5 +417,757 @@
     "location": "Cambridge, United Kingdom",
     "updated_at": null,
     "collected_at": "2026-11-11T19:01:03Z"
+  },
+  {
+    "id": "baidu:J99564",
+    "kind": "job",
+    "title": "伐谋-运筹优化算法工程师（J99564）",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/SOCIAL/cdf06554-e5f3-4552-9bd1-d395ec88609e",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "applied",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-07-21",
+    "summary": "面向调度、库存补货等场景，优化求解器、启发式策略和时序预测模块。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "ACG",
+    "requirements": [
+      "相关专业硕士及以上学历",
+      "有运筹优化项目和算法实现经验",
+      "LLM4OR、Agent 或产业级运筹项目经验优先"
+    ]
+  },
+  {
+    "id": "baidu:J106727",
+    "kind": "job",
+    "title": "大数据研发工程师（J106727）",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/SOCIAL/44e9ab67-86e7-45f2-80ee-e47d4d1b36b7",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-10-20",
+    "summary": "建模百度地图轨迹、路网等时空数据，涉及轨迹预测、城市计算和时空表征学习。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "IDG",
+    "requirements": [
+      "相关专业本科及以上学历",
+      "两年以上数据挖掘实践经验",
+      "熟悉 Hadoop、Hive、Spark 和常见机器学习算法"
+    ]
+  },
+  {
+    "id": "baidu:J95970",
+    "kind": "job",
+    "title": "大模型推理架构研发工程师（J95970）",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/SOCIAL/495f5822-a881-4285-bf30-3bc5b1e376b1",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-07-21",
+    "summary": "优化文心模型与飞桨推理框架性能，开发异构计算库和通信库。",
+    "status": "observed",
+    "location": "北京、上海、深圳",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "基础模型研发部",
+    "requirements": [
+      "掌握 C++、Python 和 CUDA",
+      "了解 PagedAttention、MoE、量化与通信算子",
+      "有预填充与解码分离部署经验"
+    ]
+  },
+  {
+    "id": "baidu:J96030",
+    "kind": "job",
+    "title": "大模型算法工程师（J96030）",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/SOCIAL/c634781c-f4bb-45d0-a08c-a8234455de1a",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-07-21",
+    "summary": "面向搜索与其他百度业务优化基础模型，覆盖训练策略、MoE 路由和稀疏注意力。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "应用模型研发部",
+    "requirements": [
+      "计算机、人工智能或机器学习相关专业本科及以上",
+      "熟悉大模型和 NLP 或深度学习优化",
+      "掌握 Python、C++ 与 PyTorch"
+    ]
+  },
+  {
+    "id": "baidu:J107272",
+    "kind": "job",
+    "title": "搜索算法工程师（J107272）",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/SOCIAL/33c51c78-2ed2-47e3-8ec7-e88194eec839",
+    "region": "CN",
+    "topics": [
+      "applied",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-11-11",
+    "summary": "负责地图搜索召回、排序及生成式搜索，并建设离线评估体系。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "IDG",
+    "requirements": [
+      "相关专业本科及以上学历",
+      "熟练使用 C++ 或 Python，掌握一种深度学习框架",
+      "有搜索、推荐、NLP 或数据挖掘相关经验"
+    ]
+  },
+  {
+    "id": "baidu:J101235",
+    "kind": "job",
+    "title": "北京-AI infra 推理工程师（基座研发方向）(J101235)",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/GRADUATE/7753cdb4-70b0-462b-a634-ee53818c7c9a",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-07-21",
+    "summary": "校招岗位。搭建文心推理基础设施，优化 GPU 算子、推理引擎和通信库。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "本科及以上学历",
+      "掌握 C++、Python 及 GPU 编程工具链",
+      "熟悉批调度、分离部署、缓存或相关推理优化技术"
+    ]
+  },
+  {
+    "id": "baidu:J101236",
+    "kind": "job",
+    "title": "北京-AI异构计算工程师(J101236)",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/GRADUATE/f0c02346-05c2-4742-aa52-2a8d50cf0792",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-07-21",
+    "summary": "校招岗位。优化分布式训练、推理引擎以及强化学习工具链。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "本科及以上，计算机或电子工程等相关专业优先",
+      "熟练使用 C、C++ 或 Python 中至少一种",
+      "有 GPU 集群调优、CUDA 和主流推理框架经验"
+    ]
+  },
+  {
+    "id": "baidu:J100728",
+    "kind": "job",
+    "title": "北京-大模型算法工程师(J100728)",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/detail/GRADUATE/ccfdea4e-4ae4-4954-9062-fd94960a2861",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:baidu",
+    "published_at": "2026-07-21",
+    "summary": "校招岗位。研究大模型预训练、后训练以及数据和评估方法。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "本科及以上，计算机、人工智能、数学或统计学等相关专业优先",
+      "掌握 Transformer、机器学习与深度学习基础",
+      "熟悉 Python，并使用过 PyTorch 或 PaddlePaddle"
+    ]
+  },
+  {
+    "id": "deepseek:43f8551a-4235-4d5e-a9a7-44386cd79795",
+    "kind": "job",
+    "title": "大模型训练/推理框架工程师",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/43f8551a-4235-4d5e-a9a7-44386cd79795",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在深度学习类别，职位方向为大模型训练和推理框架。",
+    "status": "observed",
+    "location": "北京、杭州",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "深度学习"
+  },
+  {
+    "id": "deepseek:aed2a32c-189f-4338-b901-9b45d2b7edfd",
+    "kind": "job",
+    "title": "高性能算子/通信/编译器工程师",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/aed2a32c-189f-4338-b901-9b45d2b7edfd",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在 AI 核心系统研发类别，职位涉及高性能算子、通信和编译器。",
+    "status": "observed",
+    "location": "北京、杭州",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "AI 核心系统研发"
+  },
+  {
+    "id": "deepseek:25dcb4d9-d250-43ce-8f56-159ddba47c10",
+    "kind": "job",
+    "title": "预训练（数据/算法）研究员",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/25dcb4d9-d250-43ce-8f56-159ddba47c10",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在深度学习类别，职位方向为预训练数据和算法研究。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "深度学习"
+  },
+  {
+    "id": "deepseek:5d75f4cd-f626-4f73-80c1-e53b2073de76",
+    "kind": "job",
+    "title": "后训练（数据/算法）研究员",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/5d75f4cd-f626-4f73-80c1-e53b2073de76",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在深度学习类别，职位方向为后训练数据和算法研究。",
+    "status": "observed",
+    "location": "北京、杭州",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "深度学习"
+  },
+  {
+    "id": "deepseek:7dcd6fde-84f1-4deb-890c-f1f275df0efc",
+    "kind": "job",
+    "title": "多模态理解（数据/算法）研究员",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/7dcd6fde-84f1-4deb-890c-f1f275df0efc",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在深度学习类别，职位方向为多模态理解的数据和算法研究。",
+    "status": "observed",
+    "location": "北京、杭州",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "深度学习"
+  },
+  {
+    "id": "deepseek:c7076ca9-558c-4ec3-804b-f21bdfc6135c",
+    "kind": "job",
+    "title": "Frontier（持续学习/自进化/新范式）研究员",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/c7076ca9-558c-4ec3-804b-f21bdfc6135c",
+    "region": "CN",
+    "topics": [
+      "research"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在深度学习类别，职位方向包括持续学习、自进化和新范式。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "深度学习"
+  },
+  {
+    "id": "deepseek:01416da2-3c8a-4a20-bbb3-1c925d0facf1",
+    "kind": "job",
+    "title": "深度学习研发工程师",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/01416da2-3c8a-4a20-bbb3-1c925d0facf1",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在深度学习类别，岗位为深度学习研发工程师。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "深度学习"
+  },
+  {
+    "id": "deepseek:1df4597d-6039-4392-9954-0df72510f415",
+    "kind": "job",
+    "title": "AI 搜索算法 / 架构工程师",
+    "organization": "DeepSeek",
+    "url": "https://app.mokahr.com/social-recruitment/high-flyer/140576#/job/1df4597d-6039-4392-9954-0df72510f415",
+    "region": "CN",
+    "topics": [
+      "applied",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:deepseek",
+    "published_at": null,
+    "summary": "官方招聘页列在全栈开发/算法类别，职位方向为 AI 搜索算法与架构。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "全栈开发/算法"
+  },
+  {
+    "id": "meituan:4761247735",
+    "kind": "job",
+    "title": "点评技术-AI搜索算法工程师",
+    "organization": "美团",
+    "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=social&jobUnionId=4761247735",
+    "region": "CN",
+    "topics": [
+      "applied",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:meituan",
+    "published_at": null,
+    "summary": "社招正式岗，优化本地生活搜索、检索增强生成和智能体评估。",
+    "status": "observed",
+    "location": "北京、上海",
+    "updated_at": "2026-11-04",
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "核心本地商业-业务研发平台",
+    "requirements": [
+      "相关专业硕士及以上学历",
+      "三年以上搜索、推荐或 NLP 研发经验",
+      "熟悉 Transformer 和在线系统，掌握 Python、C++ 或 Java"
+    ]
+  },
+  {
+    "id": "meituan:4177318569",
+    "kind": "job",
+    "title": "【北斗实习】智能决策算法研究员-配送时间方向",
+    "organization": "美团",
+    "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobUnionId=4177318569",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "applied",
+      "research"
+    ],
+    "evidence": "A",
+    "source": "manual:meituan",
+    "published_at": null,
+    "summary": "北斗实习课题。研究配送时间预测、时空基础模型和序贯决策。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "面向本科大三及以上、硕士和博士在校生",
+      "成绩、论文、竞赛、实验室实习或开源贡献至少满足官方列出的一项条件"
+    ]
+  },
+  {
+    "id": "meituan:4697320030",
+    "kind": "job",
+    "title": "AI Infra / 推理系统工程师",
+    "organization": "美团",
+    "url": "https://zhaopin.meituan.com/web/position/detail?jobUnionId=4697320030&source=interviewEmail",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:meituan",
+    "published_at": null,
+    "summary": "应届校招。参与训练、推理、部署和调度基础设施，优化缓存、并发与资源利用率。",
+    "status": "observed",
+    "location": "北京、上海",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "相关专业本科及以上学历",
+      "至少熟悉 C++、Python、Go、Rust、Java 中一门",
+      "具备操作系统、网络和分布式系统基础"
+    ]
+  },
+  {
+    "id": "meituan:4683995941",
+    "kind": "job",
+    "title": "【北斗】大模型算法工程师 SFT/RL/Agent方向",
+    "organization": "美团",
+    "url": "https://zhaopin.meituan.com/web/position/detail?highlightType=campus&jobShareType=1&jobUnionId=4683995941",
+    "region": "CN",
+    "topics": [
+      "applied",
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:meituan",
+    "published_at": null,
+    "summary": "北斗应届岗。将大模型后训练、强化学习和因果推断用于受预算约束的序贯资源分配。",
+    "status": "observed",
+    "location": "北京",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "2027 届相关专业本科及以上学历",
+      "扎实的机器学习与深度学习基础",
+      "因果推断、Agent 系统或自动化研究实践为加分项"
+    ]
+  },
+  {
+    "id": "bosch:744000046275615",
+    "kind": "job",
+    "title": "Research Scientist - Time Series （上海）_CR",
+    "organization": "博世",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000046275615-research-scientist-time-series-cr",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "applied",
+      "research"
+    ],
+    "evidence": "A",
+    "source": "manual:bosch",
+    "published_at": null,
+    "summary": "研发用于工业预测、异常检测和流程优化的时序模型，并与高校合作验证原型。",
+    "status": "observed",
+    "location": "上海",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "博世人工智能研究中心",
+    "requirements": [
+      "计算机、自动化、人工智能、应用数学等相关理工科博士",
+      "熟练使用 PyTorch 等深度学习框架",
+      "英语流利，顶刊或顶会论文优先"
+    ]
+  },
+  {
+    "id": "bosch:744000108077492",
+    "kind": "job",
+    "title": "静态感知算法工程师/专家 _XC",
+    "organization": "博世",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000108077492--xc",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:bosch",
+    "published_at": null,
+    "summary": "研发城区道路结构感知和长时空时序模型，支持端到端行车引导。",
+    "status": "observed",
+    "location": "上海",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "硕士及以上学历，有自动驾驶行业背景",
+      "有城区静态感知项目量产经验者优先"
+    ]
+  },
+  {
+    "id": "bosch:744000033774495",
+    "kind": "job",
+    "title": "多任务学习算法工程师-XC",
+    "organization": "博世",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000033774495--xc",
+    "region": "CN",
+    "topics": [
+      "mle",
+      "research"
+    ],
+    "evidence": "A",
+    "source": "manual:bosch",
+    "published_at": null,
+    "summary": "研发行车与泊车感知任务联合训练框架，优化任务冲突、模型泛化和部署。",
+    "status": "observed",
+    "location": "上海",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "requirements": [
+      "计算机、电子工程、自动化等相关专业硕士及以上，博士优先",
+      "三年以上计算机视觉算法开发经验",
+      "熟悉多任务学习和 Transformer、BEV 等感知算法"
+    ]
+  },
+  {
+    "id": "tencent:2100835478730358784",
+    "kind": "job",
+    "title": "AI infra研发工程师(北京/深圳)",
+    "organization": "腾讯",
+    "url": "https://careers.tencent.com/jobdesc.html?postId=2100835478730358784",
+    "region": "CN",
+    "topics": [
+      "inference",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:tencent",
+    "published_at": null,
+    "summary": "为自研芯片构建高性能训练与推理框架，分析模型全链路性能瓶颈。",
+    "status": "observed",
+    "location": "北京、深圳",
+    "updated_at": "2026-10-09",
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "TEG",
+    "requirements": [
+      "三年以上工作经验，熟悉 Linux、Python 和 C++",
+      "熟悉 GPU 或 SIMD 编程及性能分析工具",
+      "熟悉 PyTorch、Megatron、DeepSpeed、vLLM 或 SGLang 等框架"
+    ]
+  },
+  {
+    "id": "amazon:10504493",
+    "kind": "job",
+    "title": "Applied Scientist (2026-27 Campus, International Technology Team), Shanghai",
+    "organization": "Amazon",
+    "url": "https://amazon.jobs/en-gb/jobs/10504493/applied-scientist-2026-27-campus-international-technology-team-shanghai",
+    "region": "CN",
+    "topics": [
+      "applied",
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:amazon",
+    "published_at": null,
+    "summary": "应届校招。为亚马逊商品搜索和推荐研发 NLP、信息检索与生成式 AI 模型，验证线上与离线效果。",
+    "status": "observed",
+    "location": "上海",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:30:02Z",
+    "department": "International Technology 搜索团队",
+    "requirements": [
+      "2026 年 10 月至 2027 年 9 月毕业，相关专业硕士或博士",
+      "具备机器学习、实验设计、统计分析和模型评估基础",
+      "熟练使用 Python、Java 或 C++，了解 NLP、检索、推荐或生成式 AI",
+      "官网基础资格列明中国国籍"
+    ]
+  },
+  {
+    "id": "company:baidu",
+    "kind": "company",
+    "title": "百度",
+    "organization": "百度",
+    "url": "https://talent.baidu.com/jobs/social",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "mle",
+      "inference",
+      "applied"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "百度在中国大陆的岗位覆盖智能云、智能驾驶和基础模型研发，可按团队查看预测、运筹和推理岗位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:34:06Z"
+  },
+  {
+    "id": "company:deepseek",
+    "kind": "company",
+    "title": "DeepSeek",
+    "organization": "DeepSeek",
+    "url": "https://talent.deepseek.com/",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle",
+      "inference"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "深度求索在官方招聘站按深度学习、AI 核心系统研发和全栈开发／算法等方向发布职位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:34:06Z"
+  },
+  {
+    "id": "company:meituan",
+    "kind": "company",
+    "title": "美团",
+    "organization": "美团",
+    "url": "https://www.meituan.com/",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "applied",
+      "inference"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "美团经营本地生活服务。本站收录其预测、策略优化与 AI 系统方向的公开岗位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:34:06Z"
+  },
+  {
+    "id": "company:tencent",
+    "kind": "company",
+    "title": "腾讯",
+    "organization": "腾讯",
+    "url": "https://www.tencent.com/zh-cn/who-we-are/",
+    "region": "CN",
+    "topics": [
+      "mle",
+      "inference"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "腾讯经营互联网产品与数字服务。本站收录其官方职位页发布的 AI 岗位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:34:06Z"
+  },
+  {
+    "id": "company:bosch",
+    "kind": "company",
+    "title": "博世",
+    "organization": "博世",
+    "url": "https://www.bosch.com.cn/",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "博世在华经营智能出行和工业技术业务。本站收录其上海研发团队发布的时序建模与机器学习岗位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:34:06Z"
+  },
+  {
+    "id": "company:xpeng",
+    "kind": "company",
+    "title": "小鹏汽车",
+    "organization": "小鹏汽车",
+    "url": "https://www.xiaopeng.com/join.html",
+    "region": "CN",
+    "topics": [
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "小鹏汽车招聘官网连接社会招聘和校园招聘。本站收录其机器人研发中心公开发布的岗位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:34:06Z"
+  },
+  {
+    "id": "company:axq",
+    "kind": "company",
+    "title": "安贤投资（AXQ Capital）",
+    "organization": "安贤投资（AXQ Capital）",
+    "url": "https://www.axqcap.com/careers/",
+    "region": "CN",
+    "topics": [
+      "timeseries",
+      "research",
+      "mle"
+    ],
+    "evidence": "A",
+    "source": "manual:company",
+    "published_at": null,
+    "summary": "安贤投资在北京和上海开展量化研究与技术招聘。本站收录其公开职位板上的量化研究及机器学习系统岗位。",
+    "status": "reference",
+    "location": "",
+    "updated_at": null,
+    "collected_at": "2026-11-11T19:35:35Z"
   }
 ]

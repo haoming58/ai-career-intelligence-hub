@@ -1,0 +1,230 @@
+[
+  {
+    "organization": "百度",
+    "region": "CN",
+    "title": "百度招聘流程",
+    "scope": "百度招聘帮助中的通用流程，覆盖社会招聘、校园招聘和实习招聘。",
+    "url": "https://talent.baidu.com/mobile/recruit/help.html",
+    "checked_at": "2026-11-11",
+    "stages": [
+      {
+        "title": "注册与投递",
+        "description": "登录招聘系统，完善简历并申请相应职位。"
+      },
+      {
+        "title": "简历筛选",
+        "description": "招聘方按职位要求筛选申请材料，候选人可登录个人中心查看状态。"
+      },
+      {
+        "title": "笔试",
+        "description": "招聘帮助将笔试列为通用流程中的一个环节，具体安排见招聘通知。"
+      },
+      {
+        "title": "面试",
+        "description": "依据招聘方通知参加面试，职位帮助页提供申请进度查询方式。"
+      },
+      {
+        "title": "录用",
+        "description": "招聘帮助将录用列为流程的最后一步。"
+      }
+    ],
+    "note": "帮助页介绍的是通用流程。是否笔试、面试轮数和时间以职位或招聘方通知为准。"
+  },
+  {
+    "organization": "Amazon",
+    "region": "UK",
+    "title": "Amazon Applied Scientist 面试指南",
+    "scope": "适用于 Applied Scientist 岗位的官方准备指南。",
+    "url": "https://amazon.jobs/content/en/how-we-hire/applied-scientist-interview-prep",
+    "checked_at": "2026-11-11",
+    "roleIds": [
+      "amazon:10556295",
+      "amazon:10526455"
+    ],
+    "stages": [
+      {
+        "title": "职位申请",
+        "description": "通过招聘站提交申请，招聘方核对基本任职条件。"
+      },
+      {
+        "title": "技术初筛",
+        "description": "指南介绍一至两次技术电话面试，涵盖科学与技术问题，以及围绕 Leadership Principles 的行为问题。"
+      },
+      {
+        "title": "正式面试",
+        "description": "指南描述四场面试，每场约 55 分钟。准备范围包括问题求解、编码、专业深度与广度、技术分享和过往行为案例。"
+      },
+      {
+        "title": "结果与录用沟通",
+        "description": "指南列出面试结果通知和通过后的录用沟通。"
+      }
+    ],
+    "note": "指南所述轮次和时长用于准备，具体团队安排以招聘方通知为准。"
+  },
+  {
+    "organization": "Anthropic",
+    "region": "UK",
+    "title": "Anthropic 官方面试说明",
+    "ordered": false,
+    "scope": "Anthropic Careers 公布的通用面试说明，含技术岗准备方向。",
+    "url": "https://www.anthropic.com/careers#how-we-hire",
+    "checked_at": "2026-11-11",
+    "stages": [
+      {
+        "title": "准备申请材料",
+        "description": "技术岗候选人可在简历中突出独立研究、技术文章或开源贡献。"
+      },
+      {
+        "title": "远程面试",
+        "description": "官方说明称面试通过 Google Meet 进行，并可协调时区。"
+      },
+      {
+        "title": "技术岗现场编码",
+        "description": "技术岗使用 Colab 或 CodeSignal 等工具开展现场编码。面试还会讨论过往经历和申请动机，并留出提问时间。"
+      }
+    ],
+    "note": "官方页面公开了形式和评估内容，具体轮次与各轮安排以招聘方通知为准。"
+  },
+  {
+    "organization": "博世",
+    "region": "CN",
+    "title": "博世集团招聘常见问题",
+    "ordered": false,
+    "scope": "集团发布的通用应聘流程，具体安排因国家和岗位而异。",
+    "url": "https://www.bosch.com/careers/faq/",
+    "checked_at": "2026-11-11",
+    "stages": [
+      {
+        "title": "在线申请",
+        "description": "在岗位页提交申请并上传职位所需材料。"
+      },
+      {
+        "title": "筛选",
+        "description": "招聘团队审核申请材料，可在候选人账户查看状态。"
+      },
+      {
+        "title": "面试",
+        "description": "通常安排一次或多次视频或现场面试。"
+      },
+      {
+        "title": "测评或案例",
+        "description": "部分岗位可能安排技术测评、编码、案例或展示。招聘方会提前说明。"
+      }
+    ],
+    "note": "中国岗位的材料要求、面试语言和安排以对应招聘公告和联系人为准。"
+  },
+  {
+    "organization": "美团",
+    "region": "CN",
+    "title": "美团社会招聘流程",
+    "scope": "美团招聘常见问题中的社会招聘说明。",
+    "url": "https://zhaopin.meituan.com/web/question/social",
+    "checked_at": "2026-11-11",
+    "roleIds": [
+      "meituan:4761247735"
+    ],
+    "stages": [
+      {
+        "title": "职位投递",
+        "description": "通过招聘站查看岗位职责和要求，提交申请。"
+      },
+      {
+        "title": "面试",
+        "description": "官方列出初试、复试和 HR 面试等环节。岗位的面试形式和轮次可在邀约时确认。"
+      },
+      {
+        "title": "录用沟通与背景调查",
+        "description": "面试通过后，流程通常进入录用沟通和背景调查。"
+      },
+      {
+        "title": "办理入职",
+        "description": "根据招聘方通知办理入职。"
+      }
+    ],
+    "note": "以上为美团公开的社招通用流程。"
+  },
+  {
+    "organization": "美团",
+    "region": "CN",
+    "title": "美团校园招聘常见问题",
+    "scope": "美团官方校招 FAQ，涵盖应届招聘与 LongCat、北斗等校招项目。",
+    "url": "https://zhaopin.meituan.com/web/question/campus",
+    "checked_at": "2026-11-11",
+    "roleIds": [
+      "meituan:4177318569",
+      "meituan:4697320030",
+      "meituan:4683995941"
+    ],
+    "stages": [
+      {
+        "title": "网申与简历初筛",
+        "description": "在校招官网提交职位、意向部门及城市等信息，初筛进展可在投递记录中查看。"
+      },
+      {
+        "title": "笔试安排",
+        "description": "官方 FAQ 介绍了笔试通知和查询方式。应届招聘候选人通过简历初筛后收到笔试安排，部分符合条件的候选人可沿用已有成绩。"
+      },
+      {
+        "title": "面试安排",
+        "description": "部门根据简历与岗位的匹配度发起邀约。邮件、短信和投递记录可用于核对进展。"
+      }
+    ],
+    "note": "具体项目和实习岗位的笔试要求、面试轮次和时间以对应职位及招聘通知为准。"
+  },
+  {
+    "organization": "腾讯",
+    "region": "CN",
+    "title": "腾讯社会招聘流程",
+    "scope": "腾讯招聘官网公布的社会招聘应聘流程。",
+    "url": "https://careers.tencent.com/jobopportunity.html",
+    "checked_at": "2026-11-11",
+    "roleIds": [
+      "tencent:2100835478730358784"
+    ],
+    "stages": [
+      {
+        "title": "职位投递",
+        "description": "查看岗位要求，完善简历后提交申请。"
+      },
+      {
+        "title": "专业面试",
+        "description": "收到邀约后参加专业初试和复试。腾讯说明复试轮次因岗位而异。"
+      },
+      {
+        "title": "HR 面试",
+        "description": "官网将 HR 资格面试列入社招流程。"
+      },
+      {
+        "title": "录用与入职",
+        "description": "接受录用通知后进入背景调查及入职环节。"
+      }
+    ],
+    "note": "具体轮次、形式和时间以招聘方通知为准。"
+  },
+  {
+    "organization": "Amazon",
+    "region": "CN",
+    "title": "Amazon 通用招聘流程",
+    "scope": "Amazon 招聘站公布的通用面试环节，可用于了解上海校招岗位的准备方向。",
+    "url": "https://amazon.jobs/content/en/how-we-hire",
+    "checked_at": "2026-11-11",
+    "roleIds": [
+      "amazon:10504493"
+    ],
+    "stages": [
+      {
+        "title": "在线投递",
+        "description": "通过职位页面填写和提交申请。"
+      },
+      {
+        "title": "可能的测评或电话初筛",
+        "description": "Amazon 将在线测评和电话初筛列为常见环节，采用哪种方式取决于职位。"
+      },
+      {
+        "title": "可能的多场面试",
+        "description": "官方页面介绍了由多场面试组成的面试流程，也提供校园岗位准备资源。"
+      }
+    ],
+    "note": "上海岗位公告未给出专属面试轮次、测评或时长。请以实际邀约为准。"
+  }
+]

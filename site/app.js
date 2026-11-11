@@ -8,8 +8,9 @@ const states = {listed: "官方职位板在列", observed: "人工核验样本",
   out_of_scope: "已超出监测范围", reference: "资料"};
 const workTypes = {skill: "能力", research: "科研项目", engineering: "工程项目", learning: "学习计划"};
 const workStates = {planned: "待开始", active: "进行中", done: "已完成"};
-const views = new Set(["overview", "catalog", "workspace", "reports"]);
+const views = new Set(["overview", "companies", "job", "catalog", "workspace", "reports"]);
 const storeKey = "career-intelligence-hub:v1";
+const undisclosedDepartment = "部门未公开";
 
 function html(value) {
   return String(value ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"}[c]));
@@ -30,9 +31,13 @@ function options(labels, active, all) {
   ).join("");
 }
 
-function catalogUrl(filters = {}) {
+function viewUrl(view, filters = {}) {
   const query = new URLSearchParams(Object.entries(filters).filter(([, value]) => value));
-  return "#catalog" + (query.size ? "?" + query.toString() : "");
+  return "#" + view + (query.size ? "?" + query.toString() : "");
+}
+
+function catalogUrl(filters = {}) {
+  return viewUrl("catalog", filters);
 }
 
 function filterCatalog(records, filters = {}) {
@@ -44,7 +49,8 @@ function filterCatalog(records, filters = {}) {
         (filters.region && row.region !== filters.region) ||
         (filters.topic && !row.topics.includes(filters.topic)) ||
         (filters.status && row.status !== filters.status)) return false;
-    const haystack = [row.title, row.organization, row.location, row.summary, row.id,
+    const haystack = [row.title, row.organization, row.department, row.location, row.summary, row.id,
+      ...(row.requirements || []),
       kinds[row.kind], regions[row.region], ...row.topics.map(topic => topics[topic])].join(" ").toLowerCase();
     return terms.every(term => haystack.includes(term));
   }).sort((a, b) => b.first_seen.localeCompare(a.first_seen) ||
@@ -56,10 +62,33 @@ function route(hash) {
   return {view: views.has(view) ? view : "overview", params: Object.fromEntries(new URLSearchParams(query))};
 }
 
-function link(row, label = row.title) {
+function link(row, label = row.title, className = "") {
   const url = new URL(row.url);
   if (url.protocol !== "https:") return html(label);
-  return '<a href="' + html(url.href) + '" target="_blank" rel="noopener noreferrer">' + html(label) + '</a>';
+  return '<a href="' + html(url.href) + '" target="_blank" rel="noopener noreferrer"' +
+    (className ? ' class="' + html(className) + '"' : "") + '>' + html(label) + '</a>';
+}
+
+function pageLink(view, params, label, className = "") {
+  return '<a href="' + html(viewUrl(view, params)) + '"' + (className ? ' class="' + className + '"' : "") +
+    '>' + html(label) + '</a>';
+}
+
+function jobLink(row, label = row.title) {
+  return pageLink("job", {id: row.id}, label);
+}
+
+function department(row) {
+  return row.department || undisclosedDepartment;
+}
+
+function recruiting(row) {
+  return row.status === "listed" || row.status === "observed";
+}
+
+function jobState(row) {
+  const color = row.status === "listed" ? "green" : recruiting(row) ? "" : "amber";
+  return chip(states[row.status], color);
 }
 
 function chip(label, color = "") {
@@ -90,29 +119,30 @@ function plot(labels, totals) {
 
 function overview(catalog) {
   const {records, sources} = catalog;
-  const activeSamples = filterCatalog(records, {kind: "job"})
-    .filter(row => ["listed", "observed"].includes(row.status)).slice(0, 5);
-  const totals = counts(records, "kind");
-  const topicsTotal = counts(records, "topics");
+  const openings = filterCatalog(records, {kind: "job"}).filter(recruiting);
   const sourceChecks = Object.entries(sources);
   const failed = sourceChecks.filter(([, value]) => value.error);
   const latest = sourceChecks.map(([, value]) => value.success_at || "").sort().at(-1);
-  return '<header class="hero"><h1>AI 职业情报站</h1><p>面向时间序列建模博士，追踪中国大陆与英国的 AI 岗位、产业报告和技术项目。</p>' +
-    '<a class="button" href="#catalog">浏览情报库 →</a></header>' +
-    '<section class="stats" aria-label="情报库记录数">' + [
-      ["招聘记录", totals.job, {kind: "job"}], ["企业档案", totals.company, {kind: "company"}],
-      ["论文与项目", (totals.paper || 0) + (totals.project || 0), {kind: "technical"}], ["产业报告", totals.report, {kind: "report"}]
-    ].map(([label, count, filter]) => '<a class="stat" href="' + catalogUrl(filter) + '"><span>' +
-      label + '</span><strong>' + (count || 0) + '</strong></a>').join("") + '</section>' +
-    '<div class="columns"><section class="panel"><div class="heading"><h2>近期岗位样本</h2><a href="#catalog?kind=job">查看岗位 →</a></div>' +
-    (activeSamples.length ? '<ul class="feed">' + activeSamples.map(row => '<li>' + link(row) + '<small>' +
-      html([row.organization, row.location, states[row.status]].join(" · ")) + '</small></li>').join("") + '</ul>' :
-      '<p class="muted">暂无在列或人工核验样本。</p>') +
-    '</section><section class="panel"><div class="heading"><h2>技术方向分布</h2></div>' + plot(topics, topicsTotal) +
-    '</section></div><section aria-label="按方向探索"><h2>按方向探索</h2><div class="tiles">' +
-    Object.entries(topics).map(([key, label]) => '<a class="tile" href="' + catalogUrl({topic: key}) + '">' +
-      label + '<small>↗</small></a>').join("") + '</div></section>' +
-    '<section class="panel"><div class="heading"><h2>采集状态</h2></div>' +
+  const marketSections = ["CN", "UK"].map(region => {
+    const jobs = openings.filter(row => row.region === region);
+    const employers = new Set(jobs.map(row => row.organization)).size;
+    return '<section class="market"><div class="market-heading"><div><h2>' + regions[region] + '</h2><p>' +
+      jobs.length + ' 个在列或人工核验岗位 / ' + employers + ' 家雇主</p></div>' +
+      pageLink("companies", {region}, "浏览公司", "button secondary") + '</div>' +
+      (jobs.length ? '<ul class="feed">' + jobs.slice(0, 4).map(row => '<li>' + jobLink(row) + '<small>' +
+        html([row.organization, department(row), row.location].filter(Boolean).join(" / ")) + '</small></li>').join("") + '</ul>' :
+        '<p class="muted">暂无在列或人工核验样本。</p>') + '</section>';
+  }).join("");
+  return '<header class="hero"><div><h1>AI 职业情报站</h1><p>按公司与部门找岗位，查看官方申请入口，准备技术面试。</p></div>' +
+    '<a class="button" href="#companies?region=CN">探索中国大陆岗位</a></header>' +
+    '<div class="market-grid">' + marketSections + '</div>' +
+    '<section class="direction-section" aria-label="按方向查找岗位"><h2>按方向查找岗位</h2><div class="tiles">' +
+    Object.entries(topics).map(([key, label]) => '<a class="tile" href="' + html(catalogUrl({kind: "job", topic: key})) + '">' +
+      label + '</a>').join("") + '</div></section>' +
+    '<section class="panel"><div class="heading"><h2>研究与产业</h2><a href="#catalog">查看完整情报库</a></div>' +
+    '<div class="resource-links"><a href="#catalog?kind=technical">论文与开源项目</a><a href="#catalog?kind=report">产业报告</a>' +
+    '<a href="#catalog?kind=company">企业资料</a></div></section>' +
+    '<section class="source-panel"><div class="heading"><h2>采集状态</h2></div>' +
     (sourceChecks.length ? '<p class="meta">最近成功采集 ' + html(timeLabel(latest)) + '</p><details><summary>查看 ' +
       sourceChecks.length + ' 个接口</summary><ul class="source-list">' + sourceChecks.map(([name, source]) =>
         '<li>' + html(name) + '<small>' + (source.error ? "请求失败 · " + html(source.error) : "请求成功") +
@@ -123,19 +153,125 @@ function overview(catalog) {
 }
 
 function entry(row) {
-  const colored = row.status === "listed" ? "green" :
-    ["unlisted", "out_of_scope"].includes(row.status) ? "amber" : "";
   return '<article class="entry"><div class="chips">' + chip(kinds[row.kind]) +
-    (row.kind === "job" ? chip(states[row.status], colored) : "") + chip("证据 " + row.evidence) +
-    '</div><h3>' + link(row) + '</h3><p class="meta">' + html([row.organization, regions[row.region], row.location]
-      .filter(Boolean).join(" · ")) + '</p>' +
+    (row.kind === "job" ? jobState(row) : "") + chip("证据 " + row.evidence) +
+    '</div><h3>' + (row.kind === "job" ? jobLink(row) : link(row)) + '</h3><p class="meta">' +
+    html([row.organization, row.department, regions[row.region], row.location].filter(Boolean).join(" / ")) + '</p>' +
     (row.summary ? '<p class="summary">' + html(row.summary) + '</p>' : "") +
     '<div class="chips">' + row.topics.map(topic => chip(topics[topic])).join("") + '</div>' +
     '<p class="meta">发布 ' + html(dateLabel(row.published_at)) + ' · 最近采集 ' + html(timeLabel(row.last_seen)) + '</p>' +
-    '<details><summary>来源与历史 (' + row.history.length + ')</summary><p>' + link(row, "打开原始来源 ↗") +
+    recordHistory(row) + '</article>';
+}
+
+function recordHistory(row) {
+  return '<details><summary>来源与历史 (' + row.history.length + ')</summary><p>' + link(row, "打开原始来源") +
     ' · ' + html(row.source) + '</p><ol class="history">' + row.history.map(event =>
       '<li>' + html(timeLabel(event.at)) + ' · ' + html(states[event.value.status]) + ' · ' +
-      html(event.value.title) + '</li>').join("") + '</ol></details></article>';
+      html(event.value.title) + '</li>').join("") + '</ol></details>';
+}
+
+function hiringGuides(guides, row) {
+  return guides.filter(guide => guide.organization === row.organization &&
+    (!guide.region || guide.region === row.region) &&
+    (!guide.roleIds || guide.roleIds.includes(row.id)) &&
+    (!guide.topics || guide.topics.some(topic => row.topics.includes(topic))));
+}
+
+function crumbs(items) {
+  return '<nav class="crumbs" aria-label="当前位置"><ol>' + items.map(item =>
+    '<li>' + item + '</li>').join("") + '</ol></nav>';
+}
+
+function vacancyList(rows) {
+  return '<ul class="vacancy-list">' + rows.map(row => '<li><div>' + jobLink(row) +
+    '<p>' + html([row.location, ...row.topics.map(topic => topics[topic])].filter(Boolean).join(" / ")) +
+    '</p></div>' + jobState(row) + '</li>').join("") + '</ul>';
+}
+
+function companyDirectory(records, params) {
+  const region = ["CN", "UK"].includes(params.region) ? params.region : "";
+  const jobs = filterCatalog(records, {kind: "job", region});
+  const groups = Map.groupBy(jobs, row => row.organization);
+  const directory = pageLink("companies", {region}, region ? regions[region] + "公司" : "公司与岗位");
+  if (params.org) {
+    const companyJobs = groups.get(params.org) || [];
+    const profile = records.find(row => row.kind === "company" && row.organization === params.org);
+    const departments = Map.groupBy(companyJobs, department);
+    const activeDepartment = departments.has(params.dept) ? params.dept : "";
+    const selected = activeDepartment ? [[activeDepartment, departments.get(activeDepartment)]] : [...departments];
+    return crumbs([directory, '<span aria-current="page">' + html(params.org) + '</span>']) +
+      intro(html(params.org), profile?.summary ? html(profile.summary) : "查看该公司公开的部门、招聘分组与岗位。") +
+      (profile ? '<p class="company-source">' + link(profile, "公司官方资料") + '</p>' : "") +
+      (companyJobs.length ? '<div class="segments" aria-label="部门或招聘分组筛选">' +
+        [["", "全部部门"], ...[...departments.keys()].map(name => [name, name])].map(([value, name]) =>
+          '<a href="' + html(viewUrl("companies", {region, org: params.org, dept: value})) + '"' +
+          (value === activeDepartment ? ' aria-current="true"' : "") + '>' + html(name) + '</a>').join("") + '</div>' +
+        '<div class="department-list">' + selected.map(([name, rows]) =>
+          '<section class="department"><div class="heading"><h2>' + html(name) + '</h2><span class="meta">' +
+          rows.length + ' 个岗位记录</span></div>' + vacancyList(rows) + '</section>').join("") + '</div>' :
+        '<p class="empty">该公司在当前地区暂无岗位记录。</p>');
+  }
+  const ordered = [...groups].sort((a, b) =>
+    b[1].filter(recruiting).length - a[1].filter(recruiting).length || a[0].localeCompare(b[0], "zh-CN"));
+  return intro("公司与岗位", "按地区查看雇主，再进入部门和具体岗位。数量来自本站已核验的招聘样本。") +
+    '<div class="segments" aria-label="地区筛选">' + [["", "全部地区"], ["CN", regions.CN], ["UK", regions.UK]]
+      .map(([value, name]) => '<a href="' + html(viewUrl("companies", {region: value})) + '"' +
+        (value === region ? ' aria-current="true"' : "") + '>' + name + '</a>').join("") + '</div>' +
+    (ordered.length ? '<div class="company-list"><p class="meta list-caption">' + ordered.length +
+      ' 家雇主 / ' + jobs.length + ' 个岗位记录</p><ul>' + ordered.map(([organization, rows]) => {
+      const places = [...new Set(rows.map(row => regions[row.region]))].join(" / ");
+      const known = new Set(rows.filter(row => row.department).map(department)).size;
+      return '<li><a class="company-row" href="' + html(viewUrl("companies", {region, org: organization})) +
+        '"><span><strong>' + html(organization) + '</strong><small>' + html(places) +
+        (known ? " / " + known + " 个已知部门" : "") + '</small></span><span class="company-count"><strong>' +
+        rows.filter(recruiting).length + '</strong><small>在列或人工核验</small></span></a></li>';
+    }).join("") + '</ul></div>' : '<p class="empty">当前地区暂无岗位记录。</p>');
+}
+
+function jobDetail(row, guides, questions, roleQuestions = {}) {
+  if (!row) return intro("岗位详情", "未找到该岗位记录。") + '<a href="#companies">返回公司与岗位</a>';
+  const org = {region: row.region, org: row.organization};
+  const matchingGuides = hiringGuides(guides, row);
+  const exercises = questions.filter(question => row.topics.includes(question.topic));
+  const specificExercise = roleQuestions[row.id];
+  const qualifications = row.requirements || [];
+  const steps = matchingGuides.map(guide => {
+    const list = guide.ordered === false ? "ul" : "ol";
+    return '<section class="guide"><h3>' + html(guide.title) + '</h3><p class="meta">' + html(guide.scope) +
+      '</p><' + list + ' class="hiring-steps">' + guide.stages.map(stage =>
+        '<li><strong>' + html(stage.title) + '</strong><p>' + html(stage.description) + '</p></li>').join("") +
+      '</' + list + '>' + (guide.note ? '<p class="meta">' + html(guide.note) + '</p>' : "") +
+      '<p class="guide-source">' + link(guide, "查看官方流程说明") +
+      ' <span class="meta">核验 ' + html(dateLabel(guide.checked_at)) + '</span></p></section>';
+  }).join("");
+  return crumbs([pageLink("companies", {region: row.region}, "公司与岗位"),
+    pageLink("companies", org, row.organization), pageLink("companies", {...org, dept: department(row)}, department(row)),
+    '<span aria-current="page">岗位详情</span>']) +
+    '<header class="job-header"><div><div class="chips">' + jobState(row) + chip("证据 " + row.evidence) +
+    '</div><h1>' + html(row.title) + '</h1><p>' + html([row.organization, department(row), row.location]
+      .filter(Boolean).join(" / ")) + '</p></div>' +
+    link(row, recruiting(row) ? "打开官方岗位与投递入口" : "查看原始岗位页", "button") + '</header>' +
+    '<div class="job-layout"><div class="job-main"><section class="panel job-section"><h2>岗位职责与要求</h2>' +
+    (row.summary ? '<p>' + html(row.summary) + '</p>' : '<p>岗位职责以官方职位描述为准。</p>') +
+    (qualifications.length ? '<ul>' + qualifications.map(item => '<li>' + html(item) + '</li>').join("") + '</ul>' :
+      '<p class="meta">具体资格要求请查看官方岗位页。</p>') +
+    '<div class="chips">' + row.topics.map(topic => chip(topics[topic])).join("") + '</div></section>' +
+    '<section class="panel job-section"><h2>官方申请与面试流程</h2>' +
+    (steps || '<p>当前没有核验到适用于该岗位的公开面试流程。可从官方岗位页投递，并向招聘方确认是否有笔试、面试轮次和考察方式。</p>') +
+    '</section><section class="panel job-section"><h2>面试准备</h2><p>根据公开岗位描述与技术方向设计的练习。</p>' +
+    '<ul><li>对照职位要求，准备一段能说明你的贡献、实验结果和取舍的项目经历。</li>' +
+    '<li>准备一份可展示的论文、代码或系统指标，并能解释局限和后续实验。</li></ul>' +
+    (specificExercise ? '<div class="role-exercise"><h3>岗位场景练习</h3>' +
+      '<details class="question"><summary>' + html(specificExercise.title) + '</summary><p>' +
+      html(specificExercise.answer) + '</p></details></div>' : "") +
+    (exercises.length ? '<div class="questions">' + exercises.map(question =>
+      '<details class="question"><summary>' + html(question.title) + '</summary><p>' + html(question.answer) +
+      '</p></details>').join("") + '</div>' : "") + '<p>' +
+    pageLink("workspace", {topic: row.topics[0]}, "在面试题库中复习") + '</p></section></div>' +
+    '<aside class="panel job-section job-meta"><h2>岗位来源</h2><dl><dt>地区</dt><dd>' + html(regions[row.region]) +
+    '</dd><dt>发布时间</dt><dd>' + html(dateLabel(row.published_at)) + '</dd><dt>最近核验</dt><dd>' +
+    html(timeLabel(row.last_seen)) + '</dd><dt>记录编号</dt><dd>' + html(row.id) + '</dd></dl>' +
+    recordHistory(row) + '</aside></div>';
 }
 
 function renderCatalog(app, records, params) {
@@ -181,7 +317,7 @@ function readWorkspace() {
   return {items: [], doneQuestions: []};
 }
 
-function renderWorkspace(app, starter, workspace) {
+function renderWorkspace(app, starter, workspace, initialTopic = "") {
   let editId = null;
   let confirmDeleteId = null;
   let typeFilter = "";
@@ -197,7 +333,7 @@ function renderWorkspace(app, starter, workspace) {
     '<div class="workspace-list"><label>按类别查看<select id="work-filter">' + options(workTypes, "", "全部类别") + '</select></label>' +
     '<div class="workspace-list" id="work-items"></div></div></section>' +
     '<section class="panel"><div class="heading"><h2>面试题库</h2><span id="practice-count" class="meta"></span></div>' +
-    '<label>题目方向<select id="question-filter">' + options(topics, "", "全部方向") + '</select></label>' +
+    '<label>题目方向<select id="question-filter">' + options(topics, initialTopic, "全部方向") + '</select></label>' +
     '<div class="questions workspace-list" id="questions"></div></section></div>';
 
   const form = app.querySelector("#work-form");
@@ -354,16 +490,25 @@ async function fetchJson(path) {
 async function start() {
   const app = document.querySelector("#app");
   try {
-    const [catalog, starter] = await Promise.all([fetchJson("./catalog.json"), fetchJson("./starter.json")]);
+    const [catalog, starter, guides] = await Promise.all([
+      fetchJson("./catalog.json"), fetchJson("./starter.json"), fetchJson("./hiring.json")
+    ]);
     const workspace = readWorkspace();
     function render() {
       const {view, params} = route(location.hash);
       document.querySelectorAll(".nav a").forEach(a => {
-        if (a.hash === "#" + view) a.setAttribute("aria-current", "page");
+        if (a.hash === "#" + view || (view === "job" && a.hash === "#companies")) {
+          a.setAttribute("aria-current", "page");
+        }
         else a.removeAttribute("aria-current");
       });
       if (view === "catalog") renderCatalog(app, catalog.records, params);
-      else if (view === "workspace") renderWorkspace(app, starter, workspace);
+      else if (view === "companies") app.innerHTML = companyDirectory(catalog.records, params);
+      else if (view === "job") {
+        const job = catalog.records.find(row => row.kind === "job" && row.id === params.id);
+        app.innerHTML = jobDetail(job, guides, starter.questions, starter.roleQuestions);
+      }
+      else if (view === "workspace") renderWorkspace(app, starter, workspace, params.topic);
       else if (view === "reports") app.innerHTML = renderReports(catalog.reports);
       else app.innerHTML = overview(catalog);
       app.setAttribute("aria-busy", "false");
@@ -386,4 +531,7 @@ async function start() {
 }
 
 if (typeof document !== "undefined") start();
-if (typeof module !== "undefined") module.exports = {filterCatalog, catalogUrl, route, overview, entry, renderReports};
+if (typeof module !== "undefined") {
+  module.exports = {filterCatalog, catalogUrl, route, overview, entry, renderReports,
+    companyDirectory, hiringGuides, jobDetail};
+}
