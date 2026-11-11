@@ -1,5 +1,6 @@
 """Collect public metadata, retain observations, and build a static Pages site."""
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -346,6 +347,12 @@ def monthly_report(state, month):
 
 def build(state):
     shutil.copytree(SITE, DIST, dirs_exist_ok=True)
+    index = DIST / "index.html"
+    html = index.read_text(encoding="utf-8")
+    for asset in ("style.css", "app.js"):
+        version = hashlib.sha256((DIST / asset).read_bytes()).hexdigest()[:12]
+        html = html.replace(f'"./{asset}"', f'"./{asset}?v={version}"')
+    index.write_text(html, encoding="utf-8", newline="\n")
     reports = [load(path) for path in sorted((DATA / "reports").glob("????-??.json"), reverse=True)]
     dump(DIST / "catalog.json", {
         "records": sorted(state["records"].values(), key=lambda row: row["id"]),

@@ -139,4 +139,6 @@ class HubTests(unittest.TestCase):
             self.assertEqual(len(built["records"]), len(catalog["records"]))
             for path in ("index.html", "style.css", "app.js", "starter.json"):
                 self.assertTrue((Path(folder) / path).is_file())
+            html = (Path(folder) / "index.html").read_text(encoding="utf-8")
+            self.assertRegex(html, r'app\.js\?v=[0-9a-f]{12}')
             self.assertNotIn("workspace", built)
