@@ -808,7 +808,7 @@
       ],
       "id": "arxiv:2611.08713",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Shuo Rong, Ruibo Fan, Jiawen Wen",
       "published_at": "2026-11-05T21:09:26Z",
@@ -853,7 +853,7 @@
       ],
       "id": "arxiv:2611.08950",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Wei Fan, JinYi Yoon, Bo Ji",
       "published_at": "2026-11-06T03:58:34Z",
@@ -898,7 +898,7 @@
       ],
       "id": "arxiv:2611.10165",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Akshat Ramachandran, Reena Elangovan, Rangharajan Venkatesan",
       "published_at": "2026-11-06T19:40:19Z",
@@ -943,7 +943,7 @@
       ],
       "id": "arxiv:2611.10193",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Saul Urso, Emanuele Carlini, Patrizio Dazzi",
       "published_at": "2026-11-06T20:12:09Z",
@@ -988,7 +988,7 @@
       ],
       "id": "arxiv:2611.11036",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Zhiyu An, Yiping Li, Wan Du",
       "published_at": "2026-11-08T00:37:16Z",
@@ -1033,7 +1033,7 @@
       ],
       "id": "arxiv:2611.11319",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Devanshu Jha, Gaurav Kumar, Agniva Chowdhury",
       "published_at": "2026-11-08T11:43:34Z",
@@ -1078,7 +1078,7 @@
       ],
       "id": "arxiv:2611.11761",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Payman Behnam, Debopam Sanyal, Pranav Ponnusamy",
       "published_at": "2026-11-09T02:03:03Z",
@@ -1123,7 +1123,7 @@
       ],
       "id": "arxiv:2611.12285",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Xingpeng Gao, Mingyue Cheng, Daoyu Wang",
       "published_at": "2026-11-09T12:12:18Z",
@@ -1168,7 +1168,7 @@
       ],
       "id": "arxiv:2611.13490",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Qiuyuan Chen, Chengyang Yao, Liuchang Zhuo",
       "published_at": "2026-11-10T03:03:44Z",
@@ -1213,7 +1213,7 @@
       ],
       "id": "arxiv:2611.13644",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Shuao Jia, Zichao Ling, Chen Bai",
       "published_at": "2026-11-10T06:40:42Z",
@@ -1258,7 +1258,7 @@
       ],
       "id": "arxiv:2611.14356",
       "kind": "paper",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "Zhengxiang Huang, Yujie Sun, Shengheng Chen",
       "published_at": "2026-11-10T17:16:47Z",
@@ -1273,6 +1273,411 @@
       ],
       "updated_at": "2026-11-10T17:16:47Z",
       "url": "https://arxiv.org/abs/2611.14356"
+    },
+    "arxiv:2611.14904": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.14904",
+            "kind": "paper",
+            "location": "",
+            "organization": "Muralidhar Andoorveedu, Marius Juston, Tingkai Liu",
+            "published_at": "2026-11-11T01:51:44Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "SubGPU Pipelining: Intra-GPU Fine-Grained Spatial Parallelism for LLM Inference",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-11T01:51:44Z",
+            "url": "https://arxiv.org/abs/2611.14904"
+          }
+        }
+      ],
+      "id": "arxiv:2611.14904",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Muralidhar Andoorveedu, Marius Juston, Tingkai Liu",
+      "published_at": "2026-11-11T01:51:44Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "SubGPU Pipelining: Intra-GPU Fine-Grained Spatial Parallelism for LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-11T01:51:44Z",
+      "url": "https://arxiv.org/abs/2611.14904"
+    },
+    "arxiv:2611.15130": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.15130",
+            "kind": "paper",
+            "location": "",
+            "organization": "Zekun Zhao, Jeffrey Flanigan",
+            "published_at": "2026-11-11T07:15:18Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Read Once, Answer Many: Parallel Prompting for Shared-Context LLM Inference",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-11T07:15:18Z",
+            "url": "https://arxiv.org/abs/2611.15130"
+          }
+        }
+      ],
+      "id": "arxiv:2611.15130",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Zekun Zhao, Jeffrey Flanigan",
+      "published_at": "2026-11-11T07:15:18Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Read Once, Answer Many: Parallel Prompting for Shared-Context LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-11T07:15:18Z",
+      "url": "https://arxiv.org/abs/2611.15130"
+    },
+    "arxiv:2611.15155": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.15155",
+            "kind": "paper",
+            "location": "",
+            "organization": "Dongqing Song, Jianyu Xu, Haobin Ding",
+            "published_at": "2026-11-11T07:50:16Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "PRELUDE: Separating Common Components from Target-Specific Dependencies for Multivariate Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-11T07:50:16Z",
+            "url": "https://arxiv.org/abs/2611.15155"
+          }
+        }
+      ],
+      "id": "arxiv:2611.15155",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Dongqing Song, Jianyu Xu, Haobin Ding",
+      "published_at": "2026-11-11T07:50:16Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "PRELUDE: Separating Common Components from Target-Specific Dependencies for Multivariate Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-11T07:50:16Z",
+      "url": "https://arxiv.org/abs/2611.15155"
+    },
+    "arxiv:2611.15262": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.15262",
+            "kind": "paper",
+            "location": "",
+            "organization": "Bokai Pan, Ruijie Yang, Mingyue Cheng",
+            "published_at": "2026-11-11T09:53:20Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "CastWorld: Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-13T18:08:52Z",
+            "url": "https://arxiv.org/abs/2611.15262"
+          }
+        }
+      ],
+      "id": "arxiv:2611.15262",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Bokai Pan, Ruijie Yang, Mingyue Cheng",
+      "published_at": "2026-11-11T09:53:20Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "CastWorld: Benchmarking Context-Aware Agentic Time Series Forecasting Beyond Predictive Accuracy",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-13T18:08:52Z",
+      "url": "https://arxiv.org/abs/2611.15262"
+    },
+    "arxiv:2611.16048": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.16048",
+            "kind": "paper",
+            "location": "",
+            "organization": "Weimin Fu, Shikun Liu, Qiying Li",
+            "published_at": "2026-11-11T21:57:21Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Privacy Leakage from Recurrent State in LLM Inference",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-11T21:57:21Z",
+            "url": "https://arxiv.org/abs/2611.16048"
+          }
+        }
+      ],
+      "id": "arxiv:2611.16048",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Weimin Fu, Shikun Liu, Qiying Li",
+      "published_at": "2026-11-11T21:57:21Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Privacy Leakage from Recurrent State in LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-11T21:57:21Z",
+      "url": "https://arxiv.org/abs/2611.16048"
+    },
+    "arxiv:2611.16514": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.16514",
+            "kind": "paper",
+            "location": "",
+            "organization": "Shujie Duan, Jia Hong Puah, Haocheng Wu",
+            "published_at": "2026-11-12T09:12:03Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Learning Temporal Dynamics with Derivative Representations for Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-12T09:12:03Z",
+            "url": "https://arxiv.org/abs/2611.16514"
+          }
+        }
+      ],
+      "id": "arxiv:2611.16514",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Shujie Duan, Jia Hong Puah, Haocheng Wu",
+      "published_at": "2026-11-12T09:12:03Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Learning Temporal Dynamics with Derivative Representations for Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-12T09:12:03Z",
+      "url": "https://arxiv.org/abs/2611.16514"
+    },
+    "arxiv:2611.17680": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.17680",
+            "kind": "paper",
+            "location": "",
+            "organization": "Xintong Wang, Haihan Nan, Ruidong Li",
+            "published_at": "2026-11-13T02:47:28Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Aligned, Conflicting, or Unspecified? A Diagnostic Benchmark for Multimodal Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-13T02:47:28Z",
+            "url": "https://arxiv.org/abs/2611.17680"
+          }
+        }
+      ],
+      "id": "arxiv:2611.17680",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Xintong Wang, Haihan Nan, Ruidong Li",
+      "published_at": "2026-11-13T02:47:28Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Aligned, Conflicting, or Unspecified? A Diagnostic Benchmark for Multimodal Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-13T02:47:28Z",
+      "url": "https://arxiv.org/abs/2611.17680"
+    },
+    "arxiv:2611.17753": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.17753",
+            "kind": "paper",
+            "location": "",
+            "organization": "Prabod Rathnayaka, Isura Manchanayake, Srikandabala Kogul",
+            "published_at": "2026-11-13T05:10:32Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Superfluid: Local AI Server for Distributed LLM Inference",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-13T05:10:32Z",
+            "url": "https://arxiv.org/abs/2611.17753"
+          }
+        }
+      ],
+      "id": "arxiv:2611.17753",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Prabod Rathnayaka, Isura Manchanayake, Srikandabala Kogul",
+      "published_at": "2026-11-13T05:10:32Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Superfluid: Local AI Server for Distributed LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-13T05:10:32Z",
+      "url": "https://arxiv.org/abs/2611.17753"
+    },
+    "arxiv:2611.18392": {
+      "evidence": "B",
+      "first_seen": "2026-11-16T17:03:55Z",
+      "history": [
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.18392",
+            "kind": "paper",
+            "location": "",
+            "organization": "Ishaan Datta, Alind Khare, Koushik Kumar Dey",
+            "published_at": "2026-11-13T16:34:37Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-13T16:34:37Z",
+            "url": "https://arxiv.org/abs/2611.18392"
+          }
+        }
+      ],
+      "id": "arxiv:2611.18392",
+      "kind": "paper",
+      "last_seen": "2026-11-16T17:03:55Z",
+      "location": "",
+      "organization": "Ishaan Datta, Alind Khare, Koushik Kumar Dey",
+      "published_at": "2026-11-13T16:34:37Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "VelServe: Taming Decode Jitters in LLM Inference with Tail-Calibrated Scheduling",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-13T16:34:37Z",
+      "url": "https://arxiv.org/abs/2611.18392"
     },
     "baidu:J100728": {
       "evidence": "A",
@@ -2856,7 +3261,7 @@
       ],
       "id": "github:amazon-science/chronos-forecasting",
       "kind": "project",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "amazon-science",
       "published_at": "2024-02-23T10:35:42Z",
@@ -2923,7 +3328,7 @@
       ],
       "id": "github:nvlabs/sionna",
       "kind": "project",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "NVlabs",
       "published_at": "2022-02-15T19:55:30Z",
@@ -2990,7 +3395,7 @@
       ],
       "id": "github:qwenlm/qwen3",
       "kind": "project",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "QwenLM",
       "published_at": "2024-02-05T05:45:08Z",
@@ -3097,11 +3502,33 @@
             "updated_at": "2026-11-11T19:34:35Z",
             "url": "https://github.com/vllm-project/vllm"
           }
+        },
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "evidence": "A",
+            "id": "github:vllm-project/vllm",
+            "kind": "project",
+            "location": "",
+            "organization": "vllm-project",
+            "published_at": "2023-02-09T11:23:20Z",
+            "region": "Global",
+            "source": "github",
+            "status": "reference",
+            "summary": "大模型推理与服务引擎，可用于测试吞吐、排队延迟与 KV 缓存行为。",
+            "title": "vllm-project/vllm",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": "2026-11-16T17:00:05Z",
+            "url": "https://github.com/vllm-project/vllm"
+          }
         }
       ],
       "id": "github:vllm-project/vllm",
       "kind": "project",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "vllm-project",
       "published_at": "2023-02-09T11:23:20Z",
@@ -3114,7 +3541,7 @@
         "inference",
         "mle"
       ],
-      "updated_at": "2026-11-11T19:34:35Z",
+      "updated_at": "2026-11-16T17:00:05Z",
       "url": "https://github.com/vllm-project/vllm"
     },
     "govcn:ai-plus-2025": {
@@ -3211,7 +3638,7 @@
       ],
       "id": "govuk:artificial-intelligence-sector-study-2025",
       "kind": "report",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "",
       "organization": "GOV.UK",
       "published_at": "2026-10-29T16:41:56+00:00",
@@ -3257,7 +3684,7 @@
       ],
       "id": "greenhouse:alphagrepsecurities:5335169002",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai",
       "organization": "AlphaGrep",
       "published_at": "2021-07-14T04:17:58-04:00",
@@ -3345,7 +3772,7 @@
       ],
       "id": "greenhouse:anthropic:4938436008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2025-09-30T16:38:17-04:00",
@@ -3477,7 +3904,7 @@
       ],
       "id": "greenhouse:anthropic:5115935008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-02-11T12:34:39-05:00",
@@ -3544,7 +3971,7 @@
       ],
       "id": "greenhouse:anthropic:5119713008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-02-16T19:22:51-05:00",
@@ -3612,7 +4039,7 @@
       ],
       "id": "greenhouse:anthropic:5198074008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-04-23T10:43:13-04:00",
@@ -3675,6 +4102,28 @@
             "updated_at": "2026-08-28T14:43:59-04:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008"
           }
+        },
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5264619008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-06-22T07:06:02-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "unlisted",
+            "summary": "",
+            "title": "Research Engineer, RL Scaling Science",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-08-28T14:43:59-04:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5264619008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5264619008",
@@ -3685,7 +4134,7 @@
       "published_at": "2026-06-22T07:06:02-04:00",
       "region": "UK",
       "source": "greenhouse:anthropic",
-      "status": "listed",
+      "status": "unlisted",
       "summary": "",
       "title": "Research Engineer, RL Scaling Science",
       "topics": [
@@ -3745,7 +4194,7 @@
       ],
       "id": "greenhouse:anthropic:5385634008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-08-13T11:33:27-04:00",
@@ -3811,7 +4260,7 @@
       ],
       "id": "greenhouse:anthropic:5423029008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-09-14T05:07:58-04:00",
@@ -3877,7 +4326,7 @@
       ],
       "id": "greenhouse:anthropic:5432575008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-09-23T05:01:26-04:00",
@@ -3943,7 +4392,7 @@
       ],
       "id": "greenhouse:anthropic:5439169008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-28T15:09:02-04:00",
@@ -4009,7 +4458,7 @@
       ],
       "id": "greenhouse:anthropic:5440821008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-13T07:46:09-04:00",
@@ -4075,7 +4524,7 @@
       ],
       "id": "greenhouse:anthropic:5445760008",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-06T16:06:00-04:00",
@@ -4120,7 +4569,7 @@
       ],
       "id": "greenhouse:axq:5215193004",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Beijing; Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2024-06-25T05:09:41-04:00",
@@ -4166,7 +4615,7 @@
       ],
       "id": "greenhouse:axq:5635911004",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2025-08-31T08:52:54-04:00",
@@ -4212,7 +4661,7 @@
       ],
       "id": "greenhouse:axq:5636192004",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2025-08-31T08:28:33-04:00",
@@ -4257,7 +4706,7 @@
       ],
       "id": "greenhouse:axq:6147008004",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2026-08-19T06:04:59-04:00",
@@ -4302,7 +4751,7 @@
       ],
       "id": "greenhouse:axq:6225198004",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Beijing",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2026-10-15T06:05:46-04:00",
@@ -4343,6 +4792,28 @@
             "updated_at": "2026-07-30T03:13:47-04:00",
             "url": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4752134101"
           }
+        },
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "department": "Trading",
+            "evidence": "A",
+            "id": "greenhouse:rockbund:4752134101",
+            "kind": "job",
+            "location": "Shanghai",
+            "organization": "Rock Bund Capital",
+            "published_at": "2026-01-13T00:43:38-05:00",
+            "region": "CN",
+            "source": "greenhouse:rockbund",
+            "status": "unlisted",
+            "summary": "",
+            "title": "Quantitative Researcher (AI Direction)",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-07-30T03:13:47-04:00",
+            "url": "https://job-boards.eu.greenhouse.io/rockbund/jobs/4752134101"
+          }
         }
       ],
       "id": "greenhouse:rockbund:4752134101",
@@ -4353,7 +4824,7 @@
       "published_at": "2026-01-13T00:43:38-05:00",
       "region": "CN",
       "source": "greenhouse:rockbund",
-      "status": "listed",
+      "status": "unlisted",
       "summary": "",
       "title": "Quantitative Researcher (AI Direction)",
       "topics": [
@@ -4392,7 +4863,7 @@
       ],
       "id": "greenhouse:rzr:4146505009",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Beijing, China",
       "organization": "RZR Global",
       "published_at": "2026-02-23T23:54:41-05:00",
@@ -4433,6 +4904,28 @@
             "updated_at": "2026-08-31T23:03:20-04:00",
             "url": "https://job-boards.greenhouse.io/rzr/jobs/4390098009"
           }
+        },
+        {
+          "at": "2026-11-16T17:03:55Z",
+          "value": {
+            "department": "Machine Learning",
+            "evidence": "A",
+            "id": "greenhouse:rzr:4390098009",
+            "kind": "job",
+            "location": "Beijing, China [Hybrid]",
+            "organization": "RZR Global",
+            "published_at": "2026-08-31T23:03:20-04:00",
+            "region": "CN",
+            "source": "greenhouse:rzr",
+            "status": "unlisted",
+            "summary": "",
+            "title": "Machine Learning Engineer, Infra (MLOps)",
+            "topics": [
+              "mle"
+            ],
+            "updated_at": "2026-08-31T23:03:20-04:00",
+            "url": "https://job-boards.greenhouse.io/rzr/jobs/4390098009"
+          }
         }
       ],
       "id": "greenhouse:rzr:4390098009",
@@ -4443,7 +4936,7 @@
       "published_at": "2026-08-31T23:03:20-04:00",
       "region": "CN",
       "source": "greenhouse:rzr",
-      "status": "listed",
+      "status": "unlisted",
       "summary": "",
       "title": "Machine Learning Engineer, Infra (MLOps)",
       "topics": [
@@ -4482,7 +4975,7 @@
       ],
       "id": "greenhouse:sesai:4186609005",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai, China",
       "organization": "SES AI",
       "published_at": "2023-01-16T14:12:40-05:00",
@@ -4527,7 +5020,7 @@
       ],
       "id": "greenhouse:sesai:4186612005",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai, China",
       "organization": "SES AI",
       "published_at": "2023-01-16T13:44:12-05:00",
@@ -4573,7 +5066,7 @@
       ],
       "id": "greenhouse:sesai:4495364005",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shanghai, China",
       "organization": "SES AI",
       "published_at": "2024-11-08T10:23:35-05:00",
@@ -4619,7 +5112,7 @@
       ],
       "id": "greenhouse:xpengmotors:8520153002",
       "kind": "job",
-      "last_seen": "2026-11-11T19:35:13Z",
+      "last_seen": "2026-11-16T17:03:55Z",
       "location": "Shenzhen, China",
       "organization": "小鹏汽车",
       "published_at": "2026-04-22T21:41:41-04:00",
@@ -4918,70 +5411,70 @@
   },
   "sources": {
     "arxiv": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
       "mode": "atom",
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "github:NVlabs/sionna": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "github:QwenLM/Qwen3": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "github:amazon-science/chronos-forecasting": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "github:vllm-project/vllm": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "govuk:/government/publications/artificial-intelligence-sector-study-2025": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:alphagrepsecurities": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:anthropic": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:axq": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:rockbund": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:rzr": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:sesai": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     },
     "greenhouse:xpengmotors": {
-      "checked_at": "2026-11-11T19:35:13Z",
+      "checked_at": "2026-11-16T17:03:55Z",
       "error": null,
-      "success_at": "2026-11-11T19:35:13Z"
+      "success_at": "2026-11-16T17:03:55Z"
     }
   }
 }
