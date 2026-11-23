@@ -1438,7 +1438,7 @@
       ],
       "id": "arxiv:2611.15262",
       "kind": "paper",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "Bokai Pan, Ruijie Yang, Mingyue Cheng",
       "published_at": "2026-11-11T09:53:20Z",
@@ -1483,7 +1483,7 @@
       ],
       "id": "arxiv:2611.16048",
       "kind": "paper",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "Weimin Fu, Shikun Liu, Qiying Li",
       "published_at": "2026-11-11T21:57:21Z",
@@ -1528,7 +1528,7 @@
       ],
       "id": "arxiv:2611.16514",
       "kind": "paper",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "Shujie Duan, Jia Hong Puah, Haocheng Wu",
       "published_at": "2026-11-12T09:12:03Z",
@@ -1573,7 +1573,7 @@
       ],
       "id": "arxiv:2611.17680",
       "kind": "paper",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "Xintong Wang, Haihan Nan, Ruidong Li",
       "published_at": "2026-11-13T02:47:28Z",
@@ -1618,7 +1618,7 @@
       ],
       "id": "arxiv:2611.17753",
       "kind": "paper",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "Prabod Rathnayaka, Isura Manchanayake, Srikandabala Kogul",
       "published_at": "2026-11-13T05:10:32Z",
@@ -1663,7 +1663,7 @@
       ],
       "id": "arxiv:2611.18392",
       "kind": "paper",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "Ishaan Datta, Alind Khare, Koushik Kumar Dey",
       "published_at": "2026-11-13T16:34:37Z",
@@ -1678,6 +1678,681 @@
       ],
       "updated_at": "2026-11-13T16:34:37Z",
       "url": "https://arxiv.org/abs/2611.18392"
+    },
+    "arxiv:2611.20289": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.20289",
+            "kind": "paper",
+            "location": "",
+            "organization": "Kevin Bhimani, Christian Escobar, Daniel Mihovch",
+            "published_at": "2026-11-15T22:37:14Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Benchmarking LLM Inference on Desktop-Scale NVIDIA Grace Blackwell Clusters",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-15T22:37:14Z",
+            "url": "https://arxiv.org/abs/2611.20289"
+          }
+        }
+      ],
+      "id": "arxiv:2611.20289",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Kevin Bhimani, Christian Escobar, Daniel Mihovch",
+      "published_at": "2026-11-15T22:37:14Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Benchmarking LLM Inference on Desktop-Scale NVIDIA Grace Blackwell Clusters",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-15T22:37:14Z",
+      "url": "https://arxiv.org/abs/2611.20289"
+    },
+    "arxiv:2611.20549": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.20549",
+            "kind": "paper",
+            "location": "",
+            "organization": "Geunsoo Song, Jiwon Seo, Hoeseok Yang",
+            "published_at": "2026-11-16T05:28:30Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "RoShift: Lazy Shift and Weight-aware Rotation for Activation Sparsity in LLM Inference",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-16T05:28:30Z",
+            "url": "https://arxiv.org/abs/2611.20549"
+          }
+        }
+      ],
+      "id": "arxiv:2611.20549",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Geunsoo Song, Jiwon Seo, Hoeseok Yang",
+      "published_at": "2026-11-16T05:28:30Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "RoShift: Lazy Shift and Weight-aware Rotation for Activation Sparsity in LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-16T05:28:30Z",
+      "url": "https://arxiv.org/abs/2611.20549"
+    },
+    "arxiv:2611.20893": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.20893",
+            "kind": "paper",
+            "location": "",
+            "organization": "Arno Troch, Roger Sanchez-Vital, Seyyidahmed Lahmer",
+            "published_at": "2026-11-16T11:02:16Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Disaggregated LLM Inference in Space: A Communication Feasibility Study",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-16T11:02:16Z",
+            "url": "https://arxiv.org/abs/2611.20893"
+          }
+        }
+      ],
+      "id": "arxiv:2611.20893",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Arno Troch, Roger Sanchez-Vital, Seyyidahmed Lahmer",
+      "published_at": "2026-11-16T11:02:16Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Disaggregated LLM Inference in Space: A Communication Feasibility Study",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-16T11:02:16Z",
+      "url": "https://arxiv.org/abs/2611.20893"
+    },
+    "arxiv:2611.21319": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.21319",
+            "kind": "paper",
+            "location": "",
+            "organization": "Syed Hafiz Bin Salim Alsree, Stephen Roberts, Stefan Zohren",
+            "published_at": "2026-11-16T16:13:20Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Wavelet-Energy-Driven Dynamic Patching for Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-16T16:13:20Z",
+            "url": "https://arxiv.org/abs/2611.21319"
+          }
+        }
+      ],
+      "id": "arxiv:2611.21319",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Syed Hafiz Bin Salim Alsree, Stephen Roberts, Stefan Zohren",
+      "published_at": "2026-11-16T16:13:20Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Wavelet-Energy-Driven Dynamic Patching for Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-16T16:13:20Z",
+      "url": "https://arxiv.org/abs/2611.21319"
+    },
+    "arxiv:2611.21974": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.21974",
+            "kind": "paper",
+            "location": "",
+            "organization": "Hyojung Han",
+            "published_at": "2026-11-16T22:58:32Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Beyond Bitwidth: Deployment-Constrained Mixed-Precision Quantization for Multilingual LLM Inference on NVIDIA Blackwell",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-16T22:58:32Z",
+            "url": "https://arxiv.org/abs/2611.21974"
+          }
+        }
+      ],
+      "id": "arxiv:2611.21974",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Hyojung Han",
+      "published_at": "2026-11-16T22:58:32Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Beyond Bitwidth: Deployment-Constrained Mixed-Precision Quantization for Multilingual LLM Inference on NVIDIA Blackwell",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-16T22:58:32Z",
+      "url": "https://arxiv.org/abs/2611.21974"
+    },
+    "arxiv:2611.24257": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.24257",
+            "kind": "paper",
+            "location": "",
+            "organization": "Shusen Ma, Yangchun Xie, Xudong Zuo",
+            "published_at": "2026-11-18T11:38:16Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "TRESS: A Fixed-Size History Representation for Irregular Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-18T11:38:16Z",
+            "url": "https://arxiv.org/abs/2611.24257"
+          }
+        }
+      ],
+      "id": "arxiv:2611.24257",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Shusen Ma, Yangchun Xie, Xudong Zuo",
+      "published_at": "2026-11-18T11:38:16Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "TRESS: A Fixed-Size History Representation for Irregular Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-18T11:38:16Z",
+      "url": "https://arxiv.org/abs/2611.24257"
+    },
+    "arxiv:2611.24891": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.24891",
+            "kind": "paper",
+            "location": "",
+            "organization": "Benjamin Novotny, Doug Szeto, Chang Wang",
+            "published_at": "2026-11-18T18:34:10Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-18T18:34:10Z",
+            "url": "https://arxiv.org/abs/2611.24891"
+          }
+        }
+      ],
+      "id": "arxiv:2611.24891",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Benjamin Novotny, Doug Szeto, Chang Wang",
+      "published_at": "2026-11-18T18:34:10Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Cap-and-Track: Optimizing LLM Inference Request Dispatch Across Shifting Capacity",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-18T18:34:10Z",
+      "url": "https://arxiv.org/abs/2611.24891"
+    },
+    "arxiv:2611.25388": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.25388",
+            "kind": "paper",
+            "location": "",
+            "organization": "Hao Xue",
+            "published_at": "2026-11-19T02:34:09Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Falsifiable Compositional Reasoning in Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-19T02:34:09Z",
+            "url": "https://arxiv.org/abs/2611.25388"
+          }
+        }
+      ],
+      "id": "arxiv:2611.25388",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Hao Xue",
+      "published_at": "2026-11-19T02:34:09Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Falsifiable Compositional Reasoning in Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-19T02:34:09Z",
+      "url": "https://arxiv.org/abs/2611.25388"
+    },
+    "arxiv:2611.25433": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.25433",
+            "kind": "paper",
+            "location": "",
+            "organization": "Payman Behnam, Elaheh Sobhani, Saad Amin",
+            "published_at": "2026-11-19T03:16:18Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-19T03:16:18Z",
+            "url": "https://arxiv.org/abs/2611.25433"
+          }
+        }
+      ],
+      "id": "arxiv:2611.25433",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Payman Behnam, Elaheh Sobhani, Saad Amin",
+      "published_at": "2026-11-19T03:16:18Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "RoCoKV: Accelerating LLM Inference Serving through Uncertainty and Redundancy Aware KV Cache Compression",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-19T03:16:18Z",
+      "url": "https://arxiv.org/abs/2611.25433"
+    },
+    "arxiv:2611.25669": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.25669",
+            "kind": "paper",
+            "location": "",
+            "organization": "Zhihao Liu, Zixiong Guo, Shuo Shao",
+            "published_at": "2026-11-19T07:47:07Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Ask in the Crowd: Differentially Private LLM Inference via Dummy-Augmented Shuffling",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-19T07:47:07Z",
+            "url": "https://arxiv.org/abs/2611.25669"
+          }
+        }
+      ],
+      "id": "arxiv:2611.25669",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Zhihao Liu, Zixiong Guo, Shuo Shao",
+      "published_at": "2026-11-19T07:47:07Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Ask in the Crowd: Differentially Private LLM Inference via Dummy-Augmented Shuffling",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-19T07:47:07Z",
+      "url": "https://arxiv.org/abs/2611.25669"
+    },
+    "arxiv:2611.25905": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.25905",
+            "kind": "paper",
+            "location": "",
+            "organization": "Shai Gretz, Alon Halfon, Yoav Katz",
+            "published_at": "2026-11-19T10:54:57Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-19T10:54:57Z",
+            "url": "https://arxiv.org/abs/2611.25905"
+          }
+        }
+      ],
+      "id": "arxiv:2611.25905",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Shai Gretz, Alon Halfon, Yoav Katz",
+      "published_at": "2026-11-19T10:54:57Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Validation-driven Deployment of LLM Inference Platforms for Agentic Workloads",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-19T10:54:57Z",
+      "url": "https://arxiv.org/abs/2611.25905"
+    },
+    "arxiv:2611.26976": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.26976",
+            "kind": "paper",
+            "location": "",
+            "organization": "Vinnam Kim, Seong Hoon Seo, Junhan Kim",
+            "published_at": "2026-11-20T01:54:06Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference via Output-Channel Grouping on Mobile NPUs",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-20T01:54:06Z",
+            "url": "https://arxiv.org/abs/2611.26976"
+          }
+        }
+      ],
+      "id": "arxiv:2611.26976",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Vinnam Kim, Seong Hoon Seo, Junhan Kim",
+      "published_at": "2026-11-20T01:54:06Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "MixFold: Sub-4-Bit Mixed-Precision LLM Inference via Output-Channel Grouping on Mobile NPUs",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-20T01:54:06Z",
+      "url": "https://arxiv.org/abs/2611.26976"
+    },
+    "arxiv:2611.27191": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.27191",
+            "kind": "paper",
+            "location": "",
+            "organization": "Yunying Zhu, Zichun Cao, Siwei Sun",
+            "published_at": "2026-11-20T06:24:06Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Lift Out, Kick In: Decoupling Event Effects for Time Series Forecasting",
+            "topics": [
+              "research",
+              "timeseries"
+            ],
+            "updated_at": "2026-11-20T06:24:06Z",
+            "url": "https://arxiv.org/abs/2611.27191"
+          }
+        }
+      ],
+      "id": "arxiv:2611.27191",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Yunying Zhu, Zichun Cao, Siwei Sun",
+      "published_at": "2026-11-20T06:24:06Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Lift Out, Kick In: Decoupling Event Effects for Time Series Forecasting",
+      "topics": [
+        "research",
+        "timeseries"
+      ],
+      "updated_at": "2026-11-20T06:24:06Z",
+      "url": "https://arxiv.org/abs/2611.27191"
+    },
+    "arxiv:2611.27323": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.27323",
+            "kind": "paper",
+            "location": "",
+            "organization": "Jinho Yang, Taehyeong Kim, Mincheol Cha",
+            "published_at": "2026-11-20T09:04:06Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "Cruella: A Unified Microscaling and Floating-Point Dot-Product Unit for LLM Inference on FPGAs",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-20T09:04:06Z",
+            "url": "https://arxiv.org/abs/2611.27323"
+          }
+        }
+      ],
+      "id": "arxiv:2611.27323",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Jinho Yang, Taehyeong Kim, Mincheol Cha",
+      "published_at": "2026-11-20T09:04:06Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "Cruella: A Unified Microscaling and Floating-Point Dot-Product Unit for LLM Inference on FPGAs",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-20T09:04:06Z",
+      "url": "https://arxiv.org/abs/2611.27323"
+    },
+    "arxiv:2611.27701": {
+      "evidence": "B",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "B",
+            "id": "arxiv:2611.27701",
+            "kind": "paper",
+            "location": "",
+            "organization": "Hao Ding, Zheng Shi, Dongxue Zhao",
+            "published_at": "2026-11-20T15:07:53Z",
+            "region": "Global",
+            "source": "arxiv",
+            "status": "reference",
+            "summary": "",
+            "title": "FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference",
+            "topics": [
+              "inference",
+              "research"
+            ],
+            "updated_at": "2026-11-20T15:07:53Z",
+            "url": "https://arxiv.org/abs/2611.27701"
+          }
+        }
+      ],
+      "id": "arxiv:2611.27701",
+      "kind": "paper",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "",
+      "organization": "Hao Ding, Zheng Shi, Dongxue Zhao",
+      "published_at": "2026-11-20T15:07:53Z",
+      "region": "Global",
+      "source": "arxiv",
+      "status": "reference",
+      "summary": "",
+      "title": "FOREST: Coordinating Tree-based HBF, RRAM, and HBM for Efficient Speculative LLM Inference",
+      "topics": [
+        "inference",
+        "research"
+      ],
+      "updated_at": "2026-11-20T15:07:53Z",
+      "url": "https://arxiv.org/abs/2611.27701"
     },
     "baidu:J100728": {
       "evidence": "A",
@@ -3261,7 +3936,7 @@
       ],
       "id": "github:amazon-science/chronos-forecasting",
       "kind": "project",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "amazon-science",
       "published_at": "2024-02-23T10:35:42Z",
@@ -3328,7 +4003,7 @@
       ],
       "id": "github:nvlabs/sionna",
       "kind": "project",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "NVlabs",
       "published_at": "2022-02-15T19:55:30Z",
@@ -3395,7 +4070,7 @@
       ],
       "id": "github:qwenlm/qwen3",
       "kind": "project",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "QwenLM",
       "published_at": "2024-02-05T05:45:08Z",
@@ -3524,11 +4199,33 @@
             "updated_at": "2026-11-16T17:00:05Z",
             "url": "https://github.com/vllm-project/vllm"
           }
+        },
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "evidence": "A",
+            "id": "github:vllm-project/vllm",
+            "kind": "project",
+            "location": "",
+            "organization": "vllm-project",
+            "published_at": "2023-02-09T11:23:20Z",
+            "region": "Global",
+            "source": "github",
+            "status": "reference",
+            "summary": "大模型推理与服务引擎，可用于测试吞吐、排队延迟与 KV 缓存行为。",
+            "title": "vllm-project/vllm",
+            "topics": [
+              "inference",
+              "mle"
+            ],
+            "updated_at": "2026-11-23T18:15:07Z",
+            "url": "https://github.com/vllm-project/vllm"
+          }
         }
       ],
       "id": "github:vllm-project/vllm",
       "kind": "project",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "vllm-project",
       "published_at": "2023-02-09T11:23:20Z",
@@ -3541,7 +4238,7 @@
         "inference",
         "mle"
       ],
-      "updated_at": "2026-11-16T17:00:05Z",
+      "updated_at": "2026-11-23T18:15:07Z",
       "url": "https://github.com/vllm-project/vllm"
     },
     "govcn:ai-plus-2025": {
@@ -3638,7 +4335,7 @@
       ],
       "id": "govuk:artificial-intelligence-sector-study-2025",
       "kind": "report",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "",
       "organization": "GOV.UK",
       "published_at": "2026-10-29T16:41:56+00:00",
@@ -3684,7 +4381,7 @@
       ],
       "id": "greenhouse:alphagrepsecurities:5335169002",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai",
       "organization": "AlphaGrep",
       "published_at": "2021-07-14T04:17:58-04:00",
@@ -3772,7 +4469,7 @@
       ],
       "id": "greenhouse:anthropic:4938436008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2025-09-30T16:38:17-04:00",
@@ -3904,7 +4601,7 @@
       ],
       "id": "greenhouse:anthropic:5115935008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-02-11T12:34:39-05:00",
@@ -3971,7 +4668,7 @@
       ],
       "id": "greenhouse:anthropic:5119713008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-02-16T19:22:51-05:00",
@@ -4039,7 +4736,7 @@
       ],
       "id": "greenhouse:anthropic:5198074008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-04-23T10:43:13-04:00",
@@ -4194,7 +4891,7 @@
       ],
       "id": "greenhouse:anthropic:5385634008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-08-13T11:33:27-04:00",
@@ -4260,7 +4957,7 @@
       ],
       "id": "greenhouse:anthropic:5423029008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-09-14T05:07:58-04:00",
@@ -4326,7 +5023,7 @@
       ],
       "id": "greenhouse:anthropic:5432575008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-09-23T05:01:26-04:00",
@@ -4388,6 +5085,28 @@
             "updated_at": "2026-11-04T02:14:30-05:00",
             "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008"
           }
+        },
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "department": "AI Research & Engineering",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5439169008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-10-28T15:09:02-04:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "unlisted",
+            "summary": "",
+            "title": "Anthropic Research Resident",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-11-04T02:14:30-05:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5439169008"
+          }
         }
       ],
       "id": "greenhouse:anthropic:5439169008",
@@ -4398,7 +5117,7 @@
       "published_at": "2026-10-28T15:09:02-04:00",
       "region": "UK",
       "source": "greenhouse:anthropic",
-      "status": "listed",
+      "status": "unlisted",
       "summary": "",
       "title": "Anthropic Research Resident",
       "topics": [
@@ -4458,7 +5177,7 @@
       ],
       "id": "greenhouse:anthropic:5440821008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-13T07:46:09-04:00",
@@ -4524,7 +5243,7 @@
       ],
       "id": "greenhouse:anthropic:5445760008",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "London, UK",
       "organization": "Anthropic",
       "published_at": "2026-10-06T16:06:00-04:00",
@@ -4538,6 +5257,51 @@
       ],
       "updated_at": "2026-10-16T06:18:15-04:00",
       "url": "https://job-boards.greenhouse.io/anthropic/jobs/5445760008"
+    },
+    "greenhouse:anthropic:5477416008": {
+      "department": "Safeguards (Trust & Safety)",
+      "evidence": "A",
+      "first_seen": "2026-11-23T19:15:37Z",
+      "history": [
+        {
+          "at": "2026-11-23T19:15:37Z",
+          "value": {
+            "department": "Safeguards (Trust & Safety)",
+            "evidence": "A",
+            "id": "greenhouse:anthropic:5477416008",
+            "kind": "job",
+            "location": "London, UK",
+            "organization": "Anthropic",
+            "published_at": "2026-11-16T16:28:41-05:00",
+            "region": "UK",
+            "source": "greenhouse:anthropic",
+            "status": "listed",
+            "summary": "",
+            "title": "Research Engineer, AI Monitoring",
+            "topics": [
+              "research"
+            ],
+            "updated_at": "2026-11-16T18:53:08-05:00",
+            "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477416008"
+          }
+        }
+      ],
+      "id": "greenhouse:anthropic:5477416008",
+      "kind": "job",
+      "last_seen": "2026-11-23T19:15:37Z",
+      "location": "London, UK",
+      "organization": "Anthropic",
+      "published_at": "2026-11-16T16:28:41-05:00",
+      "region": "UK",
+      "source": "greenhouse:anthropic",
+      "status": "listed",
+      "summary": "",
+      "title": "Research Engineer, AI Monitoring",
+      "topics": [
+        "research"
+      ],
+      "updated_at": "2026-11-16T18:53:08-05:00",
+      "url": "https://job-boards.greenhouse.io/anthropic/jobs/5477416008"
     },
     "greenhouse:axq:5215193004": {
       "department": "Quantitative Research",
@@ -4569,7 +5333,7 @@
       ],
       "id": "greenhouse:axq:5215193004",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Beijing; Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2024-06-25T05:09:41-04:00",
@@ -4615,7 +5379,7 @@
       ],
       "id": "greenhouse:axq:5635911004",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2025-08-31T08:52:54-04:00",
@@ -4661,7 +5425,7 @@
       ],
       "id": "greenhouse:axq:5636192004",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2025-08-31T08:28:33-04:00",
@@ -4706,7 +5470,7 @@
       ],
       "id": "greenhouse:axq:6147008004",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2026-08-19T06:04:59-04:00",
@@ -4751,7 +5515,7 @@
       ],
       "id": "greenhouse:axq:6225198004",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Beijing",
       "organization": "安贤投资（AXQ Capital）",
       "published_at": "2026-10-15T06:05:46-04:00",
@@ -4863,7 +5627,7 @@
       ],
       "id": "greenhouse:rzr:4146505009",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Beijing, China",
       "organization": "RZR Global",
       "published_at": "2026-02-23T23:54:41-05:00",
@@ -4975,7 +5739,7 @@
       ],
       "id": "greenhouse:sesai:4186609005",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai, China",
       "organization": "SES AI",
       "published_at": "2023-01-16T14:12:40-05:00",
@@ -5020,7 +5784,7 @@
       ],
       "id": "greenhouse:sesai:4186612005",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai, China",
       "organization": "SES AI",
       "published_at": "2023-01-16T13:44:12-05:00",
@@ -5066,7 +5830,7 @@
       ],
       "id": "greenhouse:sesai:4495364005",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shanghai, China",
       "organization": "SES AI",
       "published_at": "2024-11-08T10:23:35-05:00",
@@ -5112,7 +5876,7 @@
       ],
       "id": "greenhouse:xpengmotors:8520153002",
       "kind": "job",
-      "last_seen": "2026-11-16T17:03:55Z",
+      "last_seen": "2026-11-23T19:15:37Z",
       "location": "Shenzhen, China",
       "organization": "小鹏汽车",
       "published_at": "2026-04-22T21:41:41-04:00",
@@ -5411,70 +6175,70 @@
   },
   "sources": {
     "arxiv": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
       "mode": "atom",
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "github:NVlabs/sionna": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "github:QwenLM/Qwen3": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "github:amazon-science/chronos-forecasting": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "github:vllm-project/vllm": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "govuk:/government/publications/artificial-intelligence-sector-study-2025": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:alphagrepsecurities": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:anthropic": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:axq": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:rockbund": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:rzr": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:sesai": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     },
     "greenhouse:xpengmotors": {
-      "checked_at": "2026-11-16T17:03:55Z",
+      "checked_at": "2026-11-23T19:15:37Z",
       "error": null,
-      "success_at": "2026-11-16T17:03:55Z"
+      "success_at": "2026-11-23T19:15:37Z"
     }
   }
 }
